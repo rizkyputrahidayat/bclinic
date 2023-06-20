@@ -3,12 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Slimming;
 
 class HomeController extends Controller
 {
     public function Slimming()
     {
-        return view('home.Slimming');
+        $slimming = Slimming::get();
+        return view('home.Slimming', compact('slimming'));
     }
     public function facebody()
     {

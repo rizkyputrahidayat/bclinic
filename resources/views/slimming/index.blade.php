@@ -4,8 +4,10 @@
 
 
 @section('content')
-    <a href="#popup" class="btn btn-primary mb-3" data-toggle="modal" data-target="#tutorialModal">Add New <i
-            class="fa fa-plus"></i></a>
+    @if (count($slimming) == 0)
+        <a href="#popup" class="btn btn-primary mb-3" data-toggle="modal" data-target="#tutorialModal">Add New <i
+                class="fa fa-plus"></i></a>
+    @endif
     <!-- <h1>Selamat Datang </h1> -->
     <table class="table">
         <thead>

@@ -85,8 +85,6 @@
         </tbody>
     </table>
 
-    <!-- Modal and other content... -->
-
     <!-- Modal -->
     <div class="modal" id="modalAddCarousel" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-md" role="document">
