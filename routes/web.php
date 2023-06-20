@@ -5,7 +5,6 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DashboardController;
-use App\Http\Controllers\SlidersController;
 use App\Http\Controllers\TestimonialsController;
 use App\Http\Controllers\StoryController;
 use App\Http\Controllers\CarouselController;
