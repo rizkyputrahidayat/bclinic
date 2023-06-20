@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Face;
+use App\Models\Facial;
 use Illuminate\Http\Request;
 use App\Models\Slimming;
 
@@ -14,11 +16,13 @@ class HomeController extends Controller
     }
     public function facebody()
     {
-        return view('home.facebody');
+        $face = Face::get();
+        return view('home.facebody', compact('face'));
     }
-    public function Facial()
+    public function facial()
     {
-        return view('home.Facial');
+        $facial = Facial::get();
+        return view('home.facial', compact('facial'));
     }
     public function careers()
     {

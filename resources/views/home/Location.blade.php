@@ -481,7 +481,7 @@
 										<ul class="dropdown-menu">
 											<li><a class="dropdown-item" href="Slimming">Slimmimg & Shaping</a></li>
 											<li><a class="dropdown-item" href="facebody">Face Treatment</a></li>
-											<li><a class="dropdown-item" href="Facial">Facial Treatment</a></li>
+											<li><a class="dropdown-item" href="p-facial">Facial Treatment</a></li>
 											<li><a class="dropdown-item" href="Skincare">Skin Care Products</a></li>
 										</ul>
 									</li>

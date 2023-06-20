@@ -9,6 +9,8 @@ use App\Http\Controllers\TestimonialsController;
 use App\Http\Controllers\StoryController;
 use App\Http\Controllers\CarouselController;
 use App\Http\Controllers\SlimmingController;
+use App\Http\Controllers\FaceController;
+use App\Http\Controllers\FacialController;
 use App\Http\Controllers\BupdateController;
 use App\Http\Controllers\CareersController;
 /*
@@ -31,7 +33,7 @@ Route::get('/', function () {
 
 Route::get('/Slimming', [HomeController::class, 'Slimming']);
 Route::get('/facebody', [HomeController::class, 'facebody']);
-Route::get('/Facial', [HomeController::class, 'Facial']);
+Route::get('/p-facial', [HomeController::class, 'facial']);
 Route::get('/careers', [HomeController::class, 'careers']);
 Route::get('/Story', [HomeController::class, 'Story']);
 Route::get('/Location', [HomeController::class, 'Location']);
@@ -59,6 +61,8 @@ Route::get('/Careers', [CareersController::class, 'index'])->name('Careers.store
 Route::resource('story', StoryController::class);
 Route::resource('carousel', CarouselController::class);
 Route::resource('slimming', SlimmingController::class);
+Route::resource('face', FaceController::class);
+Route::resource('facial', FacialController::class);
 
 // Route::get('gambar-slider/{nama_file}', function ($nama_file) {
 //     $path = storage_path('app/public/images/slider/' . $nama_file);

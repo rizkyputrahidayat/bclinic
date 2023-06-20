@@ -120,6 +120,22 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                     </a>
                                 </li>
                             </ul>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="/face" class="nav-link">
+                                        <i class="far fa-circle nac-icon"></i>
+                                        <p>Face</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="/facial" class="nav-link">
+                                        <i class="far fa-circle nac-icon"></i>
+                                        <p>Facial</p>
+                                    </a>
+                                </li>
+                            </ul>
                             {{-- <ul class="nav nav-treeview">
                                 <li class="nav-item">
                                     <a href="/testimonials" class="nav-link">

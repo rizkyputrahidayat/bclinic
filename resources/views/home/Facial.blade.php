@@ -63,89 +63,36 @@
     <!--welcome-hero start -->
     <header id="home" class="welcome-hero">
 
-        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-            <!--/.carousel-indicator -->
-            <ol class="carousel-indicators">
-                <li data-target="#header-carousel" data-slide-to="0" class="active"><span class="small-circle"></span>
-                </li>
-                <li data-target="#header-carousel" data-slide-to="1"><span class="small-circle"></span></li>
-                <li data-target="#header-carousel" data-slide-to="2"><span class="small-circle"></span></li>
-            </ol><!-- /ol-->
-            <!--/.carousel-indicator -->
-
-            <!--/.carousel-inner -->
-            <div class="carousel-inner" role="listbox">
-                <!-- .item -->
-                @foreach ($sliders as $slider)
-                    <div class="item active">
-                        <div class="single-slide-item slide1">
-                            <div class="container">
-                                <div class="welcome-hero-content">
-                                    <div class="row">
-                                        <div class="single-welcome-hero">
-                                            <div class="welcome-hero-img-slider">
-                                                <a href="#">
-                                                    {{-- <img src="assets/images/slider/1. Banner Slider - BA.jpg" alt="slider image" width="100%" height="500px"> --}}
-                                                    <img src="{{ asset('images/' . $slider->image) }}"
-                                                        alt="slider image" width="100%" height="500px" />
-                                                </a>
-                                            </div>
-                                            <!--/.welcome-hero-txt-->
-                                        </div>
-                                        <!--/.single-welcome-hero-->
-                                    </div>
-                                    <!--/.row-->
+        <!--/.carousel-inner -->
+        <!-- .item -->
+        <div class="item active">
+            <div class="single-slide-item slide1">
+                <div class="container">
+                    <div class="welcome-hero-content">
+                        <div class="row">
+                            <div class="single-welcome-hero">
+                                <div class="welcome-hero-img-slider">
+                                    @foreach ($facial as $item)
+                                        <a href="#">
+                                            {{-- <img src="assets/images/slider/1. Banner Slider - BA.jpg" alt="slider image" width="100%" height="500px"> --}}
+                                            <img src="{{ asset('image/facial/' . $item->image) }}" alt="slider image"
+                                                width="100%" height="500px" />
+                                        </a>
+                                    @endforeach
                                 </div>
-                                <!--/.welcome-hero-content-->
-                            </div><!-- /.container-->
-                        </div><!-- /.single-slide-item-->
+                                <!--/.welcome-hero-txt-->
+                            </div>
+                            <!--/.single-welcome-hero-->
+                        </div>
+                        <!--/.row-->
+                    </div>
+                    <!--/.welcome-hero-content-->
+                </div><!-- /.container-->
+            </div><!-- /.single-slide-item-->
 
-                    </div><!-- /.item .active-->
-                @endforeach
+        </div><!-- /.item .active-->
 
-
-                {{-- <div class="item">
-						<div class="single-slide-item slide2">
-							<div class="container">
-								<div class="welcome-hero-content">
-									<div class="row">
-										<div class="single-welcome-hero">
-											<div class="welcome-hero-txt">
-												<div class="welcome-hero-img-slider">
-													<a href="\home\landingpage">
-														<img src="assets/images/slider/2. Banner Slider - RF SINESON.jpg" alt="slider image">
-													</a>
-												</div><!--/.welcome-hero-txt-->
-											</div><!--/.welcome-hero-txt-->
-										</div><!--/.col-->
-									</div><!--/.row-->
-								</div><!--/.welcome-hero-content-->
-							</div><!-- /.container-->
-						</div><!-- /.single-slide-item-->
-
-					</div><!-- /.item .active--> --}}
-
-                {{-- <div class="item">
-						<div class="single-slide-item slide3">
-							<div class="container">
-								<div class="welcome-hero-content">
-									<div class="row">
-										<div class="single-welcome-hero">
-											<div class="welcome-hero-txt">
-												<div class="welcome-hero-img-slider">
-													<a href="#">
-														<img src="assets/images/slider/4. Banner Slider - BC SKIN Brings Clinic To Your Home.jpg" alt="slider image">
-													</a>
-												</div><!--/.welcome-hero-txt-->	
-											</div><!--/.welcome-hero-txt-->
-										</div><!--/.col-->
-									</div><!--/.row-->
-								</div><!--/.welcome-hero-content-->
-							</div><!-- /.container-->
-						</div><!-- /.single-slide-item-->
-						
-					</div><!-- /.item .active--> --}}
-            </div><!-- /.carousel-inner-->
+        </div><!-- /.carousel-inner-->
 
         </div>
         <!--/#header-carousel-->
@@ -197,7 +144,7 @@
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="Slimming">Slimmimg & Shaping</a></li>
                                         <li><a class="dropdown-item" href="facebody">Face Treatment</a></li>
-                                        <li><a class="dropdown-item" href="Facial">Facial Treatment</a></li>
+                                        <li><a class="dropdown-item" href="p-facial">Facial Treatment</a></li>
                                         <li><a class="dropdown-item" href="Skincare">Skin Care Products</a></li>
                                     </ul>
                                 </li>
