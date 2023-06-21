@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Carousel;
 use App\Models\Face;
 use App\Models\Facial;
 use Illuminate\Http\Request;
@@ -58,7 +59,10 @@ class HomeController extends Controller
     }
     public function Servicesproducts()
     {
-        return view('home.Servicesproducts');
+        $carousel = Carousel::get();
+        // dd($carousel);
+
+        return view('home.Servicesproducts', compact('carousel'));
     }
     public function Skincare()
     {

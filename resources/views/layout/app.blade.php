@@ -104,14 +104,15 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                     </a>
                                 </li>
                             </ul>
-                            <ul class="nav nav-treeview">
+                            {{-- Perlu penyesuaian --}}
+                            {{-- <ul class="nav nav-treeview">
                                 <li class="nav-item">
                                     <a href="/story" class="nav-link">
                                         <i class="far fa-circle nac-icon"></i>
                                         <p>Story</p>
                                     </a>
                                 </li>
-                            </ul>
+                            </ul> --}}
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
                                     <a href="/slimming" class="nav-link">

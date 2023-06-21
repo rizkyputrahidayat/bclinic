@@ -11,7 +11,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
         
         <!-- title of site -->
-        <title>Document</title>
+        <title>B Clinic Slimming & Aesthetic</title>
 
         <!-- For favicon png -->
 		<link rel="shortcut icon" type="image/icon" href="assets/logo/logo.png"/>
@@ -54,8 +54,6 @@
 		<!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
-		
-		
 	
 		<!--welcome-hero start -->
 		<header id="home" class="welcome-hero">
