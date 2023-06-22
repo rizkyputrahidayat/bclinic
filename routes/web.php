@@ -31,21 +31,21 @@ Route::get('/', function () {
 //     return view('about');
 // });
 
-Route::get('/Slimming', [HomeController::class, 'Slimming']);
-Route::get('/facebody', [HomeController::class, 'facebody']);
-Route::get('/p-facial', [HomeController::class, 'facial']);
-Route::get('/careers', [HomeController::class, 'careers']);
-Route::get('/Story', [HomeController::class, 'Story']);
-Route::get('/Location', [HomeController::class, 'Location']);
-Route::get('/SpecialOffer', [HomeController::class, 'SpecialOffer']);
-Route::get('/Faq', [HomeController::class, 'Faq']);
-Route::get('/Blog', [HomeController::class, 'Blog']);
-Route::get('/Bupdate', [HomeController::class, 'Bupdate']);
-Route::get('/Video', [HomeController::class, 'Video']);
-Route::get('/Servicesproducts', [HomeController::class, 'Servicesproducts']);
-Route::get('/Skincare', [HomeController::class, 'Skincare']);
-Route::get('/ALLtestimoni', [HomeController::class, 'ALLtestimoni']);
-Route::get('/OurExpert', [HomeController::class, 'OurExpert']);
+Route::get('/p-slimming', [HomeController::class, 'Slimming']);
+Route::get('/p-facebody', [HomeController::class, 'facebody']);
+Route::get('/p-facial', [HomeController::class, 'Facial']);
+Route::get('/p-careers', [HomeController::class, 'careers']);
+Route::get('/p-story', [HomeController::class, 'Story']);
+Route::get('/p-location', [HomeController::class, 'Location']);
+Route::get('/p-special-offer', [HomeController::class, 'SpecialOffer']);
+Route::get('/p-faq', [HomeController::class, 'Faq']);
+Route::get('/p-blog', [HomeController::class, 'Blog']);
+Route::get('/p-bupdate', [HomeController::class, 'Bupdate']);
+Route::get('/p-video', [HomeController::class, 'Video']);
+Route::get('/p-services-products', [HomeController::class, 'Servicesproducts']);
+Route::get('/p-skincare', [HomeController::class, 'Skincare']);
+Route::get('/p-alltestimonial', [HomeController::class, 'ALLtestimoni']);
+Route::get('/p-our-expert', [HomeController::class, 'OurExpert']);
 
 // Auth
 Route::get('/login', [AuthController::class, 'login'])->name('login');

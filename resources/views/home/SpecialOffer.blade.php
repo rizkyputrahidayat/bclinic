@@ -430,15 +430,15 @@
 				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 				                <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
 								<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="Servicesproducts" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										<a class="nav-link dropdown-toggle" href="p-services-products" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 											Services & Products
 											<span class="lnr lnr-chevron-down"></span>
 										</a>
 										<ul class="dropdown-menu">
-											<li><a class="dropdown-item" href="Slimming">Slimmimg & Shaping</a></li>
-											<li><a class="dropdown-item" href="facebody">Face Treatment</a></li>
+											<li><a class="dropdown-item" href="p-slimming">Slimmimg & Shaping</a></li>
+											<li><a class="dropdown-item" href="p-facebody">Face Treatment</a></li>
 											<li><a class="dropdown-item" href="p-facial">Facial Treatment</a></li>
-											<li><a class="dropdown-item" href="Skincare">Skin Care Products</a></li>
+											<li><a class="dropdown-item" href="p-skincare">Skin Care Products</a></li>
 										</ul>
 									</li>
 				                    <li class="scroll"><a href="#blog">Special Offer</a></li>
@@ -448,10 +448,10 @@
 											<span class="lnr lnr-chevron-down"></span>
 										</a>
 										<ul class="dropdown-menu">
-											<li><a class="dropdown-item" href="Bupdate">B UPDATE</a></li>
-											<!--<li><a class="dropdown-item" href="Blog">Blog</a></li>-->
-											<li><a class="dropdown-item" href="Video">Video</a></li>
-											<li><a class="dropdown-item" href="Faq">Faq</a></li>
+											<li><a class="dropdown-item" href="p-bupdate">B UPDATE</a></li>
+											<!--<li><a class="dropdown-item" href="p-blog">Blog</a></li>-->
+											<li><a class="dropdown-item" href="p-video">Video</a></li>
+											<li><a class="dropdown-item" href="p-faq">Faq</a></li>
 										</ul>
 									</li>
 									<li class="nav-item dropdown">
@@ -460,10 +460,10 @@
 											<span class="lnr lnr-chevron-down"></span>
 										</a>
 										<ul class="dropdown-menu">
-											<li><a class="dropdown-item" href="Story">Story</a></li>
-											<li><a class="dropdown-item" href="Location">location</a></li>
+											<li><a class="dropdown-item" href="p-story">Story</a></li>
+											<li><a class="dropdown-item" href="p-location">location</a></li>
 										</ul>
-										<li class=""><a href="careers">Careers</a></li>
+										<li class=""><a href="p-careers">Careers</a></li>
 				                </ul><!--/.nav -->
 				            </div><!-- /.navbar-collapse -->
 				        </div><!--/.container-->
