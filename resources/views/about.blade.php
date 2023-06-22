@@ -78,7 +78,6 @@
                     @php
                         $a++;
                     @endphp
-
                     <div style="padding-top: 114px" class="item @if ($a <= 1) active @endif">
                         <img src="{{ asset('image/carousel/' . $item->image) }}" alt="slider image" width="100%"
                             height="500px">
