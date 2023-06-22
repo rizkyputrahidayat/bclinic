@@ -68,42 +68,22 @@
                     @php
                         $a++;
                     @endphp
-                    <div class="item @if ($a <= 1) active @endif">
 
-                        {{-- <img src="{{ asset('asset/hitam.jpg') }}" alt=""> --}}
+                    <div style="padding-top: 114px" class="item @if ($a <= 1) active @endif">
                         <img src="{{ asset('image/carousel/' . $item->image) }}" alt="slider image" width="100%"
                             height="500px">
                         <div class="container">
-
-
                         </div>
-
                     </div>
                 @endforeach
-
             </div>
-
-            <a class="left carousel-control" href="#homeCarousel" role="button" data-slide="prev">
-                <span class="fa fa-angle-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-
-            <a class="right carousel-control" href="#homeCarousel" role="button" data-slide="next">
-                <span class="fa fa-angle-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-
         </div>
-        <!--/#header-carousel-->
 
-        <!-- top-area Start -->
         <div class="top-area">
             <div class="header-area">
-                <!-- Start Navigation -->
                 <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"
                     data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
 
-                    <!-- Start Top Search -->
                     <div class="top-search">
                         <div class="container">
                             <div class="input-group">
@@ -113,7 +93,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End Top Search -->
 
                     <div class="container">
 
@@ -126,8 +105,7 @@
                             <div class="navbar-brand"><img src="assets/logo/B CLINIC NEW.png" alt="logo"
                                     width="300px" height="170px"></div>
                         </div>
-                        <!--/.navbar-header-->
-                        <!-- End Header Navigation -->
+
 
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">

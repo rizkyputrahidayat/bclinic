@@ -10,6 +10,11 @@ use App\Models\Slimming;
 
 class HomeController extends Controller
 {
+    public function About()
+    {
+        $carousel = Carousel::get();
+        return view('about', compact('carousel'));
+    }
     public function Slimming()
     {
         $slimming = Slimming::get();
@@ -60,8 +65,6 @@ class HomeController extends Controller
     public function Servicesproducts()
     {
         $carousel = Carousel::get();
-        // dd($carousel);
-
         return view('home.Servicesproducts', compact('carousel'));
     }
     public function Skincare()
