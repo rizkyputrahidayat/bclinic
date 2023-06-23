@@ -46,8 +46,7 @@
 
 <body>
     <header id="home" class="welcome-hero">
-        <div id="homeCarousel" class="carousel slide carousel-home" data-ride="carousel">
-
+        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
             @php
                 $i = 0;
             @endphp
@@ -56,10 +55,12 @@
                     @php
                         $i++;
                     @endphp
-                    <li data-target="#homeCarousel" data-slide-to="0"
-                        class="@if ($i == 1) active ?? '' @endif"></li>
+                    <li data-target="#header-carousel" data-slide-to="{{ $i - 1 }}"
+                        class="@if ($i == 1) active ?? '' @endif"><span class="small-circle"></span>
+                    </li>
                 @endforeach
             </ol>
+
             @php
                 $a = 0;
             @endphp
@@ -68,15 +69,23 @@
                     @php
                         $a++;
                     @endphp
-
-                    <div style="padding-top: 114px" class="item @if ($a <= 1) active @endif">
-                        <img src="{{ asset('image/carousel/' . $item->image) }}" alt="slider image" width="100%"
-                            height="500px">
-                        <div class="container">
+                    <div style="padding-top: 150px;" class="item @if ($a <= 1) active @endif">
+                        <div class="single-slide-item slide1">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="welcome-hero-img-slider">
+                                        <a href="#">
+                                            <img src="{{ asset('image/carousel/' . $item->image) }}" alt="slider image"
+                                                width="100%" height="500px">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 @endforeach
             </div>
+
         </div>
 
         <div class="top-area">

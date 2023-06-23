@@ -44,7 +44,8 @@ class HomeController extends Controller
     }
     public function SpecialOffer()
     {
-        return view('home.SpecialOffer');
+        $carousel = Carousel::get();
+        return view('home.SpecialOffer', compact('carousel'));
     }
     public function Faq()
     {
