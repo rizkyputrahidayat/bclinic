@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Story;
+use App\Models\Dokter;
 use Illuminate\Http\Request;
 
-class StoryController extends Controller
+class DokterController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,8 +14,8 @@ class StoryController extends Controller
      */
     public function index()
     {
-        $story = Story::get();
-        return view('story.index', compact('story'));
+        $dokter = Dokter::get();
+        return view('dokter.index', compact('dokter'));
     }
 
     /**
@@ -27,7 +27,7 @@ class StoryController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'title' => 'required',
+            'name' => 'required',
             'description' => 'required',
             'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048'
         ]);
@@ -35,14 +35,14 @@ class StoryController extends Controller
         $imageName = '';
         if ($image = $request->file('image')) {
             $imageName = time() . '-' . uniqid() . '.' . $image->getClientOriginalExtension();
-            $image->move('image/story', $imageName);
+            $image->move('image/dokter', $imageName);
         }
-        Story::create([
-            'title' => $request->get('title'),
+        Dokter::create([
+            'name' => $request->get('name'),
             'description' => $request->get('description'),
             'image' => $imageName
         ]);
-        return redirect()->route('story.index')->with('success', 'Story Created successfully');
+        return redirect()->route('dokter.index')->with('success', 'Dokter Created successfully');
     }
 
     /**
@@ -52,10 +52,10 @@ class StoryController extends Controller
      * @param  \App\Models\Slider  $slider
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Story $story)
+    public function update(Request $request, Dokter $dokter)
     {
         $request->validate([
-            'title' => 'required',
+            'name' => 'required',
             'description' => 'required',
             'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048'
         ]);
@@ -63,7 +63,7 @@ class StoryController extends Controller
         $input = $request->all();
 
         if ($image = $request->file('image')) {
-            $destinationPath = 'image/story/';
+            $destinationPath = 'image/dokter/';
             $imageName = time() . '-' . uniqid() . '.' . $image->getClientOriginalExtension();
             $image->move($destinationPath, $imageName);
             $input['image'] = "$imageName";
@@ -71,16 +71,16 @@ class StoryController extends Controller
             unset($input['image']);
         }
 
-        $story->update($input);
+        $dokter->update($input);
 
-        return redirect()->route('story.index')->with('success', 'Story updated successfully');
+        return redirect()->route('dokter.index')->with('success', 'Dokter updated successfully');
     }
 
-    public function destroy(Story $story)
+    public function destroy(Dokter $dokter)
     {
-        $story->delete();
+        $dokter->delete();
 
-        return redirect()->route('story.index')
-            ->with('success', 'Story deleted successfully');
+        return redirect()->route('dokter.index')
+            ->with('success', 'Dokter deleted successfully');
     }
 }

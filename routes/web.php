@@ -13,6 +13,7 @@ use App\Http\Controllers\FaceController;
 use App\Http\Controllers\FacialController;
 use App\Http\Controllers\BupdateController;
 use App\Http\Controllers\CareersController;
+use App\Http\Controllers\DokterController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -59,11 +60,11 @@ Route::get('/testimonials', [TestimonialsController::class, 'index'])->name('tes
 Route::get('/bupdate', [BupdateController::class, 'index'])->name('bupdate.store');
 Route::get('/Careers', [CareersController::class, 'index'])->name('Careers.store');
 
-Route::resource('story', StoryController::class);
 Route::resource('carousel', CarouselController::class);
 Route::resource('slimming', SlimmingController::class);
 Route::resource('face', FaceController::class);
 Route::resource('facial', FacialController::class);
+Route::resource('dokter', DokterController::class);
 
 // Route::get('gambar-slider/{nama_file}', function ($nama_file) {
 //     $path = storage_path('app/public/images/slider/' . $nama_file);

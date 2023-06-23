@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title', 'Story')
+@section('title', 'Dokter')
 
 
 @section('content')
@@ -17,47 +17,47 @@
             </tr>
         </thead>
         <tbody>
-            @if (!empty($story))
-                @foreach ($story as $key => $item)
+            @if (!empty($dokter))
+                @foreach ($dokter as $key => $item)
                     <tr>
 
                         <th scope="row">{{ ++$key }}</th>
-                        <td>{{ $item->title }}</td>
+                        <td>{{ $item->name }}</td>
                         <td>{{ $item->description }}</td>
                         <td>
-                            <img style="height: 50px; width:50px;" src="{{ asset('image/story/' . $item->image) }}">
+                            <img style="height: 50px; width:50px;" src="{{ asset('image/dokter/' . $item->image) }}">
                         </td>
                         <td>
                             <button type="button" class="btn btn-warning mb-1" data-toggle="modal"
-                                data-target="#editModalStory">Edit</button>
+                                data-target="#editModalDokter">Edit</button>
 
-                            <form action="{{ route('story.destroy', $item->id) }}" method="POST">
+                            <form action="{{ route('dokter.destroy', $item->id) }}" method="POST">
                                 @csrf
                                 @method('DELETE')
                                 <button onclick="alert('Item Deleted')" class="btn btn-danger">Delete</button>
                             </form>
 
                             {{-- Start Edit --}}
-                            <div class="modal fade" id="editModalStory" tabindex="-1" role="dialog"
+                            <div class="modal fade" id="editModalDokter" tabindex="-1" role="dialog"
                                 aria-labelledby="editModalLabel" aria-hidden="true">
                                 <div class="modal-dialog" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="editModalLabel">Edit Story</h5>
+                                            <h5 class="modal-title" id="editModalLabel">Edit Dokter</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
                                         </div>
-                                        <form action="{{ route('story.update', $item->id) }}" method="POST"
+                                        <form action="{{ route('dokter.update', $item->id) }}" method="POST"
                                             enctype="multipart/form-data">
                                             @csrf
                                             @method('PUT')
 
                                             <div class="modal-body">
                                                 <div class="form-group">
-                                                    <label for="title">Title:</label>
-                                                    <input type="text" class="form-control" id="title" name="title"
-                                                        value="{{ $item->title }}" required>
+                                                    <label for="name">Nama Dokter:</label>
+                                                    <input type="text" class="form-control" id="name" name="name"
+                                                        value="{{ $item->name }}" required>
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="description">Description:</label>
@@ -79,8 +79,6 @@
                             </div>
                             {{-- End Edit --}}
                         </td>
-
-
                     </tr>
                 @endforeach
             @endif
@@ -95,17 +93,17 @@
         <div class="modal-dialog modal-md" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Add New Story</h5>
+                    <h5 class="modal-title">Add New Dokter</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form method="POST" action="{{ route('story.store') }}" enctype="multipart/form-data">
+                    <form method="POST" action="{{ route('dokter.store') }}" enctype="multipart/form-data">
                         @csrf
                         <div class="form-group">
-                            <label for="title">Title:</label>
-                            <input type="text" class="form-control" id="title" name="title" required>
+                            <label for="name">Nama Dokter:</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
                         </div>
                         <div class="form-group">
                             <label for="description">Description:</label>
