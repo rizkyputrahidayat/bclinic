@@ -72,7 +72,7 @@
 											<div class="welcome-hero-txt">
 												<div class="welcome-hero-img-slider">
 													<a href="#">
-														<img src="assets/images/slider/3. Banner Slider - BC SKIN BLUEBERRY MASK.jpg" alt="slider image">
+														<img src="assets/images/slider/3. Banner Slider - BC SKIN BLUEBERRY MASK.jpg" >
 													</a>
 												</div><!--/.welcome-hero-txt-->	
 											</div><!--/.welcome-hero-txt-->

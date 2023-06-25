@@ -86,7 +86,7 @@
                                 <div class="welcome-hero-img-slider">
                                     @foreach ($slimming as $item)
                                         <a href="#">
-                                            <img src="{{ asset('image/slimming/' . $item->image) }}" alt="slider image"
+                                            <img src="{{ asset('image/slimming/' . $item->image) }}" 
                                                 width="100%" height="500px">
                                         </a>
                                     @endforeach

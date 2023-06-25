@@ -71,7 +71,7 @@
 										<div class="single-welcome-hero">
 											<div class="welcome-hero-img-slider">
 												<a href="#">
-													<img src="assets/images/slider/3.png" alt="slider image" width="100%" height="7000%" style="padding-top: 60px;">
+													<img src="assets/images/slider/3.png"  width="100%" height="7000%" style="padding-top: 60px;">
 												</a>
 											</div><!--/.welcome-hero-txt-->
 										</div><!--/.single-welcome-hero-->

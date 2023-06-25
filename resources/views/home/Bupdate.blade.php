@@ -74,7 +74,7 @@
 									<div class="col-lg-12">
 										<center>
 											<a href="" data-toggle="modal" data-target="#myModal">                        
-												<img src="assets/images/slider/2.png" alt="slider image">
+												<img src="assets/images/slider/2.png" >
 											</a>  
 										</center>
 									</div>
@@ -83,7 +83,7 @@
 									<div class="col-lg-12">
 										<center>
 											<a href="">                        
-												<img src="assets/images/slider/12.png" alt="slider image">
+												<img src="assets/images/slider/12.png" >
 											</a>  
 										</center>
 									</div>

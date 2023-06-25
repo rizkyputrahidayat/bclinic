@@ -79,7 +79,7 @@
                                 <div class="row">
                                     <div class="welcome-hero-img-slider">
                                         <a href="#">
-                                            <img src="{{ asset('image/carousel/' . $item->image) }}" alt="slider image"
+                                            <img src="{{ asset('image/carousel/' . $item->image) }}" 
                                                 width="100%" height="500px">
                                         </a>
                                     </div>
@@ -182,12 +182,12 @@
                 <h2>
                     <a href="https://instagram.com/bclinicslimming?igshid=YmMyMTA2M2Y=" class="btn btn-warning"
                         role="button" data-bs-toggle="button"><span>
-                            <img src="assets/images/slider/ig-image.png" alt="slider image" style="width: 30px;">
+                            <img src="assets/images/slider/ig-image.png"  style="width: 30px;">
                             Follow us on Instagram
                     </a>
                     <a href="https://www.tiktok.com/@bclinic.slimming?_t=8XQCRmVXm2U&_r=1" class="btn btn-warning"
                         role="button" data-bs-toggle="button">
-                        <img src="assets/images/slider/tiktok-image.png" alt="slider image" style="width: 30px">
+                        <img src="assets/images/slider/tiktok-image.png"  style="width: 30px">
                         Follow us on tiktok
                     </a>
                 </h2>
@@ -202,7 +202,7 @@
                             <div class="welcome-hero-txt">
                                 <div class="welcome-hero-img-slider">
                                     <br><img src="assets/images/slider/Gambar WhatsApp 2023-04-20 pukul 13.15.28.jpg"
-                                        alt="slider image" style="padding-top: -120px;">
+                                         style="padding-top: -120px;">
                                     <div class="teksgambar">
                                         <h2>Face & Body</h2>
                                         <h4>Solution</h4>

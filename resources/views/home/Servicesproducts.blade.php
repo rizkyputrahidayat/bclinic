@@ -75,7 +75,7 @@
                                 <div class="row">
                                     <div class="welcome-hero-img-slider">
                                         <a href="#">
-                                            <img src="{{ asset('image/carousel/' . $item->image) }}" alt="slider image"
+                                            <img src="{{ asset('image/carousel/' . $item->image) }}" 
                                                 width="100%" height="500px">
                                         </a>
                                     </div>

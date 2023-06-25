@@ -81,7 +81,7 @@
 							<div class="row">
 								<div class="single-welcome-hero">
 									<div class="welcome-hero-img-slider">
-								    	<img src="assets/images/slider/desain-story.jpg" alt="slider image" width="100%" height="500px">
+								    	<img src="assets/images/slider/desain-story.jpg"  width="100%" height="500px">
 									</div><!--/.welcome-hero-txt-->
 								</div><!--/.single-welcome-hero-->
 							</div><!--/.row-->
@@ -883,10 +883,10 @@
 				<div class="section-header">
 					<h2>
 						<a href="https://instagram.com/bclinicslimming?igshid=YmMyMTA2M2Y=" class="btn btn-warning" role="button" data-bs-toggle="button"><span>
-						<img src="assets/images/slider/ig-image.png" alt="slider image" style="width: 30px;"> Follow us on Instagram
+						<img src="assets/images/slider/ig-image.png"  style="width: 30px;"> Follow us on Instagram
 						</a>
 						<a href="https://www.tiktok.com/@bclinic.slimming?_t=8XQCRmVXm2U&_r=1" class="btn btn-warning" role="button" data-bs-toggle="button">
-						<img src="assets/images/slider/tiktok-image.png" alt="slider image" style="width: 30px"> Follow us on tiktok
+						<img src="assets/images/slider/tiktok-image.png"  style="width: 30px"> Follow us on tiktok
 						</a>
 					</h2>
 				</div><!--/.section-header-->
