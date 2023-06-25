@@ -111,8 +111,6 @@
                     <!-- End Top Search -->
 
                     <div class="container">
-
-
                         <!-- Start Header Navigation -->
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse"
@@ -121,9 +119,7 @@
                             </button>
                             <div class="navbar-brand"><img src="assets/logo/B CLINIC NEW.png" alt="logo"
                                     width="300px" height="170px"></div>
-
                         </div>
-                        <!--/.navbar-header-->
                         <!-- End Header Navigation -->
 
                         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -338,29 +334,23 @@
                             <div class="hm-footer-widget">
 
                             </div>
-                            <!--/.hm-footer-widget-->
                         </div>
                         <!--/.col-->
                         <div class=" col-md-3 col-sm-6 col-xs-12">
                             <div class="hm-footer-widget">
-                                <!--/.hm-foot-menu-->
                             </div>
-                            <!--/.hm-footer-widget-->
                         </div>
-                        <!--/.col-->
                         <div class=" col-md-3 col-sm-6  col-xs-12" style="margin-top: -3%;">
                             <div class="hm-footer-widget">
                                 <div class="hm-foot-title">
                                     <h4>Real experiences</h4>
                                 </div>
-                                <!--/.hm-foot-title-->
                                 <div class="hm-foot-para">
                                     <p>
                                         Users share their testimonials and<br />
                                         before-and-after images.
                                     </p>
                                 </div>
-                                <!--/.hm-foot-para-->
                                 <a href="p-services-products" class="btn btn-warning" role="button"
                                     data-bs-toggle="button"
                                     style="
@@ -374,18 +364,11 @@
 										margin-left: -100px;">
                                     more
                                 </a><br>
-                                <!--/.hm-foot-email-->
                             </div>
-                            <!--/.hm-footer-widget-->
                         </div>
-                        <!--/.col-->
                     </div>
-                    <!--/.row-->
                 </div>
-                <!--/.hm-footer-details-->
-
             </div>
-            <!--/.container-->
             <hr color="gold" class="garis">
             <style>
                 .garis {
@@ -488,14 +471,8 @@
             <!--/.footer-->
         </section>
         <!--/newsletter-->
-        <!--newsletter end -->
-
-        <!--footer start-->
-
-        <!--footer end-->
 
         <!-- Include all js compiled plugins (below), or include individual files as needed -->
-
         <script src="assets/js/jquery.js"></script>
 
         <!--modernizr.min.js-->

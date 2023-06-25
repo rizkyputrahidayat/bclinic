@@ -110,11 +110,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End Top Search -->
-
                     <div class="container">
-
-                        <!-- Start Header Navigation -->
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse"
                                 data-target="#navbar-menu">
@@ -124,7 +120,6 @@
                                     width="300px" height="170px"></div>
 
                         </div>
-                        <!--/.navbar-header-->
                         <!-- End Header Navigation -->
 
                         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -152,7 +147,6 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="p-bupdate">B UPDATE</a></li>
-                                        <!--<li><a class="dropdown-item" href="p-blog">Blog</a></li>-->
                                         <li><a class="dropdown-item" href="p-video">Video</a></li>
                                         <li><a class="dropdown-item" href="p-faq">Faq</a></li>
                                     </ul>
@@ -179,28 +173,52 @@
                 <!--popup-->
                 <div class="popup" id="popup">
                     <div class="popup_content">
-                        <div class="">
-                            <img src="" alt="">
-                        </div><br>
+                        <div class="popup_img">
+                            <br><img src="\assets\images\blog\Bglowing.jpg" alt="meja">
+                        </div><br><br><br><br>
                         <div class="popup_header">
-                            <h1>Slimming & Body Treatment</h1><br>
+                            <h1>Laser Rejuvenation</h1>
                             <div class="popup_text">
-
+                                <h3>Merupakan kombinasi treatment <b>Micro Bubble</b> dan <b>Korean Peel</b> yang</h3>
+                                <h3>mampu mengatasi kulit kusam, menurangi kadar minyak pada kulit,</h3>
+                                <h3>membersihkan komedo dan menutrisi kulit wajah.</h3>
+                                <h3>Sehingga kulit wajah menjadi <b>lebih bersih, sehat</b> dan <b>glowing</b>.</h3>
                             </div>
-                            <p>
-                                <img src="\assets\images\blog\Uz1nYSmgqHQmXMfslimming 1.png" alt="Snow"
-                                    style="width:20%">
-                                <img src="\assets\images\blog\t9RMKMddcDgqWfqslimming 2.png" alt="Snow"
-                                    style="width:20%">
-                                <img src="\assets\images\blog\zsfZHVAuqbIIp9bslimming 3.png" alt="Snow"
-                                    style="width:20%">
-                                <img src="\assets\images\blog\xdexvAQoKwZRZh9slimming 4.png" alt="Snow"
-                                    style="width:20%">
+                            <div class="card2">
+                                <div class="container1">
+                                    <div class="box">
+                                        <img src="assets/images/slider/BEFORE B MAGS.jpg">
+                                    </div>
+                                    <div class="box">
+                                        <img src="assets/images/slider/AFTER B MAGS.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <style>
+                                .card2 {
+                                    width: 40%;
+                                    margin: auto;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                            </style>
                             <div>
+                                <br>
+                                <h3>Video Treatment</h3>
+                                <iframe style="width:100%; height:auto;"
+                                    src="https://www.youtube.com/embed/rdr4o1Ie4kM">
+                                </iframe>
                             </div>
                             <a href="https://shopee.co.id/bclinic.official?smtt=0.331281872-1672375852.9"
-                                class="btn popup_btn">add to cart</a><br><br>
-                            <button style="color:red;" onclick="goBack()">Close</button><br><br>
+                                class="btn popup_btn"><strong>add to cart</strong></a>
+                            <button
+                                style="position: absolute;
+                                            top: 10px;
+                                            right: 10px;
+                                            color: 	#696969;"
+                                onclick="goBack()">X
+                            </button>
                             <script>
                                 function goBack() {
                                     window.history.back();
@@ -212,25 +230,51 @@
                 <div class="popup1" id="popup1">
                     <div class="popup1_content">
                         <div class="popup1_img">
-                            <img src="" alt="">
-                        </div>
-                        <div class="popup1_header">
-                            <h1>Facial Treatment</h1><br>
-                            <div class="popup1_text">
-
+                            <br><img src="\assets\images\blog\Bglowing.jpg" alt="meja">
+                        </div><br><br><br><br>
+                        <div class="popup_header">
+                            <h1>2 In 1 Pico Laser Lip Pink</h1>
+                            <div class="popup_text">
+                                <h3>Merupakan kombinasi treatment <b>Micro Bubble</b> dan <b>Korean Peel</b> yang</h3>
+                                <h3>mampu mengatasi kulit kusam, menurangi kadar minyak pada kulit,</h3>
+                                <h3>membersihkan komedo dan menutrisi kulit wajah.</h3>
+                                <h3>Sehingga kulit wajah menjadi <b>lebih bersih, sehat</b> dan <b>glowing</b>.</h3>
                             </div>
-                            <p>
-                                <img src="\assets\images\blog\B GLOWING.jpg" alt="Snow" style="width:20%">
-                                <img src="\assets\images\blog\HIFU.jpg" alt="Snow" style="width:20%">
-                                <img src="\assets\images\blog\IPL TONING.jpg" alt="Snow" style="width:20%">
-                                <img src="\assets\images\blog\PDT.jpg" alt="Snow" style="width:20%">
-                                <br><img src="\assets\images\blog\RF SINESON.jpg" alt="Snow" style="width:20%">
-                                <img src="\assets\images\blog\SDN.jpg" alt="Snow" style="width:20%">
+                            <div class="card2">
+                                <div class="container1">
+                                    <div class="box">
+                                        <img src="assets/images/slider/BEFORE B MAGS.jpg">
+                                    </div>
+                                    <div class="box">
+                                        <img src="assets/images/slider/AFTER B MAGS.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <style>
+                                .card2 {
+                                    width: 40%;
+                                    margin: auto;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                            </style>
                             <div>
+                                <br>
+                                <h3>Video Treatment</h3>
+                                <iframe style="width:100%; height:auto;"
+                                    src="https://www.youtube.com/embed/rdr4o1Ie4kM">
+                                </iframe>
                             </div>
                             <a href="https://shopee.co.id/bclinic.official?smtt=0.331281872-1672375852.9"
-                                class="btn popup_btn">add to cart</a><br><br>
-                            <button style="color:red;" onclick="goBack()">Close</button><br><br>
+                                class="btn popup_btn"><strong>add to cart</strong></a>
+                            <button
+                                style="position: absolute;
+                                            top: 10px;
+                                            right: 10px;
+                                            color: 	#696969;"
+                                onclick="goBack()">X
+                            </button>
                             <script>
                                 function goBack() {
                                     window.history.back();
@@ -242,27 +286,51 @@
                 <div class="popup2" id="popup2">
                     <div class="popup2_content">
                         <div class="popup2_img">
-                            <img src="" alt="">
-                        </div>
-                        <div class="popup2_header">
-                            <h1>Ultimate Treatment</h1><br>
-                            <div class="popup2_text">
-
+                            <br><img src="\assets\images\blog\Bglowing.jpg" alt="meja">
+                        </div><br><br><br><br>
+                        <div class="popup_header">
+                            <h1>3 In 1 Pico Laser</h1>
+                            <div class="popup_text">
+                                <h3>Merupakan kombinasi treatment <b>Micro Bubble</b> dan <b>Korean Peel</b> yang</h3>
+                                <h3>mampu mengatasi kulit kusam, menurangi kadar minyak pada kulit,</h3>
+                                <h3>membersihkan komedo dan menutrisi kulit wajah.</h3>
+                                <h3>Sehingga kulit wajah menjadi <b>lebih bersih, sehat</b> dan <b>glowing</b>.</h3>
                             </div>
-                            <p>
-                                <img src="\assets\images\blog\xdexvAQoKwZRZh9slimming 4.png" alt="Snow"
-                                    style="width:20%">
-                                <img src="\assets\images\blog\JheCVQGrGclAgW8facial 4.png" alt="Snow"
-                                    style="width:20%">
-                                <img src="\assets\images\blog\lf8DYfLs9LushPAslimming 1.png" alt="Snow"
-                                    style="width:20%">
-                                <img src="\assets\images\blog\xNqnziKQdU1GDcSfacial 6.png" alt="Snow"
-                                    style="width:20%">
+                            <div class="card2">
+                                <div class="container1">
+                                    <div class="box">
+                                        <img src="assets/images/slider/BEFORE B MAGS.jpg">
+                                    </div>
+                                    <div class="box">
+                                        <img src="assets/images/slider/AFTER B MAGS.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <style>
+                                .card2 {
+                                    width: 40%;
+                                    margin: auto;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                            </style>
                             <div>
+                                <br>
+                                <h3>Video Treatment</h3>
+                                <iframe style="width:100%; height:auto;"
+                                    src="https://www.youtube.com/embed/rdr4o1Ie4kM">
+                                </iframe>
                             </div>
                             <a href="https://shopee.co.id/bclinic.official?smtt=0.331281872-1672375852.9"
-                                class="btn popup_btn">add to cart</a><br><br>
-                            <button style="color:red;" onclick="goBack()">Close</button><br><br>
+                                class="btn popup_btn"><strong>add to cart</strong></a>
+                            <button
+                                style="position: absolute;
+                                            top: 10px;
+                                            right: 10px;
+                                            color: 	#696969;"
+                                onclick="goBack()">X
+                            </button>
                             <script>
                                 function goBack() {
                                     window.history.back();
@@ -274,23 +342,51 @@
                 <div class="popup3" id="popup3">
                     <div class="popup3_content">
                         <div class="popup3_img">
-                            <img src="" alt="">
-                        </div>
-                        <div class="popup3_header">
-                            <h1>Products</h1><br>
-                            <div class="popup3_text">
-
+                            <br><img src="\assets\images\blog\Bglowing.jpg" alt="meja">
+                        </div><br><br><br><br>
+                        <div class="popup_header">
+                            <h1>Gas Skin Laser</h1>
+                            <div class="popup_text">
+                                <h3>Merupakan kombinasi treatment <b>Micro Bubble</b> dan <b>Korean Peel</b> yang</h3>
+                                <h3>mampu mengatasi kulit kusam, menurangi kadar minyak pada kulit,</h3>
+                                <h3>membersihkan komedo dan menutrisi kulit wajah.</h3>
+                                <h3>Sehingga kulit wajah menjadi <b>lebih bersih, sehat</b> dan <b>glowing</b>.</h3>
                             </div>
-                            <p>
-                                <img src="\assets\images\blog\produk1.png" alt="Snow" style="width:20%">
-                                <img src="\assets\images\blog\produk2.png" alt="Snow" style="width:20%">
-                                <img src="\assets\images\blog\produk3.png" alt="Snow" style="width:20%">
-                                <img src="\assets\images\blog\produk4.png" alt="Snow" style="width:20%">
+                            <div class="card2">
+                                <div class="container1">
+                                    <div class="box">
+                                        <img src="assets/images/slider/BEFORE B MAGS.jpg">
+                                    </div>
+                                    <div class="box">
+                                        <img src="assets/images/slider/AFTER B MAGS.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <style>
+                                .card2 {
+                                    width: 40%;
+                                    margin: auto;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                            </style>
                             <div>
+                                <br>
+                                <h3>Video Treatment</h3>
+                                <iframe style="width:100%; height:auto;"
+                                    src="https://www.youtube.com/embed/rdr4o1Ie4kM">
+                                </iframe>
                             </div>
                             <a href="https://shopee.co.id/bclinic.official?smtt=0.331281872-1672375852.9"
-                                class="btn popup_btn">add to cart</a><br><br>
-                            <button style="color:red;" onclick="goBack()">Close</button><br><br>
+                                class="btn popup_btn"><strong>add to cart</strong></a>
+                            <button
+                                style="position: absolute;
+                                            top: 10px;
+                                            right: 10px;
+                                            color: 	#696969;"
+                                onclick="goBack()">X
+                            </button>
                             <script>
                                 function goBack() {
                                     window.history.back();
@@ -299,7 +395,6 @@
                         </div>
                     </div>
                 </div>
-                <!--popup end-->
             </div>
             <!--/.header-area-->
             <div class="clearfix"></div>

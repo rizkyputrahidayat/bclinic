@@ -42,442 +42,152 @@
 
     <!--responsive.css-->
     <link rel="stylesheet" href="assets/css/responsive.css">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-
-    <!--[if lt IE 9]>
-   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
 </head>
 
 <body>
-    <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-
-
-
     <!--welcome-hero start -->
     <header id="home" class="welcome-hero">
-
         <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-
-
             <!-- Features Section Begin -->
             <section class="features-section" style="padding-top: 100px;">
                 <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-                    <!--/.carousel-indicator -->
-                    @php
-                        $i = 0;
-                    @endphp
-                    <ol class="carousel-indicators">
-                        @foreach ($carousel as $item)
-                            @php
-                                $i++;
-                            @endphp
-                            <li data-target="#header-carousel" data-slide-to="{{ $i - 1 }}"
-                                class="@if ($i == 1) active ?? '' @endif"><span
-                                    class="small-circle"></span></li>
-                        @endforeach
-                        {{-- <li data-target="#header-carousel" data-slide-to="1"><span class="small-circle"></span></li>
-					<li data-target="#header-carousel" data-slide-to="2"><span class="small-circle"></span></li>
-					<li data-target="#header-carousel" data-slide-to="3"><span class="small-circle"></span></li>
-					<li data-target="#header-carousel" data-slide-to="4"><span class="small-circle"></span></li>
-					<li data-target="#header-carousel" data-slide-to="5"><span class="small-circle"></span></li>
-					<li data-target="#header-carousel" data-slide-to="6"><span class="small-circle"></span></li>
-					<li data-target="#header-carousel" data-slide-to="7"><span class="small-circle"></span></li>
-					<li data-target="#header-carousel" data-slide-to="8"><span class="small-circle"></span></li>
-					<li data-target="#header-carousel" data-slide-to="9"><span class="small-circle"></span></li>
-					<li data-target="#header-carousel" data-slide-to="10"><span class="small-circle"></span></li>
-					<li data-target="#header-carousel" data-slide-to="11"><span class="small-circle"></span></li> --}}
-
-                    </ol>
-
-                    @php
-                        $a = 0;
-                    @endphp
                     <div class="carousel-inner" role="listbox">
-                        @foreach ($carousel as $item)
-                            @php
-                                $a++;
-                            @endphp
-                            <div class="item @if ($a <= 1) active @endif">
-                                <div class="single-slide-item slide1">
-                                    <div class="container">
-                                        <div class="welcome-hero-content">
-                                            <div class="row">
-                                                <div class="single-welcome-hero">
-                                                    <div class="welcome-hero-img-slider">
-                                                        <a href="#">
-                                                            <img src="{{ asset('image/carousel/' . $item->image) }}"
-                                                                alt="slider image" width="100%" height="500px">
-                                                            <div class="carousel-caption d-none d-md-block">
-                                                                <h5>Korean Look Glowing Program</h5>
-                                                                <p>PROMO Facial Korean Look Program</p>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <!--/.welcome-hero-txt-->
-                                                </div>
-                                                <!--/.single-welcome-hero-->
-                                            </div>
-                                            <!--/.row-->
-                                        </div>
-                                        <!--/.welcome-hero-content-->
-                                    </div><!-- /.container-->
-                                </div><!-- /.single-slide-item-->
-
-                            </div><!-- /.item .active-->
-                        @endforeach
-                        {{-- <div class="item">
-                            <div class="single-slide-item slide2">
+                        <!-- .item -->
+                        <div class="item active">
+                            <div class="single-slide-item slide1">
                                 <div class="container">
                                     <div class="welcome-hero-content">
                                         <div class="row">
                                             <div class="single-welcome-hero">
-                                                <div class="welcome-hero-txt">
-                                                    <div class="welcome-hero-img-slider">
-                                                        <a href="\home\landingpage">
-                                                            <img src="assets/images/populer-products/bgIiWx0TE9oDBye Bye Acne.png"
-                                                                alt="slider image">
-                                                            <div class="carousel-caption d-none d-md-block">
-                                                                <h5>Promo Bye Bye Acne</h5>
-                                                                <p>BYE BYE ACNE</p>
-                                                            </div>
-                                                        </a>
+                                                <div class="container1">
+                                                    <div class="card1">
+                                                        <div class="card">
+                                                            <div class="img-wrap"></div>
+                                                            <a href="#">PROMO 1</a>
+                                                            <p>
+                                                                Promo Promo Promo Buy 5 Gratis 200 Promo Promo Promo
+                                                                Promo Promo Promo Promo Promo Promo Promo
+                                                            </p>
+                                                            <!-- <button class="reveal">Show more</button> -->
+                                                        </div>
                                                     </div>
-                                                    <!--/.welcome-hero-txt-->
+                                                    <div class="card1">
+                                                        <div class="card">
+                                                            <div class="img-wrap"></div>
+                                                            <a href="#">PROMO 2</a>
+                                                            <p>
+                                                                Promo Promo Promo Buy 5 Gratis 200 Promo Promo Promo
+                                                                Promo Promo Promo Promo Promo Promo Promo
+                                                            </p>
+                                                            <!-- <button class="reveal">Show more</button> -->
+                                                        </div>
+                                                    </div>
+                                                    <div class="card1">
+                                                        <div class="card">
+                                                            <div class="img-wrap"></div>
+                                                            <a href="#">PROMO 3</a>
+                                                            <p>
+                                                                Promo Promo Promo Buy 5 Gratis 200 Promo Promo Promo
+                                                                Promo Promo Promo Promo Promo Promo Promo
+                                                            </p>
+                                                            <!-- <button class="reveal">Show more</button> -->
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <!--/.welcome-hero-txt-->
                                             </div>
-                                            <!--/.col-->
+                                            <!--/.welcome-hero-txt-->
                                         </div>
                                         <!--/.row-->
                                     </div>
                                     <!--/.welcome-hero-content-->
                                 </div><!-- /.container-->
                             </div><!-- /.single-slide-item-->
-
                         </div><!-- /.item .active-->
 
-                        <div class="item">
-                            <div class="single-slide-item slide3">
-                                <div class="container">
-                                    <div class="welcome-hero-content">
-                                        <div class="row">
-                                            <div class="single-welcome-hero">
-                                                <div class="welcome-hero-txt">
-                                                    <div class="welcome-hero-img-slider">
-                                                        <a href="#">
-                                                            <img src="assets/images/populer-products/jcvhW4NcwDuUWebsite Banner (Home) - Men Only.jpg"
-                                                                alt="slider image">
-                                                            <div class="carousel-caption d-none d-md-block">
-                                                                <h5>ONLY FOR MEN</h5>
-                                                                <p>PROMO DISCOUNT UP TO 75%</p>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <!--/.welcome-hero-txt-->
-                                                </div>
-                                                <!--/.welcome-hero-txt-->
-                                            </div>
-                                            <!--/.col-->
-                                        </div>
-                                        <!--/.row-->
-                                    </div>
-                                    <!--/.welcome-hero-content-->
-                                </div><!-- /.container-->
-                            </div><!-- /.single-slide-item-->
 
-                        </div><!-- /.item .active-->
+                        <!--/.carousel-inner -->
 
-                        <div class="item">
-                            <div class="single-slide-item slide2">
-                                <div class="container">
-                                    <div class="welcome-hero-content">
-                                        <div class="row">
-                                            <div class="single-welcome-hero">
-                                                <div class="welcome-hero-txt">
-                                                    <div class="welcome-hero-img-slider">
-                                                        <a href="\home\landingpage">
-                                                            <img src="assets/images/populer-products/64Qo7nAVq7YLWebsite-Banner-(Home)---Super-Sale.jpg"
-                                                                alt="slider image">
-                                                            <div class="carousel-caption d-none d-md-block">
-                                                                <h5>PROMO SUPER SALE</h5>
-                                                                <p>PROMO SUPER SALE</p>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <!--/.welcome-hero-txt-->
-                                                </div>
-                                                <!--/.welcome-hero-txt-->
-                                            </div>
-                                            <!--/.col-->
-                                        </div>
-                                        <!--/.row-->
-                                    </div>
-                                    <!--/.welcome-hero-content-->
-                                </div><!-- /.container-->
-                            </div><!-- /.single-slide-item-->
 
-                        </div><!-- /.item .active-->
+                        <style>
+                            .container1 {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                justify-content: space-between;
+                            }
 
-                        <div class="item">
-                            <div class="single-slide-item slide2">
-                                <div class="container">
-                                    <div class="welcome-hero-content">
-                                        <div class="row">
-                                            <div class="single-welcome-hero">
-                                                <div class="welcome-hero-txt">
-                                                    <div class="welcome-hero-img-slider">
-                                                        <a href="\home\landingpage">
-                                                            <img src="assets/images/populer-products/XaqCinlqc5oeNPQWebsite Banner (Home) - Hair Growth.jpg"
-                                                                alt="slider image">
-                                                            <div class="carousel-caption d-none d-md-block">
-                                                                <h5>PROMO HAIR GROWTH</h5>
-                                                                <p>PROMO HAIR GROWTH</p>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <!--/.welcome-hero-txt-->
-                                                </div>
-                                                <!--/.welcome-hero-txt-->
-                                            </div>
-                                            <!--/.col-->
-                                        </div>
-                                        <!--/.row-->
-                                    </div>
-                                    <!--/.welcome-hero-content-->
-                                </div><!-- /.container-->
-                            </div><!-- /.single-slide-item-->
 
-                        </div><!-- /.item .active-->
+                            .wrapper {
+                                flex-direction: row;
+                                align-items: center;
+                                justify-content: space-between;
+                            }
 
-                        <div class="item">
-                            <div class="single-slide-item slide2">
-                                <div class="container">
-                                    <div class="welcome-hero-content">
-                                        <div class="row">
-                                            <div class="single-welcome-hero">
-                                                <div class="welcome-hero-txt">
-                                                    <div class="welcome-hero-img-slider">
-                                                        <a href="\home\landingpage">
-                                                            <img src="assets/images/populer-products/3MNhXjkxmIWn9UnWebsite Banner (Home) - Special Promo.jpg"
-                                                                alt="slider image">
-                                                            <div class="carousel-caption d-none d-md-block">
-                                                                <h5>SPECIAL PROMO 999</h5>
-                                                                <p>Special Promo Pico Laser &amp; Glass Skin</p>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <!--/.welcome-hero-txt-->
-                                                </div>
-                                                <!--/.welcome-hero-txt-->
-                                            </div>
-                                            <!--/.col-->
-                                        </div>
-                                        <!--/.row-->
-                                    </div>
-                                    <!--/.welcome-hero-content-->
-                                </div><!-- /.container-->
-                            </div><!-- /.single-slide-item-->
+                            .card {
+                                background: #fff;
+                                padding: 24px;
+                                border-radius: 13px;
+                                position: relative;
+                                max-width: 380px;
+                                margin: 0 12px;
+                                box-shadow: 0 10px 16px 0 hsl(160, 30%, 85%);
 
-                        </div><!-- /.item .active-->
+                                & .img-wrap {
+                                    padding-bottom: 85%;
+                                    background-image: url("assets/images/populer-products/COVER.jpg");
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                    background-position-y: 30%;
+                                    margin-bottom: 1rem;
+                                    border-radius: 5px;
+                                }
 
-                        <div class="item">
-                            <div class="single-slide-item slide2">
-                                <div class="container">
-                                    <div class="welcome-hero-content">
-                                        <div class="row">
-                                            <div class="single-welcome-hero">
-                                                <div class="welcome-hero-txt">
-                                                    <div class="welcome-hero-img-slider">
-                                                        <a href="\home\landingpage">
-                                                            <img src="assets/images/populer-products/D83JIgOCXJwsm7ZSlimming.png"
-                                                                alt="slider image">
-                                                            <div class="carousel-caption d-none d-md-block">
-                                                                <h5>PROMO SLIMMING TREATMENT</h5>
-                                                                <p>Paket Treatment 2 Juta Slimming Treatment</p>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <!--/.welcome-hero-txt-->
-                                                </div>
-                                                <!--/.welcome-hero-txt-->
-                                            </div>
-                                            <!--/.col-->
-                                        </div>
-                                        <!--/.row-->
-                                    </div>
-                                    <!--/.welcome-hero-content-->
-                                </div><!-- /.container-->
-                            </div><!-- /.single-slide-item-->
+                                ;
 
-                        </div><!-- /.item .active-->
+                                & button {
+                                    background: none;
+                                    border: none;
+                                    padding: 0;
+                                    margin-top: 12px;
+                                    color: teal;
+                                    transition: opacity .2s ease-out;
+                                    cursor: pointer;
+                                }
 
-                        <div class="item">
-                            <div class="single-slide-item slide2">
-                                <div class="container">
-                                    <div class="welcome-hero-content">
-                                        <div class="row">
-                                            <div class="single-welcome-hero">
-                                                <div class="welcome-hero-txt">
-                                                    <div class="welcome-hero-img-slider">
-                                                        <a href="\home\landingpage">
-                                                            <img
-                                                                src="assets/images/populer-products/h0n7StwV8qcB0NPWebsite Banner (Home) - Fractional CO2.jpg">
-                                                            <div class="carousel-caption d-none d-md-block">
-                                                                <h5>PROMO LASER CO2 FRACTIONAL</h5>
-                                                                <p>Promo CO2 Fractional Laser</p>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <!--/.welcome-hero-txt-->
-                                                </div>
-                                                <!--/.welcome-hero-txt-->
-                                            </div>
-                                            <!--/.col-->
-                                        </div>
-                                        <!--/.row-->
-                                    </div>
-                                    <!--/.welcome-hero-content-->
-                                </div><!-- /.container-->
-                            </div><!-- /.single-slide-item-->
+                                ;
 
-                        </div><!-- /.item .active-->
+                                & a {
+                                    display: inline-block;
+                                    font-size: 1.3rem;
+                                    line-height: 1;
+                                    text-decoration-line: none;
+                                    font-weight: 700;
+                                    text-transform: uppercase;
+                                    letter-spacing: 3px;
+                                    margin-bottom: 12px;
+                                    color: inherit;
+                                    transition: color .2s ease-out;
 
-                        <div class="item">
-                            <div class="single-slide-item slide2">
-                                <div class="container">
-                                    <div class="welcome-hero-content">
-                                        <div class="row">
-                                            <div class="single-welcome-hero">
-                                                <div class="welcome-hero-txt">
-                                                    <div class="welcome-hero-img-slider">
-                                                        <a href="\home\landingpage">
-                                                            <img src="assets/images/populer-products/FVI577e0N9luebPWebsite Banner (Home) - Eye &amp; Lip 89.jpg"
-                                                                alt="slider image">
-                                                            <div class="carousel-caption d-none d-md-block">
-                                                                <h5>PROMO EYE &amp; LIP TREATMENT</h5>
-                                                                <p>Promo Selected eye &amp; lip treatment 89.000</p>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <!--/.welcome-hero-txt-->
-                                                </div>
-                                                <!--/.welcome-hero-txt-->
-                                            </div>
-                                            <!--/.col-->
-                                        </div>
-                                        <!--/.row-->
-                                    </div>
-                                    <!--/.welcome-hero-content-->
-                                </div><!-- /.container-->
-                            </div><!-- /.single-slide-item-->
+                                    &:hover {
+                                        color: teal;
+                                    }
+                                }
+                            }
 
-                        </div><!-- /.item .active-->
+                            .clamp-two {
+                                display: -webkit-box;
+                                -webkit-box-orient: vertical;
+                                -webkit-line-clamp: 2;
+                                overflow: hidden;
+                            }
+                        </style>
 
-                        <div class="item">
-                            <div class="single-slide-item slide2">
-                                <div class="container">
-                                    <div class="welcome-hero-content">
-                                        <div class="row">
-                                            <div class="single-welcome-hero">
-                                                <div class="welcome-hero-txt">
-                                                    <div class="welcome-hero-img-slider">
-                                                        <a href="\home\landingpage">
-                                                            <img src="assets/images/populer-products/dyEtWKWJep1q1PJWebsite-Banner-(Home)---Happy-Sale-267rb.jpg"
-                                                                alt="slider image">
-                                                            <div class="carousel-caption d-none d-md-block">
-                                                                <h5>HAPPY SALE</h5>
-                                                                <p>PROMO HAPPY SALE SUPER DOUBLE IPL 5.0 Face Rejuve,
-                                                                    Eye Treatment, &amp; Lip Treatment</p>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <!--/.welcome-hero-txt-->
-                                                </div>
-                                                <!--/.welcome-hero-txt-->
-                                            </div>
-                                            <!--/.col-->
-                                        </div>
-                                        <!--/.row-->
-                                    </div>
-                                    <!--/.welcome-hero-content-->
-                                </div><!-- /.container-->
-                            </div><!-- /.single-slide-item-->
-
-                        </div><!-- /.item .active-->
-
-                        <div class="item">
-                            <div class="single-slide-item slide2">
-                                <div class="container">
-                                    <div class="welcome-hero-content">
-                                        <div class="row">
-                                            <div class="single-welcome-hero">
-                                                <div class="welcome-hero-txt">
-                                                    <div class="welcome-hero-img-slider">
-                                                        <a href="\home\landingpage">
-                                                            <img src="assets/images/populer-products/p1vcKG3MMs75wg0Website-Banner-(Home)---Quick-&amp;-Glow.jpg"
-                                                                alt="slider image">
-                                                            <div class="carousel-caption d-none d-md-block">
-                                                                <h5>PROMO QUICK &amp; GLOW (FOR MEN)</h5>
-                                                                <p>Promo Quick &amp; Glow For Men</p>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <!--/.welcome-hero-txt-->
-                                                </div>
-                                                <!--/.welcome-hero-txt-->
-                                            </div>
-                                            <!--/.col-->
-                                        </div>
-                                        <!--/.row-->
-                                    </div>
-                                    <!--/.welcome-hero-content-->
-                                </div><!-- /.container-->
-                            </div><!-- /.single-slide-item-->
-
-                        </div><!-- /.item .active-->
-
-                        <div class="item">
-                            <div class="single-slide-item slide2">
-                                <div class="container">
-                                    <div class="welcome-hero-content">
-                                        <div class="row">
-                                            <div class="single-welcome-hero">
-                                                <div class="welcome-hero-txt">
-                                                    <div class="welcome-hero-img-slider">
-                                                        <a href="\home\landingpage">
-                                                            <img src="assets/images/populer-products/sQtQJsujXSQ8HAYWebsite-Banner-(Home)---4-Combo-Super-Glowing.jpg"
-                                                                alt="slider image">
-                                                            <div class="carousel-caption d-none d-md-block">
-                                                                <h5>PROMO 4 COMBO SUPER GLOWING</h5>
-                                                                <p>Promo 4 Combo Super Glowing (4 Rangkaian dalam 1
-                                                                    treatment)</p>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <!--/.welcome-hero-txt-->
-                                                </div>
-                                                <!--/.welcome-hero-txt-->
-                                            </div>
-                                            <!--/.col-->
-                                        </div>
-                                        <!--/.row-->
-                                    </div>
-                                    <!--/.welcome-hero-content-->
-                                </div><!-- /.container-->
-                            </div><!-- /.single-slide-item-->
-
-                        </div> --}}
-                    </div>
+                    </div><!-- /.carousel-inner-->
 
                 </div>
+                <!--/#header-carousel-->
             </section>
+            <!-- Features Section End -->
 
 
         </div>
@@ -522,16 +232,16 @@
                         <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
                             <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="p-services-products" role="button"
+                                    <a class="nav-link dropdown-toggle" href="Servicesproducts" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Services & Products
                                         <span class="lnr lnr-chevron-down"></span>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="p-slimming">Slimmimg & Shaping</a></li>
-                                        <li><a class="dropdown-item" href="p-facebody">Face Treatment</a></li>
-                                        <li><a class="dropdown-item" href="p-facial">Facial Treatment</a></li>
-                                        <li><a class="dropdown-item" href="p-skincare">Skin Care Products</a></li>
+                                        <li><a class="dropdown-item" href="Slimming">Slimmimg & Shaping</a></li>
+                                        <li><a class="dropdown-item" href="facebody">Face Treatment</a></li>
+                                        <li><a class="dropdown-item" href="Facial">Facial Treatment</a></li>
+                                        <li><a class="dropdown-item" href="Skincare">Skin Care Products</a></li>
                                     </ul>
                                 </li>
                                 <li class="scroll"><a href="#blog">Special Offer</a></li>
@@ -542,10 +252,10 @@
                                         <span class="lnr lnr-chevron-down"></span>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="p-bupdate">B UPDATE</a></li>
-                                        <!--<li><a class="dropdown-item" href="p-blog">Blog</a></li>-->
-                                        <li><a class="dropdown-item" href="p-video">Video</a></li>
-                                        <li><a class="dropdown-item" href="p-faq">Faq</a></li>
+                                        <li><a class="dropdown-item" href="Bupdate">B UPDATE</a></li>
+                                        <!--<li><a class="dropdown-item" href="Blog">Blog</a></li>-->
+                                        <li><a class="dropdown-item" href="Video">Video</a></li>
+                                        <li><a class="dropdown-item" href="Faq">Faq</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown">
@@ -555,10 +265,10 @@
                                         <span class="lnr lnr-chevron-down"></span>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="p-story">Story</a></li>
-                                        <li><a class="dropdown-item" href="p-location">location</a></li>
+                                        <li><a class="dropdown-item" href="Story">Story</a></li>
+                                        <li><a class="dropdown-item" href="Location">location</a></li>
                                     </ul>
-                                <li class=""><a href="p-careers">Careers</a></li>
+                                <li class=""><a href="careers">Careers</a></li>
                             </ul>
                             <!--/.nav -->
                         </div><!-- /.navbar-collapse -->
@@ -574,8 +284,6 @@
         </div><!-- /.top-area-->
         <!-- top-area End -->
     </header>
-
-
     </div>
     <!--/.container--><br>
 
