@@ -61,9 +61,8 @@
                                 <div class="welcome-hero-img-slider">
                                     @foreach ($facial as $item)
                                         <a href="#">
-                                            {{-- <img src="assets/images/slider/1. Banner Slider - BA.jpg" alt="slider image" width="100%" height="500px"> --}}
-                                            <img src="{{ asset('image/facial/' . $item->image) }}" alt="slider image"
-                                                width="100%" height="500px" />
+                                            <img src="{{ asset('image/facial/' . $item->image) }}" width="100%"
+                                                height="500px" />
                                         </a>
                                     @endforeach
                                 </div>
