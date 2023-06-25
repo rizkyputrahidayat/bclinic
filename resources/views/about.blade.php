@@ -89,11 +89,9 @@
                     </div>
                 @endforeach
             </div>
-
         </div>
 
 
-        <!-- top-area Start -->
         <div class="top-area">
             <div class="header-area">
                 <!-- Start Navigation -->
@@ -113,6 +111,8 @@
                     <!-- End Top Search -->
 
                     <div class="container">
+
+
                         <!-- Start Header Navigation -->
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse"
@@ -121,6 +121,7 @@
                             </button>
                             <div class="navbar-brand"><img src="assets/logo/B CLINIC NEW.png" alt="logo"
                                     width="300px" height="170px"></div>
+
                         </div>
                         <!--/.navbar-header-->
                         <!-- End Header Navigation -->
@@ -177,8 +178,7 @@
             </div>
             <!--/.header-area-->
             <div class="clearfix"></div>
-        </div><!-- /.top-area-->
-        <!-- top-area End -->
+        </div>
     </header>
     <section id="feature" class="feature">
         <div class="container">
@@ -191,12 +191,11 @@
                     </a>
                     <a href="https://www.tiktok.com/@bclinic.slimming?_t=8XQCRmVXm2U&_r=1" class="btn btn-warning"
                         role="button" data-bs-toggle="button">
-                        <img src="assets/images/slider/tiktok-image.png" alt="slider image" style="width: 30px;">
+                        <img src="assets/images/slider/tiktok-image.png" alt="slider image" style="width: 30px">
                         Follow us on tiktok
                     </a>
                 </h2>
             </div>
-            <!--/.section-header-->
     </section>
     <section id="sofa-collection">
         <div class="item active">
@@ -363,7 +362,16 @@
                                 </div>
                                 <!--/.hm-foot-para-->
                                 <a href="p-services-products" class="btn btn-warning" role="button"
-                                    data-bs-toggle="button" style="margin-left: -100px;">
+                                    data-bs-toggle="button"
+                                    style="
+										color: black;
+										font-family: Arial, Helvetica, sans-serif;
+										font-size: 18px;
+										border: 1px solid #b59e50;
+										padding: 10px 20px;
+										border-radius: 5px;
+										transition: background-color 0.3s ease-in-out;
+										margin-left: -100px;">
                                     more
                                 </a><br>
                                 <!--/.hm-foot-email-->
