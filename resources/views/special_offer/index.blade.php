@@ -1,11 +1,12 @@
 @extends('layout.app')
 
-@section('title', 'Sliders')
+@section('title', 'Special Offer')
 
 
 @section('content')
-    <a href="#popup" class="btn btn-primary mb-3" data-toggle="modal" data-target="#modalAddCarousel">Add New <i
-            class="fa fa-plus"></i></a>
+        <a href="#popup" class="btn btn-primary mb-3" data-toggle="modal" data-target="#tutorialModal">Add New <i
+                class="fa fa-plus"></i></a>
+    <!-- <h1>Selamat Datang </h1> -->
     <table class="table">
         <thead>
             <tr>
@@ -16,50 +17,49 @@
             </tr>
         </thead>
         <tbody>
-            @if (!empty($carousel))
-                @foreach ($carousel as $key => $item)
+            @if (!empty($special_offer))
+                @foreach ($special_offer as $key => $item)
                     <tr>
-
                         <th scope="row">{{ ++$key }}</th>
-                        <td>{{ $item->title }}</td>
+                        <td>{{ $item->name }}</td>
                         <td>{{ $item->description }}</td>
                         <td>
-                            <img style="height: 50px; width:50px;" src="{{ asset('image/carousel/' . $item->image) }}">
+                            <img style="height: 50px; width:50px;" src="{{ asset('image/special_offer/' . $item->image) }}">
                         </td>
                         <td>
                             <button type="button" class="btn btn-warning mb-1" data-toggle="modal"
-                                data-target="#editModalCarousel">Edit</button>
+                                data-target="#editModalSlimming">Edit</button>
 
-                            <form action="{{ route('carousel.destroy', $item->id) }}" method="POST">
+                            <form action="{{ route('special_offer.destroy', $item->id) }}" method="POST">
                                 @csrf
                                 @method('DELETE')
                                 <button onclick="alert('Item Deleted')" class="btn btn-danger">Delete</button>
                             </form>
 
                             {{-- Start Edit --}}
-                            <div class="modal fade" id="editModalCarousel" tabindex="-1" role="dialog"
+                            <div class="modal fade" id="editModalSlimming" tabindex="-1" role="dialog"
                                 aria-labelledby="editModalLabel" aria-hidden="true">
                                 <div class="modal-dialog" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="editModalLabel">Edit Sliders</h5>
+                                            <h5 class="modal-title" id="editModalLabel">Edit Special Offer</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
                                         </div>
-                                        <form action="{{ route('carousel.update', $item->id) }}" method="POST"
+                                        <form action="{{ route('special_offer.update', $item->id) }}" method="POST"
                                             enctype="multipart/form-data">
                                             @csrf
                                             @method('PUT')
 
                                             <div class="modal-body">
                                                 <div class="form-group">
-                                                    <label for="title">Title:</label>
-                                                    <input type="text" class="form-control" id="title" name="title"
-                                                        value="{{ $item->title }}" required>
+                                                    <label for="name">Title:</label>
+                                                    <input type="text" class="form-control" id="name" name="name"
+                                                        value="{{ $item->name }}" required>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="description">Link:</label>
+                                                    <label for="description">Description:</label>
                                                     <textarea class="form-control" id="description" name="description" rows="3"
                                                         value="{{ $item->description }}"required>{{ $item->description }}</textarea>
                                                 </div>
@@ -85,25 +85,27 @@
         </tbody>
     </table>
 
+    <!-- Modal and other content... -->
+
     <!-- Modal -->
-    <div class="modal" id="modalAddCarousel" tabindex="-1" role="dialog">
+    <div class="modal" id="tutorialModal" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-md" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Add New Carousel</h5>
+                    <h5 class="modal-title">Add New Special Offer</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form method="POST" action="{{ route('carousel.store') }}" enctype="multipart/form-data">
+                    <form method="POST" action="{{ route('special_offer.store') }}" enctype="multipart/form-data">
                         @csrf
                         <div class="form-group">
-                            <label for="title">Title:</label>
-                            <input type="text" class="form-control" id="title" name="title" required>
+                            <label for="name">Title:</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
                         </div>
                         <div class="form-group">
-                            <label for="description">Link:</label>
+                            <label for="description">Description:</label>
                             <textarea class="form-control" id="description" name="description" rows="3" required></textarea>
                         </div>
                         <div class="form-group">

@@ -57,44 +57,22 @@
                             <div class="single-slide-item slide1">
                                 <div class="container">
                                     <div class="welcome-hero-content">
-                                        <div class="row">
-                                            <div class="single-welcome-hero">
-                                                <div class="container1">
-                                                    <div class="card1">
-                                                        <div class="card">
-                                                            <div class="img-wrap"></div>
-                                                            <a href="#">PROMO 1</a>
-                                                            <p>
-                                                                Promo Promo Promo Buy 5 Gratis 200 Promo Promo Promo
-                                                                Promo Promo Promo Promo Promo Promo Promo
-                                                            </p>
-                                                            <!-- <button class="reveal">Show more</button> -->
-                                                        </div>
-                                                    </div>
-                                                    <div class="card1">
-                                                        <div class="card">
-                                                            <div class="img-wrap"></div>
-                                                            <a href="#">PROMO 2</a>
-                                                            <p>
-                                                                Promo Promo Promo Buy 5 Gratis 200 Promo Promo Promo
-                                                                Promo Promo Promo Promo Promo Promo Promo
-                                                            </p>
-                                                            <!-- <button class="reveal">Show more</button> -->
-                                                        </div>
-                                                    </div>
-                                                    <div class="card1">
-                                                        <div class="card">
-                                                            <div class="img-wrap"></div>
-                                                            <a href="#">PROMO 3</a>
-                                                            <p>
-                                                                Promo Promo Promo Buy 5 Gratis 200 Promo Promo Promo
-                                                                Promo Promo Promo Promo Promo Promo Promo
-                                                            </p>
-                                                            <!-- <button class="reveal">Show more</button> -->
-                                                        </div>
+                                        <div class="container1">
+                                            @foreach ($special_offer as $item)
+                                                <div class="card" style="min-width: 299px; height: 355px;">
+                                                    <img style="width: 100%;
+                                                            background-repeat: no-repeat;
+                                                            background-size: cover;"
+                                                        src="{{ asset('image/special_offer/' . $item->image) }}">
+                                                    <div>
+                                                        <a href="#"
+                                                            style="margin-top: 30px">{{ $item->name }}</a>
+                                                        <p>
+                                                            {{ $item->description }}
+                                                        </p>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            @endforeach
                                             <!--/.welcome-hero-txt-->
                                         </div>
                                         <!--/.row-->
@@ -110,6 +88,8 @@
 
                         <style>
                             .container1 {
+                                width: 100%;
+                                overflow-x: scroll;
                                 display: flex;
                                 flex-direction: row;
                                 align-items: center;
@@ -132,18 +112,6 @@
                                 margin: 0 12px;
                                 box-shadow: 0 10px 16px 0 hsl(160, 30%, 85%);
 
-                                & .img-wrap {
-                                    padding-bottom: 85%;
-                                    background-image: url("assets/images/populer-products/COVER.jpg");
-                                    background-repeat: no-repeat;
-                                    background-size: cover;
-                                    background-position-y: 30%;
-                                    margin-bottom: 1rem;
-                                    border-radius: 5px;
-                                }
-
-                                ;
-
                                 & button {
                                     background: none;
                                     border: none;
@@ -153,8 +121,6 @@
                                     transition: opacity .2s ease-out;
                                     cursor: pointer;
                                 }
-
-                                ;
 
                                 & a {
                                     display: inline-block;

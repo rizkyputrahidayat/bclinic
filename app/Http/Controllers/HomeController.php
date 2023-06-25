@@ -7,6 +7,7 @@ use App\Models\Face;
 use App\Models\Facial;
 use Illuminate\Http\Request;
 use App\Models\Slimming;
+use App\Models\SpecialOffer;
 
 class HomeController extends Controller
 {
@@ -44,8 +45,8 @@ class HomeController extends Controller
     }
     public function SpecialOffer()
     {
-        $carousel = Carousel::get();
-        return view('home.SpecialOffer', compact('carousel'));
+        $special_offer = SpecialOffer::get();
+        return view('home.SpecialOffer', compact('special_offer'));
     }
     public function Faq()
     {

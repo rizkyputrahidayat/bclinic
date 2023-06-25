@@ -14,6 +14,7 @@ use App\Http\Controllers\FacialController;
 use App\Http\Controllers\BupdateController;
 use App\Http\Controllers\CareersController;
 use App\Http\Controllers\DokterController;
+use App\Http\Controllers\SpecialOfferController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -65,6 +66,7 @@ Route::resource('slimming', SlimmingController::class);
 Route::resource('face', FaceController::class);
 Route::resource('facial', FacialController::class);
 Route::resource('dokter', DokterController::class);
+Route::resource('special_offer', SpecialOfferController::class);
 
 // Route::get('gambar-slider/{nama_file}', function ($nama_file) {
 //     $path = storage_path('app/public/images/slider/' . $nama_file);

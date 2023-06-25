@@ -137,6 +137,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                     </a>
                                 </li>
                             </ul>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="/special_offer" class="nav-link">
+                                        <i class="far fa-circle nac-icon"></i>
+                                        <p>Special Offer</p>
+                                    </a>
+                                </li>
+                            </ul>
                             {{-- <ul class="nav nav-treeview">
                                 <li class="nav-item">
                                     <a href="/testimonials" class="nav-link">
