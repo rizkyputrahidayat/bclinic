@@ -34,7 +34,7 @@ Route::get('/', function () {
 // });
 
 Route::get('/', [HomeController::class, 'About']);
-Route::get('/p-slimming', [HomeController::class, 'Slimming']);
+Route::get('/p-slimming"', [HomeController::class, 'Slimming']);
 Route::get('/p-facebody', [HomeController::class, 'facebody']);
 Route::get('/p-facial', [HomeController::class, 'Facial']);
 Route::get('/p-careers', [HomeController::class, 'careers']);
