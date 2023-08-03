@@ -69,7 +69,7 @@
 								<div class="welcome-hero-content">
 									<div class="row">
 										<div class="single-welcome-hero">
-											<div class="welcome-hero-txt">
+											<!-- <div class="welcome-hero-txt"> -->
 												<div class="welcome-hero-img-slider">
 													<a href="#">
 														<img src="assets/images/slider/3. Banner Slider - BC SKIN BLUEBERRY MASK.jpg" >
@@ -84,200 +84,236 @@
 						
 					</div><!-- /.item .active-->
 
-			<!-- Features Section Begin -->
-			<br><br><br><div class="container">
-				<div class="section-header">
-					<div class="col-lg-5">
-            			<img width="100%" src="assets/images/slider/sideline.png" alt="">
-          			</div>
-          			<div class="col-lg-2 text-left text-lg-center">
-            			<h2>Product</h2>
-          			</div>
-          			<div class="col-lg-5 right">
-         			   <img max-width="100%" src="assets/images/slider/sideline.png" alt="">
-    			      </div>
-			</div><!--/.section-header-->
-            <section class="features-section" style="padding-top: 150px; padding-left: 20px; margin-top: -100px;">
-        <!-- Page Add Section Begin -->
-		
-        <section id="populer-products" class="populer-products">
-			<div class="container">
-				<div class="populer-products-content">
-					<div class="row">
-						<div class="col-md-3">
-							<div class="single-populer-products">
-								<div class="single-populer-product-img">
-									<img src="assets/images/populer-products/Blueberry1.png" alt="populer-products images">
-								</div>
-								<h2><a href="#">Blueberry mask</a></h2>
-								<div class="single-populer-products-para">
-									<p></p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="single-populer-products">
-								<div class="single-populer-products">
-									<div class="single-populer-product-img">
-										<img src="assets/images/populer-products/Light UV Protection.png" alt="populer-products images">
-									</div>
-									<h2><a href="#">Light UV Protection</a></h2>
-									<div class="single-populer-products-para">
-										<p></p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="single-populer-products">
-								<div class="single-populer-product-img">
-									<img src="assets/images/populer-products/Skin light Cream.png" alt="populer-products images">
-								</div>
-								<h2><a href="#">Skin light Cream</a></h2>
-								<div class="single-populer-products-para">
-									<p></p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="single-populer-products">
-								<div class="single-populer-products">
-									<div class="single-populer-product-img">
-										<img src="assets/images/populer-products/Blueberry4.png" alt="populer-products images">
-									</div>
-									<h2><a href="#">Blueberry mask</a></h2>
-									<div class="single-populer-products-para">
-										<p></p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div><br>
-					<div class="row">
-						<div class="col-md-3">
-							<div class="single-populer-products">
-								<div class="single-populer-product-img">
-									<img src="assets/images/populer-products/bright serum.png" alt="populer-products images" style="width: 28%; margin-top: 45px;">
-								</div>
-								<h2><a href="#">BRIGHT SERUM</a></h2>
-								<div class="single-populer-products-para">
-									<p></p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="single-populer-products">
-								<div class="single-populer-products">
-									<div class="single-populer-product-img">
-										<img src="assets/images/populer-products/bright facial wash.png" alt="populer-products images" style="width: 33%; margin-top: 45px;">
-									</div>
-									<h2><a href="#">BRIGHT FACIAL WASH</a></h2>
-									<div class="single-populer-products-para">
-										<p></p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="single-populer-products">
-								<div class="single-populer-product-img">
-									<img src="assets/images/populer-products/bright toner spray.png" alt="populer-products images" style="width: 26%; margin-top: 45px;">
-								</div>
-								<h2><a href="#">BRIGHT SPRAY TONER</a></h2>
-								<div class="single-populer-products-para">
-									<p></p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="single-populer-products">
-								<div class="single-populer-products">
-									<div class="single-populer-product-img">
-										<img src="assets/images/populer-products/anti aging serum1.png" alt="populer-products images" style="width: 28%; margin-top: 45px;">
-									</div>
-									<h2><a href="#">ANTI AGING SERUM</a></h2>
-									<div class="single-populer-products-para">
-										<p></p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div><br>
-						<div class="col-md-3">
-							<div class="single-populer-products">
-								<div class="single-populer-products">
-									<div class="single-populer-product-img">
-										<img src="assets/images/populer-products/Acne serum.png" alt="populer-products images" style="width: 83%; margin-top: 45px;">
-									</div>
-									<h2><a href="#">ACNE SERUM</a></h2>
-									<div class="single-populer-products-para">
-										<p></p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="single-populer-products">
-								<div class="single-populer-products">
-									<div class="single-populer-product-img">
-										<img src="assets/images/populer-products/spot lotion.png" alt="populer-products images" style="width: 28%; margin-top: 45px;">
-									</div><br>
-									<h2><a href="#">ACNE SPOT LOTION</a></h2>
-									<div class="single-populer-products-para">
-										<p></p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="single-populer-products">
-								<div class="single-populer-product-img">
-									<img src="assets/images/populer-products/Acne toner spray.png" alt="populer-products images">
-								</div>
-								<h2><a href="#">ACNE SPRAY TONER</a></h2>
-								<div class="single-populer-products-para">
-									<p></p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="single-populer-products">
-								<div class="single-populer-products">
-									<div class="single-populer-product-img">
-										<img src="assets/images/populer-products/facial wash.png" alt="populer-products images" style="width: 30%; margin-top: 45px;">
-									</div><br>
-									<h2><a href="#">ACNE FACIAL WASH</a></h2>
-									<div class="single-populer-products-para">
-										<p></p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div><br>
-				</div>
+	<section id="feature" class="feature" style="">
+	<div class="spacer">
+        <div class="container">
+            <div class="section-header">
+                <div class="col-lg-5">
+                    <img width="100%" src="assets/images/slider/sideline.png" alt="">
+                </div>
+                <div class="col-lg-2 text-left text-lg-center">
+                    <center>
+                        <p style="color:black; font-size:20px;">Product</p>
+                    </center>
+                </div>
+                <div class="col-lg-5 right">
+                    <img max-width="100%" src="assets/images/slider/sideline.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <div class="container" style="margin-top: -3%;">
+        <div class="row">
+		<div class="col col-lg-3 col-sm-6">
+                <div class="card">
+                <img src="assets/images/populer-products/BC-Skin-Acne-Facial-Wash.jpg">
+                <center>
+                <h2><a href="{{ route('p-slimming') }}"><strong>Acne facial wash</strong></a></h2>
+                </center>
+                </div>
+            </div>
+            <div class="col col-lg-3 col-sm-6">
+                <div class="card">
+                <img src="assets/images/populer-products/BC-Skin-Acne-Serum.jpg">
+                <center>
+                <h2><a href="{{ route('p-facebody') }}"><strong>Acne Serum</strong></a></h2>
+                </center>
+                </div>
+            </div>
+            <div class="col col-lg-3 col-sm-6">
+                <div class="card">
+                <img src="assets/images/populer-products/BC-Skin-Acne-Spot-Lotion.jpg">
+                <center>
+                <h2><a href="{{ route('p-facial') }}"><strong>Acne spot lotion</strong></a></h2>
+                </center>
+                </div>
+            </div>
+            <div class="col col-lg-3 col-sm-6">
+                <div class="card">
+                <img src="assets/images/populer-products/BC-Skin-Acne-Toner-Spray.jpg">
+                <center>
+                <h2><a href="{{ route('p-skincare') }}"><strong>Acne toner spray</strong></a></h2>
+                </center>
+                </div>
+            </div>
+			<div class="col col-lg-3 col-sm-6">
+                <div class="card">
+                <img src="assets/images/populer-products/BC-Skin-AHA-BHA-Body-Serum.jpg">
+                <center>
+                <h2><a href="{{ route('p-slimming') }}"><strong>AHA BHA body serum</strong></a></h2>
+                </center>
+                </div>
+            </div>
+            <div class="col col-lg-3 col-sm-6">
+                <div class="card">
+                <img src="assets/images/populer-products/BC-Skin-Anti-Aging-Serum.jpg">
+                <center>
+                <h2><a href="{{ route('p-facebody') }}"><strong>Anti aging serum</strong></a></h2>
+                </center>
+                </div>
+            </div>
+            <div class="col col-lg-3 col-sm-6">
+                <div class="card">
+                <img src="assets/images/populer-products/BC-Skin-Blueberry-Mask.jpg">
+                <center>
+                <h2><a href="{{ route('p-facial') }}"><strong>Bluberry mask</strong></a></h2>
+                </center>
+                </div>
+            </div>
+            <div class="col col-lg-3 col-sm-6">
+                <div class="card">
+                <img src="assets/images/populer-products/BC-Skin-Body-Serum-Lotion.jpg">
+                <center>
+                <h2><a href="{{ route('p-skincare') }}"><strong>Body serum lotion</strong></a></h2>
+                </center>
+                </div>
+            </div>
+			<div class="col col-lg-3 col-sm-6">
+                <div class="card">
+                <img src="assets/images/populer-products/BC-Skin-Bright-Facial-Wash.jpg">
+                <center>
+                <h2><a href="{{ route('p-slimming') }}"><strong>Bright facial wash</strong></a></h2>
+                </center>
+                </div>
+            </div>
+            <div class="col col-lg-3 col-sm-6">
+                <div class="card">
+                <img src="assets/images/populer-products/BC-Skin-Bright-Serum.jpg">
+                <center>
+                <h2><a href="{{ route('p-facebody') }}"><strong>Bright serum</strong></a></h2>
+                </center>
+                </div>
+            </div>
+            <div class="col col-lg-3 col-sm-6">
+                <div class="card">
+                <img src="assets/images/populer-products/BC-Skin-Bright-Spray-Toner.jpg">
+                <center>
+                <h2><a href="{{ route('p-facial') }}"><strong>Bright toner spray</strong></a></h2>
+                </center>
+                </div>
+            </div>
+            <div class="col col-lg-3 col-sm-6">
+                <div class="card">
+                <img src="assets/images/populer-products/BC-Skin-Glowing-Diamond-Essence.jpg">
+                <center>
+                <h2><a href="{{ route('p-skincare') }}"><strong>Glowing diamond essence</strong></a></h2>
+                </center>
+                </div>
+            </div>
+			<div class="col col-lg-3 col-sm-6">
+                <div class="card">
+                <img src="assets/images/populer-products/BC-Skin-Glowing-Diamond-eye-gel.jpg">
+                <center>
+                <h2><a href="{{ route('p-slimming') }}"><strong>Glowing diamond eye gel</strong></a></h2>
+                </center>
+                </div>
+            </div>
+            <div class="col col-lg-3 col-sm-6">
+                <div class="card">
+                <img src="assets/images/populer-products/BC-Skin-Glowing-Diamond-Facial-Wash-Gel.jpg">
+                <center>
+                <h2><a href="{{ route('p-facebody') }}"><strong>Glowing diamond facial wash gel</strong></a></h2>
+                </center>
+                </div>
+            </div>
+            <div class="col col-lg-3 col-sm-6">
+                <div class="card">
+                <img src="assets/images/populer-products/BC-Skin-Kojic-Milk-Scrub.jpg">
+                <center>
+                <h2><a href="{{ route('p-facial') }}"><strong>Kojic milk scrub</strong></a></h2>
+                </center>
+                </div>
+            </div>
+            <div class="col col-lg-3 col-sm-6">
+                <div class="card">
+                <img src="assets/images/populer-products/BC-Skin-Lash-Serum.jpg">
+                <center>
+                <h2><a href="{{ route('p-skincare') }}"><strong>Lash serum</strong></a></h2>
+                </center>
+                </div>
+            </div>
+			<div class="col col-lg-3 col-sm-6">
+                <div class="card">
+                <img src="assets/images/populer-products/BC-Skin-Lip-Serum.jpg">
+                <center>
+                <h2><a href="{{ route('p-slimming') }}"><strong>Lip serum</strong></a></h2>
+                </center>
+                </div>
+            </div>
+            <div class="col col-lg-3 col-sm-6">
+                <div class="card">
+                <img src="assets/images/populer-products/BC-Skin-Rose-petal-mask.jpg">
+                <center>
+                <h2><a href="{{ route('p-facebody') }}"><strong>Rose petal</strong></a></h2>
+                </center>
+                </div>
+            </div>
+            <div class="col col-lg-3 col-sm-6">
+                <div class="card">
+                <img src="assets/images/populer-products/BC-Skin-Salmon-DNA-Serum.jpg">
+                <center>
+                <h2><a href="{{ route('p-facial') }}"><strong>Salmon DNA Serum</strong></a></h2>
+                </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
 				<section id="feature" class="feature">
 					<div class="container">
 						<div class="section-header">
 							<style>
-									.box {
-										
-										height: 100%;
-										display: flex;
-										justify-content: center;
-										align-items: center;
-									}
-									.kotak{
-										
-										text-align: left;
-										position: relative;
-										width:600px;
-										height:100px;
-										background:white;
-										box-shadow: 2px 2px 2px rgba(225,215,0,0.8);
-										padding: 10px;
-										border: 1px dashed gold;
-										border-radius: 5px;
-										}
+								.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 280px;
+  height: auto;
+  justify-content: center;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card img {
+  margin-top: 10px;
+  width: auto;
+  border-radius: 8px;
+  display: block; /* To remove default image spacing */
+  margin: 0 auto; /* To center the image */
+}
+
+.card h2 {
+  margin-top: 20px;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    margin-top: 10px;
+    width: 80%;
+    margin: 10% auto; /* Center the card on small screens */
+  }
+}
+
+
 								</style>
 					</div><!--/.section-header-->
 		</section>
@@ -306,16 +342,17 @@
 				        </div>
 				        <!-- End Top Search -->
 
-				        <div class="container">            
-				            
-
+				        <div class="container">
 				            <!-- Start Header Navigation -->
 				            <div class="navbar-header">
 				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 				                    <i class="fa fa-bars"></i>
 				                </button>
-								<div class="navbar-brand"><img src="assets/logo/B CLINIC NEW.png" alt="logo" width="300px" height="170px"></div>
-                                
+								<a href="{{ route('ABOUT') }}">
+									<div class="navbar-brand">
+										<img src="assets/logo/B CLINIC NEW.png" alt="logo" width="300px" height="170px">
+									</div>
+								</a>
 				            </div><!--/.navbar-header-->
 				            <!-- End Header Navigation -->
 
@@ -323,41 +360,43 @@
 				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 				                <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
 								<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="p-services-products" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										<a class="nav-link dropdown-toggle" href="{{ route('p-services-products') }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 											Services & Products
 											<span class="lnr lnr-chevron-down"></span>
 										</a>
 										<ul class="dropdown-menu">
-											<li><a class="dropdown-item" href="p-slimming">Slimmimg & Shaping</a></li>
-											<li><a class="dropdown-item" href="p-facebody">Face Treatment</a></li>
-											<li><a class="dropdown-item" href="p-facial">Facial Treatment</a></li>
-											<li><a class="dropdown-item" href="p-skincare">Skin Care Products</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-facial') }}">Facial & Face Treatments</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-facebody') }}">Ultimate Treatments</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-slimming') }}">Slimmimg Treatments</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-skincare') }}">Skin Care Products</a></li>
 										</ul>
 									</li>
-				                    <li class=""><a href="p-special-offer">Special Offer</a></li>
-				                    <li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									<li class=""><a href="{{ route('p-special-offer') }}">Special Offer</a></li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" role="button"
+											data-bs-toggle="dropdown" aria-expanded="false">
 											News
 											<span class="lnr lnr-chevron-down"></span>
 										</a>
 										<ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="p-bupdate">B UPDATE</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-bupdate') }}">B UPDATE</a></li>
 											<!--<li><a class="dropdown-item" href="p-blog">Blog</a></li>-->
-											<li><a class="dropdown-item" href="p-video">Video</a></li>
-											<li><a class="dropdown-item" href="p-faq">Faq</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-video') }}">Video</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-faq') }}">Faq</a></li>
 										</ul>
 									</li>
-                                    <li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" role="button"
+											data-bs-toggle="dropdown" aria-expanded="false">
 											About us
 											<span class="lnr lnr-chevron-down"></span>
 										</a>
 										<ul class="dropdown-menu">
-											<li><a class="dropdown-item" href="p-story">Story</a></li>
-											<li><a class="dropdown-item" href="p-location">location</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-Story') }}">Story</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-location') }}">location</a></li>
 										</ul>
-                                        <li class=""><a href="p-careers">Careers</a></li>
-				                </ul><!--/.nav -->
+									<li class=""><a href="{{ route('p-career') }}">Careers</a></li>
+								</ul><!--/.nav -->
 				            </div><!-- /.navbar-collapse -->
 				        </div><!--/.container-->
 				    </nav><!--/nav-->

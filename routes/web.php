@@ -33,22 +33,22 @@ Route::get('/', function () {
 //     return view('about');
 // });
 
-Route::get('/', [HomeController::class, 'About']);
-Route::get('/p-slimming"', [HomeController::class, 'Slimming']);
-Route::get('/p-facebody', [HomeController::class, 'facebody']);
-Route::get('/p-facial', [HomeController::class, 'Facial']);
-Route::get('/p-careers', [HomeController::class, 'careers']);
-Route::get('/p-story', [HomeController::class, 'Story']);
-Route::get('/p-location', [HomeController::class, 'Location']);
-Route::get('/p-special-offer', [HomeController::class, 'SpecialOffer']);
-Route::get('/p-faq', [HomeController::class, 'Faq']);
-Route::get('/p-blog', [HomeController::class, 'Blog']);
-Route::get('/p-bupdate', [HomeController::class, 'Bupdate']);
-Route::get('/p-video', [HomeController::class, 'Video']);
-Route::get('/p-services-products', [HomeController::class, 'Servicesproducts']);
-Route::get('/p-skincare', [HomeController::class, 'Skincare']);
-Route::get('/p-alltestimonial', [HomeController::class, 'ALLtestimoni']);
-Route::get('/p-our-expert', [HomeController::class, 'OurExpert']);
+Route::get('/', [HomeController::class, 'About'])->name('ABOUT');
+Route::get('/p-facebody', [HomeController::class, 'facebody'])->name('p-facebody');
+Route::get('/p-slimming', [HomeController::class, 'Slimming'])->name('p-slimming');
+Route::get('/p-facial', [HomeController::class, 'Facial'])->name('p-facial');
+Route::get('/p-story', [HomeController::class, 'Story'])->name('p-Story'); 
+Route::get('/p-career', [HomeController::class, 'Career'])->name('p-career'); 
+Route::get('/p-location', [HomeController::class, 'Location'])->name('p-location');
+Route::get('/p-special-offer', [HomeController::class, 'SpecialOffer'])->name('p-special-offer');
+Route::get('/p-faq', [HomeController::class, 'Faq'])->name('p-faq');
+Route::get('/p-blog', [HomeController::class, 'Blog'])->name('p-blog');
+Route::get('/p-bupdate', [HomeController::class, 'Bupdate'])->name('p-bupdate');
+Route::get('/p-video', [HomeController::class, 'Video'])->name('p-video');
+Route::get('/p-services-products', [HomeController::class, 'Servicesproducts'])->name('p-services-products');
+Route::get('/p-skincare', [HomeController::class, 'Skincare'])->name('p-skincare');
+Route::get('/p-alltestimonial', [HomeController::class, 'ALLtestimoni']); // belum ada fitur
+Route::get('/p-our-expert', [HomeController::class, 'OurExpert']); // belum ada fitur
 
 // Auth
 Route::get('/login', [AuthController::class, 'login'])->name('login');
@@ -67,6 +67,7 @@ Route::resource('face', FaceController::class);
 Route::resource('facial', FacialController::class);
 Route::resource('dokter', DokterController::class);
 Route::resource('special_offer', SpecialOfferController::class);
+Route::resource('skincare', SkincareController::class);
 
 // Route::get('gambar-slider/{nama_file}', function ($nama_file) {
 //     $path = storage_path('app/public/images/slider/' . $nama_file);

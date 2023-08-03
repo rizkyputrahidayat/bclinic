@@ -870,17 +870,62 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
 
       <button class="accordion">Admin</button>
       <div class="panel">
-        <p>Lorem ipsum...</p>
+      <p style="white-space: pre-wrap;"><strong>Gambaran Pekerjaan</strong>
+        Sebagai seorang Creative Graphic Designer, Anda dapat menyalurkan kreativitas dalam berbagai kesempatan. Sebagai bagian dari tim marketing, seorang Creative Graphic Designer akan berkreasi dengan ide/konsep kreatif untuk menghasilkan strategi promosi yang sesuai dengan kebutuhan perusahaan, serta berkolaborasi dengan berbagai pihak yang ahli di bidang periklanan, Brand Management dan lainnya.
+        </p>
+        <p style="white-space: pre-wrap;"><strong>Tugas dan Tanggung Jawab :</strong>
+        1. Melakukan koordinasi dengan user terkait tujuan bisnis dan kebutuhan pekerjaan
+        2. Berpikir kreatif untuk menghasilkan ide-ide dan konsep-konsep baru dan mengembangkan desain interaktif
+        3. Menyusun prototype dari konsep dan ide yang telah disetujui
+        4. Melakukan koordinasi dengan Tim Marketing, Web Developer, vendor ataupun pihak terkait lainnya sehubungan dengan materi promosi yang perlu dibuat
+        </p>
+        <p style="white-space: pre-wrap;"><strong>Kualifikasi :</strong>
+        Posisi ini terbuka untuk fresh graduate maupun professional yang sudah berkecimpung di dalam dunia creative, khususnya di FMCG. Memiliki passion terhadap seni dan senang menyalurkan kreativitas secara visual, serta mempunyai latar belakang pendidikan Sarjana yang relevan, seperti Desain Komunikasi Visual (DKV) dan lulus dengan kategori: sangat memuaskan. Anda juga harus mengikuti perkembangan design yang up to date, menguasai Design Animation, 3D Artist, Adobe After Effects, Adobe Premier, PSD dan Adobe Illustrator, serta memiliki ketertarikan terhadap perkembangan teknologi dunia kreatif untuk dapat diterapkan dalam pekerjaan. Selain itu, pengalaman di dunia periklanan akan membuat Anda menjadi kandidat yang memiliki nilai tambah.
+        </p>
+        <a href="">
+        <button class="button button3" >Apply for this job</button><br>
+        </a> 
+        <p></p>
       </div>
 
       <button class="accordion">Frontdesk</button>
       <div class="panel">
-        <p>Lorem ipsum...</p>
+        <p style="white-space: pre-wrap;"><strong>Gambaran Pekerjaan</strong>
+        Sebagai seorang Creative Graphic Designer, Anda dapat menyalurkan kreativitas dalam berbagai kesempatan. Sebagai bagian dari tim marketing, seorang Creative Graphic Designer akan berkreasi dengan ide/konsep kreatif untuk menghasilkan strategi promosi yang sesuai dengan kebutuhan perusahaan, serta berkolaborasi dengan berbagai pihak yang ahli di bidang periklanan, Brand Management dan lainnya.
+        </p>
+        <p style="white-space: pre-wrap;"><strong>Tugas dan Tanggung Jawab :</strong>
+        1. Melakukan koordinasi dengan user terkait tujuan bisnis dan kebutuhan pekerjaan
+        2. Berpikir kreatif untuk menghasilkan ide-ide dan konsep-konsep baru dan mengembangkan desain interaktif
+        3. Menyusun prototype dari konsep dan ide yang telah disetujui
+        4. Melakukan koordinasi dengan Tim Marketing, Web Developer, vendor ataupun pihak terkait lainnya sehubungan dengan materi promosi yang perlu dibuat
+        </p>
+        <p style="white-space: pre-wrap;"><strong>Kualifikasi :</strong>
+        Posisi ini terbuka untuk fresh graduate maupun professional yang sudah berkecimpung di dalam dunia creative, khususnya di FMCG. Memiliki passion terhadap seni dan senang menyalurkan kreativitas secara visual, serta mempunyai latar belakang pendidikan Sarjana yang relevan, seperti Desain Komunikasi Visual (DKV) dan lulus dengan kategori: sangat memuaskan. Anda juga harus mengikuti perkembangan design yang up to date, menguasai Design Animation, 3D Artist, Adobe After Effects, Adobe Premier, PSD dan Adobe Illustrator, serta memiliki ketertarikan terhadap perkembangan teknologi dunia kreatif untuk dapat diterapkan dalam pekerjaan. Selain itu, pengalaman di dunia periklanan akan membuat Anda menjadi kandidat yang memiliki nilai tambah.
+        </p>
+        <a href="">
+        <button class="button button3" >Apply for this job</button><br>
+        </a> 
+        <p></p>
       </div>
 
       <button class="accordion">Marketing</button>
       <div class="panel">
-        <p>Lorem ipsum...</p>
+        <p style="white-space: pre-wrap;"><strong>Gambaran Pekerjaan</strong>
+        Sebagai seorang Creative Graphic Designer, Anda dapat menyalurkan kreativitas dalam berbagai kesempatan. Sebagai bagian dari tim marketing, seorang Creative Graphic Designer akan berkreasi dengan ide/konsep kreatif untuk menghasilkan strategi promosi yang sesuai dengan kebutuhan perusahaan, serta berkolaborasi dengan berbagai pihak yang ahli di bidang periklanan, Brand Management dan lainnya.
+        </p>
+        <p style="white-space: pre-wrap;"><strong>Tugas dan Tanggung Jawab :</strong>
+        1. Melakukan koordinasi dengan user terkait tujuan bisnis dan kebutuhan pekerjaan
+        2. Berpikir kreatif untuk menghasilkan ide-ide dan konsep-konsep baru dan mengembangkan desain interaktif
+        3. Menyusun prototype dari konsep dan ide yang telah disetujui
+        4. Melakukan koordinasi dengan Tim Marketing, Web Developer, vendor ataupun pihak terkait lainnya sehubungan dengan materi promosi yang perlu dibuat
+        </p>
+        <p style="white-space: pre-wrap;"><strong>Kualifikasi :</strong>
+        Posisi ini terbuka untuk fresh graduate maupun professional yang sudah berkecimpung di dalam dunia creative, khususnya di FMCG. Memiliki passion terhadap seni dan senang menyalurkan kreativitas secara visual, serta mempunyai latar belakang pendidikan Sarjana yang relevan, seperti Desain Komunikasi Visual (DKV) dan lulus dengan kategori: sangat memuaskan. Anda juga harus mengikuti perkembangan design yang up to date, menguasai Design Animation, 3D Artist, Adobe After Effects, Adobe Premier, PSD dan Adobe Illustrator, serta memiliki ketertarikan terhadap perkembangan teknologi dunia kreatif untuk dapat diterapkan dalam pekerjaan. Selain itu, pengalaman di dunia periklanan akan membuat Anda menjadi kandidat yang memiliki nilai tambah.
+        </p>
+        <a href="">
+        <button class="button button3" >Apply for this job</button><br>
+        </a> 
+        <p></p>
       </div>
 <style>
   /* Style the buttons that are used to open and close the accordion panel */
@@ -1226,8 +1271,11 @@ var hsVars = {
 				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 				                    <i class="fa fa-bars"></i>
 				                </button>
-								<div class="navbar-brand"><img src="assets/logo/B CLINIC NEW.png" alt="logo" width="300px" height="170px"></div>
-                                
+                        <a href="{{ route('ABOUT') }}">
+                            <div class="navbar-brand">
+                                <img src="assets/logo/B CLINIC NEW.png" alt="logo" width="300px" height="170px">
+                            </div>
+                        </a>              
 				            </div><!--/.navbar-header-->
 				            <!-- End Header Navigation -->
 
@@ -1235,16 +1283,16 @@ var hsVars = {
 				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 				                <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
 								<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="p-services-products" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										<a class="nav-link dropdown-toggle" href="{{ route('p-services-products') }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 											Services & Products
 											<span class="lnr lnr-chevron-down"></span>
 										</a>
 										<ul class="dropdown-menu">
-											<li><a class="dropdown-item" href="p-slimming">Slimmimg & Shaping</a></li>
-											<li><a class="dropdown-item" href="p-facebody">Face Treatment</a></li>
-											<li><a class="dropdown-item" href="p-facial">Facial Treatment</a></li>
-											<li><a class="dropdown-item" href="p-skincare">Skin Care Products</a></li>
-										</ul>
+                      <li><a class="dropdown-item" href="{{ route('p-facial') }}">Facial & Face Treatments</a></li>
+                      <li><a class="dropdown-item" href="{{ route('p-facebody') }}">Ultimate Treatments</a></li>
+                      <li><a class="dropdown-item" href="{{ route('p-slimming') }}">Slimmimg Treatments</a></li>
+                      <li><a class="dropdown-item" href="{{ route('p-skincare') }}">Skin Care Products</a></li>
+                    </ul>
 									</li>
 				                    <li class=""><a href="p-special-offer">Special Offer</a></li>
 				                    <li class="nav-item dropdown">
@@ -1253,11 +1301,11 @@ var hsVars = {
 											<span class="lnr lnr-chevron-down"></span>
 										</a>
 										<ul class="dropdown-menu">
-											<li><a class="dropdown-item" href="p-bupdate">B UPDATE</a></li>
-											<!--<li><a class="dropdown-item" href="p-blog">Blog</a></li>-->
-											<li><a class="dropdown-item" href="p-video">Video</a></li>
-											<li><a class="dropdown-item" href="p-faq">Faq</a></li>
-										</ul>
+                      <li><a class="dropdown-item" href="{{ route('p-bupdate') }}">B UPDATE</a></li>
+                      <!--<li><a class="dropdown-item" href="p-blog">Blog</a></li>-->
+                      <li><a class="dropdown-item" href="{{ route('p-video') }}">Video</a></li>
+                      <li><a class="dropdown-item" href="{{ route('p-faq') }}">Faq</a></li>
+                    </ul>
 									</li>
 									<li class="nav-item dropdown">
 										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -1265,10 +1313,10 @@ var hsVars = {
 											<span class="lnr lnr-chevron-down"></span>
 										</a>
 										<ul class="dropdown-menu">
-											<li><a class="dropdown-item" href="p-story">Story</a></li>
-											<li><a class="dropdown-item" href="p-location">location</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-Story') }}">Story</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-location') }}">location</a></li>
 										</ul>
-										<li class=""><a href="p-careers">Careers</a></li>
+										<li class=""><a href="{{ route('p-career') }}">Careers</a></li>
 				                </ul><!--/.nav -->
 				            </div><!-- /.navbar-collapse -->
 				        </div><!--/.container-->

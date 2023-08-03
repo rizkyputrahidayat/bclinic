@@ -61,7 +61,7 @@ div.dtsp-topRow button.dtsp-countButton {
   background-size: 18px;
   vertical-align: bottom;
 }
-div.dtsp-topRow button.dtsp-collapseButton span.dtsp-caret {
+div.dtsp-topRow button.dtsp-collapseButton span.dtsp-careeret {
   position: relative;
   top: 2px;
   display: inline-block;
@@ -269,7 +269,7 @@ div.dtsp-panesContainer div.dtsp-searchPane div.dtsp-topRow button {
 div.dtsp-panesContainer div.dtsp-searchPane div.dtsp-topRow div.dtsp-subRow1 button {
   border-right: none;
 }
-div.dtsp-panesContainer div.dtsp-searchPane div.dtsp-topRow span.dtsp-caret {
+div.dtsp-panesContainer div.dtsp-searchPane div.dtsp-topRow span.dtsp-careeret {
   top: 4px;
 }
 div.dtsp-panesContainer div.dtsp-searchPane div.dtsp-topRow button.dtsp-rotated {

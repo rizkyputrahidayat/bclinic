@@ -64,38 +64,69 @@
 
 			<div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="item active">
-						<div class="single-slide-item slide1">
-							<div class="container">
-								<div class="welcome-hero-content">
-									
-										<div class="single-welcome-hero">
-											<div class="welcome-hero-img-slider">
-												<a href="#">
-													<img src="assets/images/slider/3.png"  width="100%" height="7000%" style="padding-top: 60px;">
-												</a>
-											</div><!--/.welcome-hero-txt-->
-										</div><!--/.single-welcome-hero-->
-									
-								</div><!--/.welcome-hero-content-->
-							</div><!-- /.container-->
-						</div><!-- /.single-slide-item-->
+				<div class="single-slide-item slide1">
+					<div class="container">
+						<div class="welcome-hero-content">
+                            <div class="container10">
+							    <div class="row">
+								    <div class="single-welcome-hero">
+									    <div class="welcome-hero-img-slider">
+								    	<img src="assets/images/slider/3.png">
+									    </div><!--/.welcome-hero-txt-->
+								    </div><!--/.single-welcome-hero-->
+							    </div><!--/.row-->
+                            </div>
+						</div><!--/.welcome-hero-content-->
+					</div><!-- /.container-->
+				</div><!-- /.single-slide-item-->
+			</div><!-- /.item .active-->
 
 					</div><!-- /.item .active-->
                     <section id="feature" class="feature">
-			<div class="container">
-				<div class="section-header">
-					<div class="col-lg-5">
-            			<img width="100%" src="assets/images/slider/sideline.png" alt="">
-          			</div>
-          			<div class="col-lg-2 text-left text-lg-center">
-            			<h2>Location</h2>
-          			</div>
-          			<div class="col-lg-5 right">
-         			   <img max-width="100%" src="assets/images/slider/sideline.png" alt="">
-    			      </div>
-			</div><!--/.section-header-->
-		</section>
-                    <!-- Features Section Begin -->
+                        <div class="jarak">
+                            <div class="container">
+                                <div class="col-lg-5">
+                                    <img max-width="100%" src="assets/images/slider/sideline.png" alt="">
+                                </div>
+                                <div class="col-lg-2 text-left text-lg-center">
+                                    <center>
+                                        <h1 style="font-size: 30px; color:black;">Location</h1>
+                                    </center>
+                                </div>
+                                <div class="col-lg-5 right">
+                                    <img max-width="100%" src="assets/images/slider/sideline.png" alt="">
+                                </div>
+                            </div><!--/.section-header-->
+                        </div>
+                    </section><!-- Features Section Begin -->
+
+                    <style>
+                        .jarak {
+                            margin-top: -16%;
+                        }
+
+                        /* Responsiveness for small screens */
+                        @media (max-width: 576px) {
+                            .jarak {
+                                margin-top: 5px; /* Change the margin-top value for small screens */
+                            }
+                        }
+
+                        /* Responsiveness for medium screens */
+                        @media (min-width: 577px) {
+                            .jarak {
+                                margin-top: 20px; /* Change the margin-top value for medium screens */
+                            }
+                        }
+
+                        /* Responsiveness for large screens */
+                        @media (min-width: 993px) {
+                            .jarak {
+                                margin-top: -15%; /* Change the margin-top value for large screens */
+                            }
+                        }
+
+                    </style>
             
             <section class="features-section" style="padding-top: -150px; padding-left: 20px;">
         <!-- Page Add Section Begin -->
@@ -106,53 +137,53 @@
         <div class="col-lg-4 col-md-4 col-12">
             <div class="page-breadcrumb">
                 <center>
-                <br><p style="color:black; font-size: 21px; font-weight: bold;">KEMANG</p> 
+                    <br><p style="color:black; font-size: 21px; font-weight: bold;">KEMANG</p> 
                 </center>
                 <div class="font-contact container-fluid" style="font-weight: 450; color:black;">
-                <i class="fa fa-map-marker"></i> Jl. Kemang Raya No.93, RT.3/RW.2 12730 Jakarta Selatan<br><br>
-                <p style="color:black;">Information & resevation :</p>
-                <br>
-                <center>
-                    <div class="footer-social">	
-						<a href="https://api.whatsapp.com/send/?phone=6281511351234&text&type=phone_number&app_absent=0"><i class="fa fa-whatsapp fa-2x" alt="button" style="width: 17.5px;"></i></a>
-						<a href="https://www.instagram.com/bclinic.kemang/"><i class="fa fa-instagram fa-2x" alt="button" style="width: 15px;"></i></a>
-					</div><br>
-                </center>  
+                    <i class="fa fa-map-marker"></i> Jl. Kemang Raya No.93, RT.3/RW.2 12730 Jakarta Selatan<br><br>
+                    <p style="color:black;">Information & resevation :</p>
+                    <br>
+                    <center>
+                        <div class="footer-social">	
+                            <a href="https://api.whatsapp.com/send/?phone=6281511351234&text&type=phone_number&app_absent=0"><i class="fa fa-whatsapp fa-2x" alt="button" style="width: 17.5px;"></i></a>
+                            <a href="https://www.instagram.com/bclinic.kemang/"><i class="fa fa-instagram fa-2x" alt="button" style="width: 15px;"></i></a>
+                        </div><br>
+                    </center>  
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-md-4 col-12">
             <div class="page-breadcrumb">
                 <center>
-                <br><p style="color:black; font-size: 21px; font-weight: bold;">SURABAYA</p>
+                    <br><p style="color:black; font-size: 21px; font-weight: bold;">SURABAYA</p>
                 </center>
                 <div class="font-contact container-fluid" style="font-weight: 450; color:black;">
-                <i class="fa fa-map-marker"></i> Jl. Raya Bukit Darmo no.19, Putat Gede, Kecamatan Sukomanunggal, Kota Surabaya. <br>   
-                <br><p style="color:black;">Information & resevation :</p>
-                <br>
-                <center>
-                <div class="footer-social">	
-						<a href="https://api.whatsapp.com/send/?phone=6281215152540&text&type=phone_number&app_absent=0"><i class="fa fa-whatsapp fa-2x" alt="button" style="width: 17.5px;"></i></a>
-						<a href="https://www.instagram.com/bclinic.surabaya/"><i class="fa fa-instagram fa-2x" alt="button" style="width: 15px;"></i></a>
-					</div>  
+                    <i class="fa fa-map-marker"></i> Jl. Raya Bukit Darmo no.19, Putat Gede, Kecamatan Sukomanunggal, Kota Surabaya. <br>   
+                    <br><p style="color:black;">Information & resevation :</p>
+                    <br>
+                    <center>
+                        <div class="footer-social">	
+                            <a href="https://api.whatsapp.com/send/?phone=6281215152540&text&type=phone_number&app_absent=0"><i class="fa fa-whatsapp fa-2x" alt="button" style="width: 17.5px;"></i></a>
+                            <a href="https://www.instagram.com/bclinic.surabaya/"><i class="fa fa-instagram fa-2x" alt="button" style="width: 15px;"></i></a>
+                        </div>  
                     </center>  
                 </div><br>
             </div>
         </div>
         <div class="col-lg-4 col-md-4 col-12">
             <div class="page-breadcrumb container-fluid" style="font-weight: 450; color:black;">
-            <center>
-            <br><p style="color:black; font-size: 21px; font-weight: bold;">KELAPA GADING</p> 
-            </center>
-            <div class="font-contact">
-            <i class="fa fa-map-marker"></i> Blok CN 2, Jl. Boelevard Raya No.10 Rt.7/RW.12, Kelapa Gading Timur, Jakarta Utara.<br>
-            <p style="color:black;">Information & resevation :</p>
-            <br>
-            <center>
-            <div class="footer-social">	
-						<a href="https://api.whatsapp.com/send/?phone=6285838500000&text&type=phone_number&app_absent=0"><i class="fa fa-whatsapp fa-2x" alt="button" style="width: 17.5px;"></i></a>
-						<a href="https://www.instagram.com/bclinic.kelapagading/?hl=id"><i class="fa fa-instagram fa-2x" alt="button" style="width: 15px;"></i></a>
-					</div><br>  
+                <center>
+                    <br><p style="color:black; font-size: 21px; font-weight: bold;">KELAPA GADING</p> 
+                </center>
+                <div class="font-contact">
+                    <i class="fa fa-map-marker"></i> Blok CN 2, Jl. Boelevard Raya No.10 Rt.7/RW.12, Kelapa Gading Timur, Jakarta Utara.<br>
+                    <p style="color:black;">Information & resevation :</p>
+                    <br>
+                    <center>
+                        <div class="footer-social">	
+                            <a href="https://api.whatsapp.com/send/?phone=6285838500000&text&type=phone_number&app_absent=0"><i class="fa fa-whatsapp fa-2x" alt="button" style="width: 17.5px;"></i></a>
+                            <a href="https://www.instagram.com/bclinic.kelapagading/?hl=id"><i class="fa fa-instagram fa-2x" alt="button" style="width: 15px;"></i></a>
+                        </div><br>  
                     </center>
                 </div>
             </div>
@@ -465,8 +496,11 @@
 				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 				                    <i class="fa fa-bars"></i>
 				                </button>
-								<div class="navbar-brand"><img src="assets/logo/B CLINIC NEW.png" alt="logo" width="300px" height="170px"></div>
-                                
+                                <a href="{{ route('ABOUT') }}">
+                                    <div class="navbar-brand">
+                                        <img src="assets/logo/B CLINIC NEW.png" alt="logo" width="300px" height="170px">
+                                    </div>
+                                </a>
 				            </div><!--/.navbar-header-->
 				            <!-- End Header Navigation -->
 
@@ -474,29 +508,29 @@
 				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 				                <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
 								<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="p-services-products" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										<a class="nav-link dropdown-toggle" href="{{ route('p-services-products') }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 											Services & Products
 											<span class="lnr lnr-chevron-down"></span>
 										</a>
 										<ul class="dropdown-menu">
-											<li><a class="dropdown-item" href="p-slimming">Slimmimg & Shaping</a></li>
-											<li><a class="dropdown-item" href="p-facebody">Face Treatment</a></li>
-											<li><a class="dropdown-item" href="p-facial">Facial Treatment</a></li>
-											<li><a class="dropdown-item" href="p-skincare">Skin Care Products</a></li>
-										</ul>
+                                            <li><a class="dropdown-item" href="{{ route('p-facial') }}">Facial & Face Treatments</a></li>
+                                            <li><a class="dropdown-item" href="{{ route('p-facebody') }}">Ultimate Treatments</a></li>
+                                            <li><a class="dropdown-item" href="{{ route('p-slimming') }}">Slimmimg Treatments</a></li>
+                                            <li><a class="dropdown-item" href="{{ route('p-skincare') }}">Skin Care Products</a></li>
+                                        </ul>
 									</li>
-				                    <li class=""><a href="p-special-offer">Special Offer</a></li>
+				                    <li class=""><a href="{{ route('p-special-offer') }}">Special Offer</a></li>
 				                    <li class="nav-item dropdown">
 										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 											News
 											<span class="lnr lnr-chevron-down"></span>
 										</a>
 										<ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="p-bupdate">B UPDATE</a></li>
-											<!--<li><a class="dropdown-item" href="p-blog">Blog</a></li>-->
-											<li><a class="dropdown-item" href="p-video">Video</a></li>
-											<li><a class="dropdown-item" href="p-faq">Faq</a></li>
-										</ul>
+                                            <li><a class="dropdown-item" href="{{ route('p-bupdate') }}">B UPDATE</a></li>
+                                            <!--<li><a class="dropdown-item" href="p-blog">Blog</a></li>-->
+                                            <li><a class="dropdown-item" href="{{ route('p-video') }}">Video</a></li>
+                                            <li><a class="dropdown-item" href="{{ route('p-faq') }}">Faq</a></li>
+                                        </ul>
 									</li>
                                     <li class="nav-item dropdown">
 										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -504,10 +538,10 @@
 											<span class="lnr lnr-chevron-down"></span>
 										</a>
 										<ul class="dropdown-menu">
-											<li><a class="dropdown-item" href="p-story">Story</a></li>
-											<li><a class="dropdown-item" href="p-location">location</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-Story') }}">Story</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-location') }}">location</a></li>
 										</ul>
-                                        <li class=""><a href="p-careers">Careers</a></li>
+                                        <li class=""><a href="{{ route('p-career') }}">Careers</a></li>
 				                </ul><!--/.nav -->
 				            </div><!-- /.navbar-collapse -->
 				        </div><!--/.container-->

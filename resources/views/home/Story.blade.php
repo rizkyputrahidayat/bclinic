@@ -49,18 +49,13 @@
 			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
-<!--<style>
-    .col-md-4{
-        display: flex;
-        align-items: center;
-    }
-
-    .col-md-4::img{
-        width: 20px;
-        height: 200px;
-        margin-right: 20px;
-    }
-</style>-->
+<style>
+@media screen and (max-width: 800px) {
+  .container10 {
+    width: 100%;
+  }
+}
+</style>
     </head>
 	
 	<body>
@@ -73,18 +68,20 @@
 		<!--welcome-hero start -->
 		<header id="home" class="welcome-hero">
 
-			<div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+		<div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="item active">
 				<div class="single-slide-item slide1">
 					<div class="container">
 						<div class="welcome-hero-content">
-							<div class="row">
-								<div class="single-welcome-hero">
-									<div class="welcome-hero-img-slider">
+                            <div class="container10">
+							    <div class="row">
+								    <div class="single-welcome-hero">
+									    <div class="welcome-hero-img-slider">
 								    	<img src="assets/images/slider/desain-story.jpg"  width="100%" height="500px">
-									</div><!--/.welcome-hero-txt-->
-								</div><!--/.single-welcome-hero-->
-							</div><!--/.row-->
+									    </div><!--/.welcome-hero-txt-->
+								    </div><!--/.single-welcome-hero-->
+							    </div><!--/.row-->
+                            </div>
 						</div><!--/.welcome-hero-content-->
 					</div><!-- /.container-->
 				</div><!-- /.single-slide-item-->
@@ -101,9 +98,6 @@
                 });
             });
             </script>
-			<!-- Features Section Begin -->
-            <section class="features-section" style="padding-top: 10px; padding-left: 20px;">
-        <!-- Page Add Section Begin -->
 <section class="page-add">
   <div class="container">
     <div class="content1">
@@ -1015,8 +1009,11 @@
 				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 				                    <i class="fa fa-bars"></i>
 				                </button>
-								<div class="navbar-brand"><img src="assets/logo/B CLINIC NEW.png" alt="logo" width="300px" height="170px"></div>
-                                
+								<a href="{{ route('ABOUT') }}">
+                                    <div class="navbar-brand">
+                                        <img src="assets/logo/B CLINIC NEW.png" alt="logo" width="300px" height="170px">
+                                    </div>
+                                </a>
 				            </div><!--/.navbar-header-->
 				            <!-- End Header Navigation -->
 
@@ -1024,41 +1021,43 @@
 				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 				                <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
 								<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="p-services-products" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										<a class="nav-link dropdown-toggle" href="{{ route('p-services-products') }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 											Services & Products
 											<span class="lnr lnr-chevron-down"></span>
 										</a>
 										<ul class="dropdown-menu">
-											<li><a class="dropdown-item" href="p-slimming">Slimmimg & Shaping</a></li>
-											<li><a class="dropdown-item" href="p-facebody">Face Treatment</a></li>
-											<li><a class="dropdown-item" href="p-facial">Facial Treatment</a></li>
-											<li><a class="dropdown-item" href="p-skincare">Skin Care Products</a></li>
-										</ul>
-									</li>
-				                    <li class=""><a href="p-special-offer">Special Offer</a></li>
-				                    <li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-											News
-											<span class="lnr lnr-chevron-down"></span>
-										</a>
-										<ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="p-bupdate">B UPDATE</a></li>
-											<!--<li><a class="dropdown-item" href="p-blog">Blog</a></li>-->
-											<li><a class="dropdown-item" href="p-video">Video</a></li>
-											<li><a class="dropdown-item" href="p-faq">Faq</a></li>
-										</ul>
-									</li>
+                                            <li><a class="dropdown-item" href="{{ route('p-facial') }}">Facial & Face Treatments</a></li>
+                                            <li><a class="dropdown-item" href="{{ route('p-facebody') }}">Ultimate Treatments</a></li>
+                                            <li><a class="dropdown-item" href="{{ route('p-slimming') }}">Slimmimg Treatments</a></li>
+                                            <li><a class="dropdown-item" href="{{ route('p-skincare') }}">Skin Care Products</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class=""><a href="{{ route('p-special-offer') }}">Special Offer</a></li>
                                     <li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-											About us
-											<span class="lnr lnr-chevron-down"></span>
-										</a>
-										<ul class="dropdown-menu">
-											<li><a class="dropdown-item" href="p-story">Story</a></li>
-											<li><a class="dropdown-item" href="p-location">location</a></li>
-										</ul>
-                                        <li class=""><a href="p-careers">Careers</a></li>
-				                </ul><!--/.nav -->
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            News
+                                            <span class="lnr lnr-chevron-down"></span>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="{{ route('p-bupdate') }}">B UPDATE</a></li>
+                                            <!--<li><a class="dropdown-item" href="p-blog">Blog</a></li>-->
+                                            <li><a class="dropdown-item" href="{{ route('p-video') }}">Video</a></li>
+                                            <li><a class="dropdown-item" href="{{ route('p-faq') }}">Faq</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            About us
+                                            <span class="lnr lnr-chevron-down"></span>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="{{ route('p-Story') }}">Story</a></li>
+                                            <li><a class="dropdown-item" href="{{ route('p-location') }}">location</a></li>
+                                        </ul>
+                                    <li class=""><a href="{{ route('p-career') }}">Careers</a></li>
+                                </ul><!--/.nav -->
 				            </div><!-- /.navbar-collapse -->
 				        </div><!--/.container-->
 				    </nav><!--/nav-->

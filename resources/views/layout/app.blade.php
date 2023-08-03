@@ -104,6 +104,22 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                     </a>
                                 </li>
                             </ul>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="/skincare" class="nav-link">
+                                        <i class="far fa-circle nac-icon"></i>
+                                        <p>Skin care</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="" class="nav-link">
+                                        <i class="far fa-circle nac-icon"></i>
+                                        <p>face treatment</p>
+                                    </a>
+                                </li>
+                            </ul>
                             {{-- Perlu penyesuaian --}}
                             {{-- <ul class="nav nav-treeview">
                                 <li class="nav-item">
@@ -214,9 +230,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         <div class="col-lg-12">
 
                             <div class="card card-primary card-outline">
-                                <div class="card-header">
-                                    <h5 class="m-0">@yield('title')</h5>
-                                </div>
                                 <div class="card-body">
 
                                     @yield('content')

@@ -52,14 +52,15 @@
             <section class="features-section" style="padding-top: 100px;">
                 <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
                     <div class="carousel-inner" role="listbox">
-                        <!-- .item -->
+
+                    <!-- .item -->
                         <div class="item active">
                             <div class="single-slide-item slide1">
                                 <div class="container">
                                     <div class="welcome-hero-content">
                                         <div class="container1">
                                             @foreach ($special_offer as $item)
-                                                <div class="card" style="min-width: 299px; height: 355px;">
+                                                <div class="card" style="min-width: 300px; height: 555px;">
                                                     <img style="width: 100%;
                                                             background-repeat: no-repeat;
                                                             background-size: cover;"
@@ -67,43 +68,43 @@
                                                     <div>
                                                         <a href="#"
                                                             style="margin-top: 30px">{{ $item->name }}</a>
-                                                        <p>
+                                                        <p style="font-size: 13px;">
                                                             {{ $item->description }}
                                                         </p>
                                                     </div>
+                                                    <a href="https://shopee.co.id/bclinic.official?smtt=0.331281872-1672375852.9"
+                                                    class="btn btn-warning" role="button"
+                                                    data-bs-toggle="button"
+                                                    style="
+                                                        color: black;
+                                                        margin-top: 20px;
+                                                        border: 1px solid #b59e50;
+                                                        font-size: 13px;
+                                                        padding: 6px 7px;
+                                                        border-radius: 5px;
+                                                        transition: background-color 0.3s ease-in-out;
+                                                        "><strong>buy now</strong></a>
                                                 </div>
                                             @endforeach
                                             <!--/.welcome-hero-txt-->
-                                        </div>
-                                        <!--/.row-->
-                                    </div>
-                                    <!--/.welcome-hero-content-->
+                                        </div><!--/.row-->
+                                    </div><!--/.welcome-hero-content-->
                                 </div><!-- /.container-->
                             </div><!-- /.single-slide-item-->
-                        </div><!-- /.item .active-->
-
-
-                        <!--/.carousel-inner -->
+                        </div>
+                    <!-- /.item .active-->
 
 
                         <style>
                             .container1 {
-                                width: 100%;
-                                overflow-x: scroll;
-                                display: flex;
-                                flex-direction: row;
-                                align-items: center;
-                                justify-content: space-between;
+                                display:flex;
+                                flex-direction:row;
+                                flex-wrap:wrap;
+                                justify-content:center;
+                                height: auto;
                             }
-
-
-                            .wrapper {
-                                flex-direction: row;
-                                align-items: center;
-                                justify-content: space-between;
-                            }
-
                             .card {
+                                width: 40%;
                                 background: #fff;
                                 padding: 24px;
                                 border-radius: 13px;
@@ -146,6 +147,80 @@
                                 -webkit-line-clamp: 2;
                                 overflow: hidden;
                             }
+
+                           /* Aturan CSS untuk layar kecil (mobile) */
+                           @media (min-width: 376px) {
+                            .card {
+                                max-width: 192px;
+                                margin: 0 12px 24px;
+                                padding: 16px;
+                                border-radius: 8px;
+                            }
+
+                            .card button {
+                                margin-top: 8px;
+                            }
+
+                            .card a {
+                                font-size: 1.1rem;
+                                margin-bottom: 8px;
+                            }
+                            }
+
+                            @media (min-width: 576px) {
+                            .card {
+                                max-width: 192px;
+                                margin: 0 12px 24px;
+                                padding: 16px;
+                                border-radius: 8px;
+                            }
+
+                            .card button {
+                                margin-top: 8px;
+                            }
+
+                            .card a {
+                                font-size: 1.1rem;
+                                margin-bottom: 8px;
+                            }
+                            }
+
+                            /* Aturan CSS untuk layar menengah (tablet) */
+                            @media (min-width: 768px) {
+                            .card {
+                                max-width: 256px;
+                                margin: 0 12px 24px;
+                                padding: 20px;
+                                border-radius: 10px;
+                            }
+
+                            .card button {
+                                margin-top: 10px;
+                                font-size: 1.2rem;
+                            }
+
+                            .card a {
+                                font-size: 1.2rem;
+                            }
+                            }
+
+                            /* Aturan CSS untuk layar besar (desktop) */
+                            @media (min-width: 992px) {
+                            .card {
+                                max-width: 335px;
+                                margin: 0 12px 24px;
+                                padding: 24px;
+                            }
+
+                            .card button {
+                                margin-top: 12px;
+                                font-size: 1.3rem;
+                            }
+
+                            .card a {
+                                font-size: 1.3rem;
+                            }
+                            }
                         </style>
 
                     </div><!-- /.carousel-inner-->
@@ -187,9 +262,11 @@
                                 data-target="#navbar-menu">
                                 <i class="fa fa-bars"></i>
                             </button>
-                            <div class="navbar-brand"><img src="assets/logo/B CLINIC NEW.png" alt="logo"
-                                    width="300px" height="170px"></div>
-
+                            <a href="{{ route('ABOUT') }}">
+                                <div class="navbar-brand">
+                                    <img src="assets/logo/B CLINIC NEW.png" alt="logo" width="300px" height="170px">
+                                </div>
+                            </a>
                         </div>
                         <!--/.navbar-header-->
                         <!-- End Header Navigation -->
@@ -198,19 +275,19 @@
                         <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
                             <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="p-services-products" role="button"
+                                    <a class="nav-link dropdown-toggle" href="{{ route('p-services-products') }}" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Services & Products
                                         <span class="lnr lnr-chevron-down"></span>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="Slimming">Slimmimg & Shaping</a></li>
-                                        <li><a class="dropdown-item" href="p-facebody">Face Treatment</a></li>
-                                        <li><a class="dropdown-item" href="p-facial">Facial Treatment</a></li>
-                                        <li><a class="dropdown-item" href="p-skincare">Skin Care Products</a></li>
+                                        <li><a class="dropdown-item" href="{{ route('p-facial') }}">Facial & Face Treatments</a></li>
+                                        <li><a class="dropdown-item" href="{{ route('p-facebody') }}">Ultimate Treatments</a></li>
+                                        <li><a class="dropdown-item" href="{{ route('p-slimming') }}">Slimmimg Treatments</a></li>
+                                        <li><a class="dropdown-item" href="{{ route('p-skincare') }}">Skin Care Products</a></li>
                                     </ul>
                                 </li>
-                                <li class="scroll"><a href="#blog">Special Offer</a></li>
+                                <li class="scroll"><a href="{{ route('p-special-offer') }}">Special Offer</a></li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
@@ -218,10 +295,10 @@
                                         <span class="lnr lnr-chevron-down"></span>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="p-bupdate">B UPDATE</a></li>
+                                        <li><a class="dropdown-item" href="{{ route('p-bupdate') }}">B UPDATE</a></li>
                                         <!--<li><a class="dropdown-item" href="p-blog">Blog</a></li>-->
-                                        <li><a class="dropdown-item" href="p-video">Video</a></li>
-                                        <li><a class="dropdown-item" href="p-faq">Faq</a></li>
+                                        <li><a class="dropdown-item" href="{{ route('p-video') }}">Video</a></li>
+                                        <li><a class="dropdown-item" href="{{ route('p-faq') }}">Faq</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown">
@@ -231,10 +308,10 @@
                                         <span class="lnr lnr-chevron-down"></span>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="p-story">Story</a></li>
-                                        <li><a class="dropdown-item" href="p-location">location</a></li>
+                                        <li><a class="dropdown-item" href="p-story">Story</a></li> <!--belum bisa route-->
+                                        <li><a class="dropdown-item" href="{{ route('p-location') }}">location</a></li>
                                     </ul>
-                                <li class=""><a href="p-careers">Careers</a></li>
+                                <li class=""><a href="p-career">Careers</a></li> <!--belum bisa route-->
                             </ul>
                             <!--/.nav -->
                         </div><!-- /.navbar-collapse -->

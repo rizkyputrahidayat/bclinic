@@ -16,10 +16,11 @@ class HomeController extends Controller
         $carousel = Carousel::get();
         return view('about', compact('carousel'));
     }
+ 
     public function Slimming()
     {
         $slimming = Slimming::get();
-        return view('home.Slimming', compact('slimming'));
+        return view('home.slimming', compact('slimming'));
     }
     public function facebody()
     {
@@ -31,8 +32,8 @@ class HomeController extends Controller
         $facial = Facial::get();
         return view('home.facial', compact('facial'));
     }
-    public function careers()
-    {
+  
+    public function Career(){
         return view('home.careers');
     }
     public function Story()

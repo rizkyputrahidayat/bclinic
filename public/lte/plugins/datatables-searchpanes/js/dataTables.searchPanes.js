@@ -88,7 +88,7 @@
                     .attr('disabled', 'true')
                     .addClass(this.classes.paneButton)
                     .addClass(this.classes.clearButton),
-                collapseButton: $('<button type="button"><span class="dtsp-caret">&#x5e;</span></button>')
+                collapseButton: $('<button type="button"><span class="dtsp-careeret">&#x5e;</span></button>')
                     .addClass(this.classes.paneButton)
                     .addClass(this.classes.collapseButton),
                 container: $('<div/>')

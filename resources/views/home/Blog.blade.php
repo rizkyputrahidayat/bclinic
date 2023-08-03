@@ -151,8 +151,11 @@
 				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 				                    <i class="fa fa-bars"></i>
 				                </button>
-								<div class="navbar-brand"><img src="assets/logo/B CLINIC NEW.png" alt="logo" width="300px" height="170px"></div>
-                                
+								<a href="{{ route('ABOUT') }}">
+									<div class="navbar-brand">
+										<img src="assets/logo/B CLINIC NEW.png" alt="logo" width="300px" height="170px">
+									</div>
+								</a>
 				            </div><!--/.navbar-header-->
 				            <!-- End Header Navigation -->
 
@@ -160,28 +163,28 @@
 				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 				                <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
 								<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="p-services-products" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										<a class="nav-link dropdown-toggle" href="{{ route('p-services-products') }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 											Services & Products
 											<span class="lnr lnr-chevron-down"></span>
 										</a>
 										<ul class="dropdown-menu">
-											<li><a class="dropdown-item" href="p-slimming">Slimmimg & Shaping</a></li>
-											<li><a class="dropdown-item" href="p-facebody">Face Treatment</a></li>
-											<li><a class="dropdown-item" href="p-facial">Facial Treatment</a></li>
-											<li><a class="dropdown-item" href="p-skincare">Skin Care Products</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-facial') }}">Facial & Face Treatments</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-facebody') }}">Ultimate Treatments</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-slimming') }}">Slimmimg Treatments</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-skincare') }}">Skin Care Products</a></li>
 										</ul>
 									</li>
-				                    <li class=""><a href="p-special-offer">Special Offer</a></li>
+				                    <li class=""><a href="{{ route('p-special-offer') }}">Special Offer</a></li>
 				                    <li class="nav-item dropdown">
 										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 											News
 											<span class="lnr lnr-chevron-down"></span>
 										</a>
 										<ul class="dropdown-menu">
-											<li><a class="dropdown-item" href="p-bupdate">B UPDATE</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-bupdate') }}">B UPDATE</a></li>
 											<!--<li><a class="dropdown-item" href="p-blog">Blog</a></li>-->
-											<li><a class="dropdown-item" href="p-video">Video</a></li>
-											<li><a class="dropdown-item" href="p-faq">Faq</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-video') }}">Video</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-faq') }}">Faq</a></li>
 										</ul>
 									</li>
 									<li class="nav-item dropdown">
@@ -190,10 +193,10 @@
 											<span class="lnr lnr-chevron-down"></span>
 										</a>
 										<ul class="dropdown-menu">
-											<li><a class="dropdown-item" href="p-story">Story</a></li>
-											<li><a class="dropdown-item" href="p-location">location</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-Story') }}">Story</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-location') }}">location</a></li>
 										</ul>
-										<li class=""><a href="p-careers">Careers</a></li>
+										<li class=""><a href="{ route('p-career') }}">Careers</a></li>
 				                </ul><!--/.nav -->
 				            </div><!-- /.navbar-collapse -->
 				        </div><!--/.container-->
