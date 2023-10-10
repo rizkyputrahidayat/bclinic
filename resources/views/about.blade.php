@@ -3,9 +3,10 @@
 
 <head>
     <!-- meta data -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!--font-family-->
@@ -46,9 +47,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-V8hv6igOZrIoZlC5bQ8wvYlLb1l5E6kWJXGpzFhcP0RJgZO6G5l0I/HV7/L6O5nbV8WK6PzvVrJZrP0o0QW8Y1A=="
         crossorigin="anonymous" />
+        
+            
 </head>
 
 <body>
+<div class="responsive">
     <header id="home" class="welcome-hero">
         <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
             @php
@@ -150,7 +154,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="{{ route('p-bupdate') }}">B UPDATE</a></li>
-                                        <!--<li><a class="dropdown-item" href="p-blog">Blog</a></li>-->
+                                        <li><a class="dropdown-item" href="{{ route('p-blog') }}">Blog</a></li>
                                         <li><a class="dropdown-item" href="{{ route('p-video') }}">Video</a></li>
                                         <li><a class="dropdown-item" href="{{ route('p-faq') }}">Faq</a></li>
                                     </ul>
@@ -189,7 +193,7 @@
 						<img src="assets/images/slider/tiktok-image.png"  style="width: 30px"> Follow us on tiktok
 						</a>
 					</h2>
-				</div><!--/.section-header-->
+				</div>
 		</section>
     </section>
     </header>
@@ -202,9 +206,8 @@
                         <div class="row">
                             <div class="welcome-hero-txt">
                                 <div class="welcome-hero-img-slider">
-                                    <br><br><img src="assets/images/slider/Gambar WhatsApp 2023-04-20 pukul 13.15.28.jpg"
-                                         style="padding-top: -120px;">
-                                    <div class="teksgambar">
+                                    <br><br><img src="assets/images/slider/Gambar WhatsApp 2023-04-20 pukul 13.15.28.jpg">
+                                    {{-- <div class="teksgambar">
                                         <h2>Face & Body</h2>
                                         <h4>Solution</h4>
 
@@ -215,27 +218,30 @@
                                                 margin-top: -3000px;
                                             }
                                         </style>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                             <!--/.welcome-hero-txt-->
-                            <section id="feature" class="feature" style="">
+                            <section id="feature" class="feature">
                             <div class="space">
-                                <div class="container">
-                                    <div class="section-header">
+                                <div class="container" style="margin-top:-44%;">
+                                    {{-- <div class="section-header"> --}}
                                         <div class="col-lg-5">
                                             <img width="100%" src="assets/images/slider/sideline.png"
                                                 alt="">
                                         </div>
                                         <div class="col-lg-2 text-left text-lg-center">
-                                            <h2>Testimoni</h2>
+                                            <center>
+                                                <strong><p style="color:black; font-size:20px;">Testimoni</p></strong>
+                                            </center>
                                         </div>
                                         <div class="col-lg-5 right">
                                             <img max-width="100%" src="assets/images/slider/sideline.png"
                                                 alt="">
                                         </div>
-                                    </div>
-                                    <!--/.section-header-->
+                                    {{-- </div> --}}
+                                </div>
+                            </div>
                             </section>
                         </div><!-- /.single-slide-item-->
                     </div><!-- /.item .active-->
@@ -291,13 +297,6 @@
                         <div class=" col-md-3 col-sm-6 col-xs-12">
                             <div class="container overflow-hidden text-center">
                                 <div class="row gx-5">
-
-                                    <head>
-                                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                                        <link rel="stylesheet" href="">
-                                    </head>
-
-                                    <body>
                                         <div class="card" style="margin-top: -20%;">
                                             <div class="container1">
                                                 <div class="box">
@@ -331,7 +330,7 @@
                                 </div>
                                 <div class="hm-foot-para">
                                     <p>
-                                        Users share their testimonials and<br />
+                                        Users share their testimonials and<br/>
                                         before-and-after images.
                                     </p>
                                 </div>
@@ -352,17 +351,7 @@
                     </div>
                 </div>
             </div>
-            <hr color="gold" class="garis">
-            <style>
-                .garis {
-                    border-left: 1px gold solid;
-                    background-image: linear-gradient(to right, #000000, #c7b565, hsl(50.6, 100%, 56.5%), #c7b565, #000000);
-                    height: 3px;
-                    width: 100%;
-                    margin-top: -20%;
-                }
-            </style>
-            </hr>
+            <hr color="gold" class="garis">  {{-- garis footer --}}
             <footer id="footer" class="footer">
                 <div class="container">
                     <div class="hm-footer-copyright text-center">
@@ -476,7 +465,7 @@
 
         <!--Custom JS-->
         <script src="assets/js/custom.js"></script>
-
+</div>
 </body>
 
 </html>

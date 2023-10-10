@@ -76,19 +76,59 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         <li class="nav-item">
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-bars"></i>
-                                <p>Controller
+                                <p>product & treatment
+                                    <i class="fas fa-angle-left right"></i>
+                                </p>
+                            </a>
+                            <!-- <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="/FaceTreatment" class="nav-link">
+                                        <i class="far fa-circle nac-icon"></i>
+                                        <p>face & facial treatment</p>
+                                    </a>
+                                </li>
+                            </ul> BELUM BISA UPLOAD-->
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="/special_offer" class="nav-link">
+                                        <i class="far fa-circle nac-icon"></i>
+                                        <p>Special Offer</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="/Skincare" class="nav-link">
+                                        <i class="far fa-circle nac-icon"></i>
+                                        <p>Skin care</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li> BELUM BISA UPLOAD -->
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fas fa-bars"></i>
+                                <p>Slider & Banner
                                     <i class="fas fa-angle-left right"></i>
                                 </p>
                             </a>
                             {{-- <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="/bupdate" class="nav-link">
+                                    <a href="/Artikel" class="nav-link">
                                         <i class="far fa-circle nac-icon"></i>
-                                        <p>B update</p>
+                                        <p>Artikel</p>
+                                    </a>
+                                </li>
+                            </ul> --}}
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="/artik" class="nav-link">
+                                        <i class="far fa-circle nac-icon"></i>
+                                        <p>Artikel</p>
                                     </a>
                                 </li>
                             </ul>
-                            <ul class="nav nav-treeview">
+                            {{-- <ul class="nav nav-treeview">
                                 <li class="nav-item">
                                     <a href="/Careers" class="nav-link">
                                         <i class="far fa-circle nac-icon"></i>
@@ -100,35 +140,19 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                 <li class="nav-item">
                                     <a href="/carousel" class="nav-link">
                                         <i class="far fa-circle nac-icon"></i>
-                                        <p>Sliders</p>
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="/skincare" class="nav-link">
-                                        <i class="far fa-circle nac-icon"></i>
-                                        <p>Skin care</p>
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="" class="nav-link">
-                                        <i class="far fa-circle nac-icon"></i>
-                                        <p>face treatment</p>
+                                        <p>Home</p>
                                     </a>
                                 </li>
                             </ul>
                             {{-- Perlu penyesuaian --}}
-                            {{-- <ul class="nav nav-treeview">
+                            <!-- <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="/story" class="nav-link">
+                                    <a href="/Story" class="nav-link">
                                         <i class="far fa-circle nac-icon"></i>
                                         <p>Story</p>
                                     </a>
                                 </li>
-                            </ul> --}}
+                            </ul> BELUM BISA UPLOAD -->
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
                                     <a href="/slimming" class="nav-link">
@@ -141,7 +165,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                 <li class="nav-item">
                                     <a href="/face" class="nav-link">
                                         <i class="far fa-circle nac-icon"></i>
-                                        <p>Face Body</p>
+                                        <p>Ultimate</p>
                                     </a>
                                 </li>
                             </ul>
@@ -150,14 +174,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                     <a href="/facial" class="nav-link">
                                         <i class="far fa-circle nac-icon"></i>
                                         <p>Facial</p>
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="/special_offer" class="nav-link">
-                                        <i class="far fa-circle nac-icon"></i>
-                                        <p>Special Offer</p>
                                     </a>
                                 </li>
                             </ul>
@@ -193,7 +209,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                 </p>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" style="background-color: red; border-radius: 7px;">
                             <a href="/logout" class="nav-link">
                                 <i class="nav-icon fas fa-arrow-left"></i>
                                 <p>

@@ -115,9 +115,7 @@
 				        </div>
 				        <!-- End Top Search -->
 
-				        <div class="container">            
-				            
-
+				        <div class="container">
 				            <!-- Start Header Navigation -->
 				            <div class="navbar-header">
 				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
@@ -134,7 +132,7 @@
 				            <!-- Collect the nav links, forms, and other content for toggling -->
 				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 				                <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
-								<li class="nav-item dropdown">
+									<li class="nav-item dropdown">
 										<a class="nav-link dropdown-toggle" href="{{ route('p-services-products') }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 											Services & Products
 											<span class="lnr lnr-chevron-down"></span>
@@ -154,7 +152,7 @@
 										</a>
 										<ul class="dropdown-menu">
 											<li><a class="dropdown-item" href="{{ route('p-bupdate') }}">B UPDATE</a></li>
-											<!--<li><a class="dropdown-item" href="p-blog">Blog</a></li>-->
+											<li><a class="dropdown-item" href="{{ route('p-blog') }}">Blog</a></li>
 											<li><a class="dropdown-item" href="{{ route('p-video') }}">Video</a></li>
 											<li><a class="dropdown-item" href="{{ route('p-faq') }}">Faq</a></li>
 										</ul>
@@ -168,33 +166,30 @@
 											<li><a class="dropdown-item" href="{{ route('p-Story') }}">Story</a></li>
 											<li><a class="dropdown-item" href="{{ route('p-location') }}">location</a></li>
 										</ul>
-										<li class=""><a href="{{ route('p-career') }}">Careers</a></li>
+									</li>
+									<li class=""><a href="{{ route('p-career') }}">Careers</a></li>
 				                </ul><!--/.nav -->
 				            </div><!-- /.navbar-collapse -->
 				        </div><!--/.container-->
-				    </nav><!--/nav-->
-				    <!-- End Navigation -->
+				    </nav><!--/nav--> <!-- End Navigation -->
 				</div><!--/.header-area-->
 			    <div class="clearfix"></div>
-
 			</div><!-- /.top-area-->
 			<!-- top-area End -->
 		</header>
-		
-		
-			</div><!--/.container--><br>
 
 		<!--footer start-->
 		<hr color="gold" class="garis">
 			<style>
 				.garis{
-				border-left: 1px gold solid;
-			    background-image: linear-gradient(to right, #000000, #c7b565, hsl(50.6,100%,56.5%), #c7b565, #000000);
-				height: 3px;
-				width: 100%;
+					margin-top: 1%;
+					border-left: 1px gold solid;
+					background-image: linear-gradient(to right, #000000, #c7b565, hsl(50.6,100%,56.5%), #c7b565, #000000);
+					height: 3px;
+					width: 100%;
 				}
 			</style>
-		</hr>
+
 		<footer id="footer"  class="footer">
 			<div class="container">
 				<div class="hm-footer-copyright text-center">
@@ -206,20 +201,20 @@
 					<p>
                         &copy;copyright. {{ date('Y') }} B Clinic Slimming.
                         All rights reserved.
-					</p><!--/p-->
+					</p>
 				</div><!--/.text-center-->
 			</div><!--/.container-->
 
 			<div class="fab-wrapper">
-			<input id="fabCheckbox" type="checkbox" class="fab-checkbox">
+				<input id="fabCheckbox" type="checkbox" class="fab-checkbox">
 				<label class="fab" for="fabCheckbox">
-				<span class="fab-dots fab-dots-1"></span>
-				<span class="fab-dots fab-dots-2"></span>
-				<span class="fab-dots fab-dots-3"></span>
+					<span class="fab-dots fab-dots-1"></span>
+					<span class="fab-dots fab-dots-2"></span>
+					<span class="fab-dots fab-dots-3"></span>
 				</label>
 				<div id="box" class="fab-wheel">
 					<ul>
-					<h4><a href="https://api.whatsapp.com/send/?phone=6281511351234&text&type=phone_number&app_absent=0">Kemang</a></h4>
+						<h4><a href="https://api.whatsapp.com/send/?phone=6281511351234&text&type=phone_number&app_absent=0">Kemang</a></h4>
 						<h4><a href="https://api.whatsapp.com/send/?phone=6281215152540&text&type=phone_number&app_absent=0">Surabaya</a></h4>
 						<h4><a href="https://api.whatsapp.com/send/?phone=6285838500000&text&type=phone_number&app_absent=0">Kelapa Gading</a></h4>
 						<h4><a href="https://api.whatsapp.com/send/?phone=62818834000&text&type=phone_number&app_absent=0">Bogor</a></h4>
@@ -240,7 +235,6 @@
 					</ul>
 				</div>
 			</div>
-			
         </footer><!--/.footer-->
 		<!--footer end-->
 		

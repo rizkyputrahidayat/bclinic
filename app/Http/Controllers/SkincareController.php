@@ -12,7 +12,8 @@ class SkincareController extends Controller
      */
     public function index()
     {
-        //
+        $Skincare = Skincare::get();
+        return view('Skincare.index', compact('Skincare'));
     }
 
     /**

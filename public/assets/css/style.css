@@ -104,12 +104,18 @@ html,body{height: 100%;}
 /* section-header */
 .section-header{
     margin-top: -90px;
-    position: relative;
+    position: auto;
     text-align: center;
 }
 .section-header h2{
-    font-size: 30px;
-    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-header a.btn {
+    flex: 1;
+    text-align: center;
+    margin: 0 5px; /* Adjust the margin to control spacing between buttons */
 }
 .section-header h2 span{text-transform: lowercase;}
 /* section-header */
@@ -436,7 +442,7 @@ ul.cart-list > li.total {
 
 /*welcome-hero-content*/
 .welcome-hero-img-slider{
-    padding-top: -30%;
+    padding-top: -20%;
     margin: -50px;
 }
 .single-welcome-hero{
@@ -509,35 +515,6 @@ ul.cart-list > li.total {
     border: 1px solid gold;
 }
 
-@media (max-width: 768px) {
-    .newsletter {
-      padding: 30px;
-    }
-  
-    .hm-footer-details .col-md-3 {
-      width: 100%;
-      margin-top: 20px;
-    }
-  
-    .hm-foot-title h4 {
-      font-size: 30px;
-      margin-top: auto;
-      margin-bottom: 20px;
-    }
-  
-    .hm-foot-para p {
-      font-size: 16px;
-      margin-bottom: 20px;
-    }
-    
-    .hm-foot-email {
-      margin-top: 20px;
-    }
-  
-    .foot-email-box .form-control {
-      padding: 15px;
-    }
-  }
 /*welcome-hero-content*/
 
 /* .carousel-indicators */
@@ -760,6 +737,33 @@ ul.cart-list > li.total {
 .sale.bg-1{background: #d8924c;}
 .sale.bg-2{background: #47d93c;}
 
+.mr-global-3{
+    margin-right: 2rem;
+}
+
+.ml-global-3{
+    margin-left: 2rem !important;
+}
+.ml-global-2{
+    margin-left: 1rem !important;
+}
+.mb-global{
+    margin-bottom: 3rem !important;
+}
+
+.margin-global {
+    margin: 1rem !important;
+}
+
+.df-global{
+    display: flex !important;
+}
+
+.box-scroll {
+    overflow-y: scroll;
+    height:400px;
+  }
+
 .new-arrival-cart {
     position: absolute;
     bottom: -14px;
@@ -978,6 +982,17 @@ span.feature-review {margin-left: 10px;}
 /*.single-blog*/
 
 /*-------------------------------------
+         garis footer
+--------------------------------------*/
+.garis {
+    border-left: 1px gold solid;
+    background-image: linear-gradient(to right, #000000, #c7b565, hsl(50.6, 100%, 56.5%), #c7b565, #000000);
+    height: 3px;
+    width: 100%;
+    margin-top: -20%;
+}
+
+/*-------------------------------------
         9. Clients
 --------------------------------------*/
 .clients {
@@ -996,11 +1011,11 @@ span.feature-review {margin-left: 10px;}
 
 .hm-footer-widget{margin-bottom: 30px;}
 .hm-foot-title h4 {
-    margin-top: 10%;
-    margin-left: -100px;
-    font-size: 40px;
+    margin-top: auto;
+    margin-left: -10px;
+    font-size: 30px;
     font-weight: 700;
-    margin-bottom: 45px;
+    margin-bottom: 5px;
 }
 .hm-foot-menu ul li a {
     color: #a09e9c;
@@ -1022,10 +1037,14 @@ span.feature-review {margin-left: 10px;}
     transform:translateX(10px);
 }
 .hm-foot-para p {
-    margin-left: -100px;
-    font-size: 18px;
+    margin-left: -50px;
+    font-size: 15px;
     text-transform: initial;
     margin-bottom: 25px;
+}
+
+.hm-footer-widget a {
+    margin-left: 35px;
 }
 
 /*hm-foot-email*/
@@ -1059,62 +1078,133 @@ span.feature-review {margin-left: 10px;}
     box-shadow:0 5px 15px rgba(0,0,0,.4);
 }
 
-/* CSS responsif */
-
 /* Mengatur padding pada newsletter section agar responsif */
 .newsletter {
     padding: 60px;
   }
-  
-  /* Mengatur margin pada title agar responsif */
-  .hm-foot-title h4 {
-    margin-left: 0;
-  }
-  
-  /* Mengatur margin pada paragraph agar responsif */
-  .hm-foot-para p {
-    margin-left: 0;
-  }
-  
+    
   /* Mengatur tampilan kotak email agar responsif */
   .foot-email-box .form-control {
     width: 100%;
   }
-
-  @media (min-width: 476px) {
+/*-------------------------------------
+        RESPONSIVE
+--------------------------------------*/
+  @media (max-width: 476px) {
     .newsletter {
         padding: 10px;
     }
 
     .hm-foot-title h4 {
-        margin-left: 0;
-        margin-top: -50%;
+        margin-left: 4%;
+        margin-top: 100%;
       }
 
       .hm-foot-para p {
-        margin-left: 0;
+        margin-left: 4%;
         margin-top: -7%;
+      }
+
+      .btn {
+        margin-left: 4%;
+      }
+      
+      .space{
+        margin-left: -60px;
+      }
+
+      .section-header{
+        margin-top:-10px;
+      }
+
+      .container11{
+        width: 100vh;
+      }
+
+      .container1{
+        margin-left: 50px;
+      }
+
+      .welcome-hero{
+        width: 100vh;
+      }
+
+      .welcome-hero-img-slider{
+        margin-top: -90%;
       }
  }
   /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+@media (max-width: 576px) {
     .newsletter {
         padding: 15px;
     }
 
     .hm-foot-title h4 {
-        margin-left: 0;
+        margin-left: 30%;
         margin-top: -45%;
       }
 
       .hm-foot-para p {
-        margin-left: 0;
+        margin-left: 30%;
         margin-top: -7%;
+      }
+
+      .btn {
+        margin-left: 30%;
+      }
+      
+ }
+
+ @media (max-width: 785px) {
+    .newsletter {
+        padding: 60px;
+      }
+    
+      .hm-foot-title h4 {
+        font-size: 30px;
+        margin-bottom: 30px;
+        margin-top: -45%;
+        margin-left: 140px;
+      }
+    
+      .hm-foot-para p {
+        font-size: 13px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+      } 
+
+      .space{
+        margin-top: 60px;
+        margin-left: -60px;
+      }
+
+      .feature{
+        margin-top: -30%;
+      }
+
+      .section-header{
+        margin-left: 20px;
+      }
+
+      .container11{
+        width: 100vh;
+      }
+
+      .container1{
+        margin-left: 50px;
+      }
+
+      .welcome-hero{
+        width: 100vh;
+      }
+
+      .welcome-hero-img-slider{
+        margin-top: -20%;
       }
  }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (max-width: 800px) { 
     .newsletter {
     padding: 30px;
   }
@@ -1122,17 +1212,102 @@ span.feature-review {margin-left: 10px;}
   .hm-foot-title h4 {
     font-size: 30px;
     margin-bottom: 30px;
-    margin-top: -15%;
+    margin-top: 30px;
+    margin-left: 30px;
   }
 
   .hm-foot-para p {
     font-size: 15px;
     margin-bottom: 20px;
+    margin-left: 10px;
   } 
+  
+  .space{
+    margin-top: -40%;
+  }
+
+  .feature{
+    margin-top: -20%;
+  }
+
+  .section-header{
+    margin-left: 20px;
+    margin-top: 70%;
+  }
+
+  .container11{
+    width: 100vh;
+    margin-top: -50%;
+  }
+
+  .container1{
+    margin-left: 50px;
+    width: 10%;
+  }
+
+  .welcome-hero{
+    width: 100vh;
+  }
+/* 
+  .welcome-hero-img-slider{
+    margin-top: -10%;
+    width: 100%;
+  } */
+
 }
 
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media (max-width: 900px) {
+    .newsletter {
+        padding: 60px;
+      }
+    
+      .hm-foot-title h4 {
+        font-size: 30px;
+        margin-bottom: 30px;
+        margin-top: -25%;
+        margin-left: 30px;
+      }
+    
+      .hm-foot-para p {
+        font-size: 13px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+      } 
+
+      .space{
+        margin-top: -40%;
+      }
+
+      .feature{
+        margin-top: 20%;
+      }
+
+      .section-header{
+        margin-left: 20px;
+        margin-top: -30%;
+      }
+
+      .container11{
+        width: 100vh;
+        margin-top: 40%;
+      }
+
+      .container1{
+        margin-left: 50px;
+        width: 10%;
+      }
+
+      .welcome-hero{
+        width: 100vh;
+      }
+
+      .welcome-hero-img-slider{
+        margin-top: -10%;
+        width: 100%;
+      }
+ }
+
+ @media (max-width: 1000px) {
     .newsletter {
         padding: 60px;
       }
@@ -1141,39 +1316,23 @@ span.feature-review {margin-left: 10px;}
         font-size: 30px;
         margin-bottom: 30px;
         margin-top: -15%;
+        margin-left: -25px;
       }
     
       .hm-foot-para p {
-        font-size: 15px;
+        font-size: 13px;
         margin-bottom: 20px;
+        margin-left: -50px;
       } 
- }
+      .hm-footer-widget a{
+        margin-left: 100px;
+      }
 
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1000px) {
-    .newsletter {
-        padding: 100px;
+      .space{
+        margin-top: 10%;
       }
     
-      .hm-foot-title h4 {
-        font-size: 30px;
-        margin-bottom: 30px;
-        margin-top: -5%;
-        margin-right: -90px;
-      }
-    
-      .hm-foot-para p {
-        font-size: 15px;
-        margin-bottom: 20px;
-      } 
  }
-
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1200px) {
-    
- }
-/*hm-foot-email*/
-
 
 /*-------------------------------------
         11. Footer
@@ -1242,6 +1401,86 @@ span.feature-review {margin-left: 10px;}
 /*-------------------------------------
 		13. Popup
 --------------------------------------*/
+/* .box {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+p {
+    font-size: 17px;
+    text-align: center; /* Menyederhanakan perataan teks */
+}
+.box a {
+    display: inline-block;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 3px;
+}
+.modal {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    z-index: 1042;
+    position: fixed;
+    margin-top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: all 0.4s;
+    visibility: hidden;
+    opacity: 0;
+    overflow-y: scroll;
+}
+.content {
+    position: relative; /* Ubah menjadi relatif agar memudahkan penempatan tombol tutup */
+    background: white;
+    max-width: 90%; /* Mengubah lebar maksimum modal untuk tampilan desktop */
+    padding: 1em 2em;
+    border-radius: 4px;
+    margin-top:0;
+}
+.modal:target {
+    visibility: visible;
+    opacity: 1;
+}
+.box-close {
+    position: absolute;
+    top: 10px; /* Ubah posisi dari atas untuk memberikan ruang bagi tombol tutup */
+    right: 10px; /* Ubah posisi dari kanan untuk memberikan ruang bagi tombol tutup */
+    color: #fe0606;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.custom-img {
+    max-width: 30%;
+    height: auto; /* Menghindari distorsi gambar */
+    float: left; /* Mengatur gambar untuk melayang di sebelah kiri teks */
+    margin-right: 10px; /* Menambahkan margin kanan agar ada jarak dengan teks */
+  }
+
+  .custom-img1 {
+    margin-top:15%;
+    max-width: 30%;
+    height: auto; /* Menghindari distorsi gambar */
+    float: right; /* Mengatur gambar untuk melayang di sebelah kiri teks */
+    margin-right: 10px; /* Menambahkan margin kanan agar ada jarak dengan teks */
+  }
+
+  .custom-img2 {
+    max-width: 30%;
+    height: auto; /* Menghindari distorsi gambar */
+    float: left; /* Mengatur gambar untuk melayang di sebelah kiri teks */
+    margin-right: 10px; /* Menambahkan margin kanan agar ada jarak dengan teks */
+  }
+
+  .custom-text {
+    font-size: 90%;
+  }
+
 .popup {
     width: 100%;
     height: 100%;
@@ -1265,7 +1504,6 @@ span.feature-review {margin-left: 10px;}
     text-align: center;
     opacity: 0;
     padding: 2rem;
-    overflow-y: auto;
 }
 
 .popup_img {
@@ -1308,6 +1546,7 @@ span.feature-review {margin-left: 10px;}
     transition: background-color 0.3s ease-in-out;
     margin-top: 15px;
     width: 100%;
+    margin-left:1%;
     border-radius: 9px;
 }
 .popup_btn:hover{
@@ -2983,7 +3222,7 @@ span.feature-review {margin-left: 10px;}
 
 .container1 {
     display: flex;
-    width: 100%;
+    width: 90%;
     padding: 4% 2%;
     box-sizing: border-box;
     height: 65%;
@@ -3004,8 +3243,6 @@ span.feature-review {margin-left: 10px;}
     object-fit: cover; 
     transition: .5s;
   }
-  
-  
   
   .box:hover { flex: 1 1 50%; }
   .box:hover > img {
@@ -3098,7 +3335,7 @@ span.feature-review {margin-left: 10px;}
   .fab-wrapper {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 30px;
   padding: 20px;
   z-index: 999;
   }
@@ -3349,7 +3586,7 @@ span.feature-review {margin-left: 10px;}
 /* end */
   @media (max-width: 576px) {
     .space {
-        margin-top: 53%;
+        margin-top: 280px;
     }
   }
 
@@ -3393,7 +3630,7 @@ span.feature-review {margin-left: 10px;}
 
   @media (max-width: 576px) {
     .space3 {
-        margin-top: -20%;
+        margin-top: 20%;
     }
   }
   
@@ -3415,4 +3652,41 @@ span.feature-review {margin-left: 10px;}
         justify-content: center;
     }
   }
+
+  /* Default styles for larger screens */
+
+/* Your existing CSS styles for larger screens go here */
+
+/* Media query for screens up to 480px (smartphones) */
+@media screen and (max-width: 480px) {
+    /* Reset or adjust styles for smartphones */
+
+    /* Example: Adjust font sizes for smartphones */
+    body {
+        font-size: 12px;
+    }
+
+    /* Example: Adjust header styles for smartphones */
+    .header-area {
+        padding: 8px;
+    }
+
+    /* Example: Make navigation items display vertically */
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    /* Example: Adjust button styles for smartphones */
+    .btn {
+        padding: 6px 12px;
+    }
+
+    /* Example: Hide certain elements on smartphones */
+    .hidden-on-smartphone {
+        display: none;
+    }
+
+    /* Adjust other styles as needed for smartphones */
+}
+
 /*========================Thank you=================*/

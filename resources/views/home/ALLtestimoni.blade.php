@@ -61,14 +61,11 @@
 	
 		<!--welcome-hero start -->
 		<header id="home" class="welcome-hero">
-
 			<div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-				
 
 				<!-- Features Section Begin -->
                 isi conten di sini
                 <!-- Features Section End -->
-
 
 			</div><!--/#header-carousel-->
 
@@ -77,7 +74,6 @@
 				<div class="header-area">
 					<!-- Start Navigation -->
 				    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
-
 				        <!-- Start Top Search -->
 				        <div class="top-search">
 				            <div class="container">
@@ -90,23 +86,20 @@
 				        </div>
 				        <!-- End Top Search -->
 
-				        <div class="container">            
-				           
-
+				        <div class="container">      
 				            <!-- Start Header Navigation -->
 				            <div class="navbar-header">
 				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 				                    <i class="fa fa-bars"></i>
 				                </button>
 								<div class="navbar-brand"><img src="assets/logo/B CLINIC NEW.png" alt="logo" width="300px" height="170px"></div>
-                                
 				            </div><!--/.navbar-header-->
 				            <!-- End Header Navigation -->
 
 				            <!-- Collect the nav links, forms, and other content for toggling -->
 				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 				                <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
-								<li class="nav-item dropdown">
+									<li class="nav-item dropdown">
 										<a class="nav-link dropdown-toggle" href="{{ route('p-services-products') }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 											Services & Products
 											<span class="lnr lnr-chevron-down"></span>
@@ -126,7 +119,7 @@
 										</a>
 										<ul class="dropdown-menu">
 											<li><a class="dropdown-item" href="{{ route('p-bupdate') }}">B UPDATE</a></li>
-											<!--<li><a class="dropdown-item" href="p-blog">Blog</a></li>-->
+											<li><a class="dropdown-item" href="{{ route('p-blog') }}">Blog</a></li>
 											<li><a class="dropdown-item" href="{{ route('p-video') }}">Video</a></li>
 											<li><a class="dropdown-item" href="{{ route('p-faq') }}">Faq</a></li>
 										</ul>
@@ -140,21 +133,17 @@
 											<li><a class="dropdown-item" href="p-story">Story</a></li> <!--belum bisa route-->
 											<li><a class="dropdown-item" href="{{ route('p-location') }}">location</a></li>
 										</ul>
-										<li class=""><a href="p-career">Careers</a></li> <!--belum bisa route-->
+									</li>
+									<li class=""><a href="p-career">Careers</a></li> <!--belum bisa route-->
 				                </ul><!--/.nav -->
 				            </div><!-- /.navbar-collapse -->
 				        </div><!--/.container-->
-				    </nav><!--/nav-->
-				    <!-- End Navigation -->
+				    </nav><!--/nav--> <!-- End Navigation -->
 				</div><!--/.header-area-->
 			    <div class="clearfix"></div>
-
 			</div><!-- /.top-area-->
 			<!-- top-area End -->
 		</header>
-		
-		
-			</div><!--/.container--><br>
 
 		<!--footer start-->
 		<hr color="gold" class="garis">
@@ -186,9 +175,7 @@
 				<div class="return-to-top">
 					<i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
 				</div>
-				
 			</div><!--/.scroll-Top-->
-			
         </footer><!--/.footer-->
 		<!--footer end-->
 		

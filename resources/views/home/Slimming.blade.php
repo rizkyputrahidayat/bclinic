@@ -219,7 +219,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="{{ route('p-bupdate') }}">B UPDATE</a></li>
-                                        <!--<li><a class="dropdown-item" href="p-blog">Blog</a></li>-->
+                                        <li><a class="dropdown-item" href="{{ route('p-blog') }}">Blog</a></li>
                                         <li><a class="dropdown-item" href="{{ route('p-video') }}">Video</a></li>
                                         <li><a class="dropdown-item" href="{{ route('p-faq') }}">Faq</a></li>
                                     </ul>
@@ -463,7 +463,7 @@
                 <div class="popup4" id="popup4">
                     <div class="popup4_content">
                         <div class="popup4_img">
-                            <br><img src="\assets\images\blog\Bglowing.jpg" alt="meja">
+                            <br><img src="\assets\images\blog\Artboard 6.jpg" alt="meja">
                         </div><br><br><br><br>
                         <div class="popup4_header">
                             <h1>Cool Plus</h1>

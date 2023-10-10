@@ -109,7 +109,7 @@
                 <div class="card">
                 <img src="assets/images/populer-products/BC-Skin-Acne-Facial-Wash.jpg">
                 <center>
-                <h2><a href="{{ route('p-slimming') }}"><strong>Acne facial wash</strong></a></h2>
+                <h2><a href="#"><strong>Acne facial wash</strong></a></h2>
                 </center>
                 </div>
             </div>
@@ -117,7 +117,7 @@
                 <div class="card">
                 <img src="assets/images/populer-products/BC-Skin-Acne-Serum.jpg">
                 <center>
-                <h2><a href="{{ route('p-facebody') }}"><strong>Acne Serum</strong></a></h2>
+                <h2><a href="#"><strong>Acne Serum</strong></a></h2>
                 </center>
                 </div>
             </div>
@@ -125,7 +125,7 @@
                 <div class="card">
                 <img src="assets/images/populer-products/BC-Skin-Acne-Spot-Lotion.jpg">
                 <center>
-                <h2><a href="{{ route('p-facial') }}"><strong>Acne spot lotion</strong></a></h2>
+                <h2><a href="#"><strong>Acne spot lotion</strong></a></h2>
                 </center>
                 </div>
             </div>
@@ -133,7 +133,7 @@
                 <div class="card">
                 <img src="assets/images/populer-products/BC-Skin-Acne-Toner-Spray.jpg">
                 <center>
-                <h2><a href="{{ route('p-skincare') }}"><strong>Acne toner spray</strong></a></h2>
+                <h2><a href="#"><strong>Acne toner spray</strong></a></h2>
                 </center>
                 </div>
             </div>
@@ -141,7 +141,7 @@
                 <div class="card">
                 <img src="assets/images/populer-products/BC-Skin-AHA-BHA-Body-Serum.jpg">
                 <center>
-                <h2><a href="{{ route('p-slimming') }}"><strong>AHA BHA body serum</strong></a></h2>
+                <h2><a href="#"><strong>AHA BHA body serum</strong></a></h2>
                 </center>
                 </div>
             </div>
@@ -149,7 +149,7 @@
                 <div class="card">
                 <img src="assets/images/populer-products/BC-Skin-Anti-Aging-Serum.jpg">
                 <center>
-                <h2><a href="{{ route('p-facebody') }}"><strong>Anti aging serum</strong></a></h2>
+                <h2><a href="#"><strong>Anti aging serum</strong></a></h2>
                 </center>
                 </div>
             </div>
@@ -157,7 +157,7 @@
                 <div class="card">
                 <img src="assets/images/populer-products/BC-Skin-Blueberry-Mask.jpg">
                 <center>
-                <h2><a href="{{ route('p-facial') }}"><strong>Bluberry mask</strong></a></h2>
+                <h2><a href="#"><strong>Bluberry mask</strong></a></h2>
                 </center>
                 </div>
             </div>
@@ -165,7 +165,7 @@
                 <div class="card">
                 <img src="assets/images/populer-products/BC-Skin-Body-Serum-Lotion.jpg">
                 <center>
-                <h2><a href="{{ route('p-skincare') }}"><strong>Body serum lotion</strong></a></h2>
+                <h2><a href="#"><strong>Body serum lotion</strong></a></h2>
                 </center>
                 </div>
             </div>
@@ -173,7 +173,7 @@
                 <div class="card">
                 <img src="assets/images/populer-products/BC-Skin-Bright-Facial-Wash.jpg">
                 <center>
-                <h2><a href="{{ route('p-slimming') }}"><strong>Bright facial wash</strong></a></h2>
+                <h2><a href="#"><strong>Bright facial wash</strong></a></h2>
                 </center>
                 </div>
             </div>
@@ -181,7 +181,7 @@
                 <div class="card">
                 <img src="assets/images/populer-products/BC-Skin-Bright-Serum.jpg">
                 <center>
-                <h2><a href="{{ route('p-facebody') }}"><strong>Bright serum</strong></a></h2>
+                <h2><a href="#"><strong>Bright serum</strong></a></h2>
                 </center>
                 </div>
             </div>
@@ -189,7 +189,7 @@
                 <div class="card">
                 <img src="assets/images/populer-products/BC-Skin-Bright-Spray-Toner.jpg">
                 <center>
-                <h2><a href="{{ route('p-facial') }}"><strong>Bright toner spray</strong></a></h2>
+                <h2><a href="#"><strong>Bright toner spray</strong></a></h2>
                 </center>
                 </div>
             </div>
@@ -197,7 +197,7 @@
                 <div class="card">
                 <img src="assets/images/populer-products/BC-Skin-Glowing-Diamond-Essence.jpg">
                 <center>
-                <h2><a href="{{ route('p-skincare') }}"><strong>Glowing diamond essence</strong></a></h2>
+                <h2><a href="#"><strong>Glowing diamond essence</strong></a></h2>
                 </center>
                 </div>
             </div>
@@ -205,7 +205,7 @@
                 <div class="card">
                 <img src="assets/images/populer-products/BC-Skin-Glowing-Diamond-eye-gel.jpg">
                 <center>
-                <h2><a href="{{ route('p-slimming') }}"><strong>Glowing diamond eye gel</strong></a></h2>
+                <h2><a href="#"><strong>Glowing diamond eye gel</strong></a></h2>
                 </center>
                 </div>
             </div>
@@ -213,7 +213,7 @@
                 <div class="card">
                 <img src="assets/images/populer-products/BC-Skin-Glowing-Diamond-Facial-Wash-Gel.jpg">
                 <center>
-                <h2><a href="{{ route('p-facebody') }}"><strong>Glowing diamond facial wash gel</strong></a></h2>
+                <h2><a href="#"><strong>Glowing diamond facial wash gel</strong></a></h2>
                 </center>
                 </div>
             </div>
@@ -221,7 +221,7 @@
                 <div class="card">
                 <img src="assets/images/populer-products/BC-Skin-Kojic-Milk-Scrub.jpg">
                 <center>
-                <h2><a href="{{ route('p-facial') }}"><strong>Kojic milk scrub</strong></a></h2>
+                <h2><a href="#"><strong>Kojic milk scrub</strong></a></h2>
                 </center>
                 </div>
             </div>
@@ -229,7 +229,7 @@
                 <div class="card">
                 <img src="assets/images/populer-products/BC-Skin-Lash-Serum.jpg">
                 <center>
-                <h2><a href="{{ route('p-skincare') }}"><strong>Lash serum</strong></a></h2>
+                <h2><a href="#"><strong>Lash serum</strong></a></h2>
                 </center>
                 </div>
             </div>
@@ -237,7 +237,7 @@
                 <div class="card">
                 <img src="assets/images/populer-products/BC-Skin-Lip-Serum.jpg">
                 <center>
-                <h2><a href="{{ route('p-slimming') }}"><strong>Lip serum</strong></a></h2>
+                <h2><a href="#"><strong>Lip serum</strong></a></h2>
                 </center>
                 </div>
             </div>
@@ -245,7 +245,7 @@
                 <div class="card">
                 <img src="assets/images/populer-products/BC-Skin-Rose-petal-mask.jpg">
                 <center>
-                <h2><a href="{{ route('p-facebody') }}"><strong>Rose petal</strong></a></h2>
+                <h2><a href="#"><strong>Rose petal</strong></a></h2>
                 </center>
                 </div>
             </div>
@@ -253,7 +253,7 @@
                 <div class="card">
                 <img src="assets/images/populer-products/BC-Skin-Salmon-DNA-Serum.jpg">
                 <center>
-                <h2><a href="{{ route('p-facial') }}"><strong>Salmon DNA Serum</strong></a></h2>
+                <h2><a href="#"><strong>Salmon DNA Serum</strong></a></h2>
                 </center>
                 </div>
             </div>
@@ -380,7 +380,7 @@
 										</a>
 										<ul class="dropdown-menu">
 											<li><a class="dropdown-item" href="{{ route('p-bupdate') }}">B UPDATE</a></li>
-											<!--<li><a class="dropdown-item" href="p-blog">Blog</a></li>-->
+											<li><a class="dropdown-item" href="{{ route('p-blog') }}">Blog</a></li>
 											<li><a class="dropdown-item" href="{{ route('p-video') }}">Video</a></li>
 											<li><a class="dropdown-item" href="{{ route('p-faq') }}">Faq</a></li>
 										</ul>

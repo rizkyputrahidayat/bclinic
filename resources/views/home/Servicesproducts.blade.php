@@ -46,7 +46,7 @@
 
 <body>
     <header id="home" class="welcome-hero">
-        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+    <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
             @php
                 $i = 0;
             @endphp
@@ -143,7 +143,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="{{ route('p-bupdate') }}">B UPDATE</a></li>
-                                        <!--<li><a class="dropdown-item" href="p-blog">Blog</a></li>-->
+                                        <li><a class="dropdown-item" href="{{ route('p-blog') }}">Blog</a></li>
                                         <li><a class="dropdown-item" href="{{ route('p-video') }}">Video</a></li>
                                         <li><a class="dropdown-item" href="{{ route('p-faq') }}">Faq</a></li>
                                     </ul>

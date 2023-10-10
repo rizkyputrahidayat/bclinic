@@ -11,10 +11,14 @@ use App\Http\Controllers\CarouselController;
 use App\Http\Controllers\SlimmingController;
 use App\Http\Controllers\FaceController;
 use App\Http\Controllers\FacialController;
+use App\Http\Controllers\ArtikController;
 use App\Http\Controllers\BupdateController;
 use App\Http\Controllers\CareersController;
 use App\Http\Controllers\DokterController;
 use App\Http\Controllers\SpecialOfferController;
+use App\Http\Controllers\SkincareController;
+use App\Http\Controllers\FaceTreatmentController;
+use App\Http\Controllers\BlogController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -47,7 +51,7 @@ Route::get('/p-bupdate', [HomeController::class, 'Bupdate'])->name('p-bupdate');
 Route::get('/p-video', [HomeController::class, 'Video'])->name('p-video');
 Route::get('/p-services-products', [HomeController::class, 'Servicesproducts'])->name('p-services-products');
 Route::get('/p-skincare', [HomeController::class, 'Skincare'])->name('p-skincare');
-Route::get('/p-alltestimonial', [HomeController::class, 'ALLtestimoni']); // belum ada fitur
+Route::get('/p-alltestimoni', [HomeController::class, 'ALLtestimoni']); // belum ada fitur
 Route::get('/p-our-expert', [HomeController::class, 'OurExpert']); // belum ada fitur
 
 // Auth
@@ -60,14 +64,19 @@ Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('aut
 Route::get('/testimonials', [TestimonialsController::class, 'index'])->name('testimonials.store');
 Route::get('/bupdate', [BupdateController::class, 'index'])->name('bupdate.store');
 Route::get('/Careers', [CareersController::class, 'index'])->name('Careers.store');
+Route::get('/Artikel', [ArtikelController::class, 'index'])->name('Artikel.store');
 
 Route::resource('carousel', CarouselController::class);
 Route::resource('slimming', SlimmingController::class);
 Route::resource('face', FaceController::class);
+Route::resource('artik', ArtikController::class);
 Route::resource('facial', FacialController::class);
 Route::resource('dokter', DokterController::class);
 Route::resource('special_offer', SpecialOfferController::class);
-Route::resource('skincare', SkincareController::class);
+Route::resource('Skincare', SkincareController::class);
+Route::resource('FaceTreatment', FaceTreatmentController::class);
+Route::resource('Story', StoryController::class);
+Route::resource('Blog', BlogController::class);
 
 // Route::get('gambar-slider/{nama_file}', function ($nama_file) {
 //     $path = storage_path('app/public/images/slider/' . $nama_file);

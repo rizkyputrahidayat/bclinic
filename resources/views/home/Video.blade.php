@@ -145,7 +145,7 @@
 										</a>
 										<ul class="dropdown-menu">
 											<li><a class="dropdown-item" href="{{ route('p-bupdate') }}">B UPDATE</a></li>
-											<!--<li><a class="dropdown-item" href="p-blog">Blog</a></li>-->
+											<li><a class="dropdown-item" href="{{ route('p-blog') }}">Blog</a></li>
 											<li><a class="dropdown-item" href="{{ route('p-video') }}">Video</a></li>
 											<li><a class="dropdown-item" href="{{ route('p-faq') }}">Faq</a></li>
 										</ul>
