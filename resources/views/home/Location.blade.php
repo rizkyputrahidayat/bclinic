@@ -53,51 +53,31 @@
     </head>
 	
 	<body>
-		<!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-		
-		
-	
 		<!--welcome-hero start -->
-		<header id="home" class="welcome-hero">
+		<header id="home">
+            <br><br><br><br><br><br><div class="container">
+                {{-- <div class="welcome-hero-content"> --}}
+                    <div class="row">
+                        <img src="assets/images/slider/3.png">
+                    </div><!-- /.row-->
+                {{-- </div> --}}
+            </div><!-- /.container-->
 
-			<div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-                <div class="item active">
-                    <div class="single-slide-item slide1">
-                        <div class="container">
-                            <div class="welcome-hero-content">
-                                <div class="container10">
-                                    <div class="row">
-                                        <div class="single-welcome-hero">
-                                            <div class="welcome-hero-img-slider">
-                                            <img src="assets/images/slider/3.png">
-                                            </div><!--/.welcome-hero-txt-->
-                                        </div><!--/.single-welcome-hero-->
-                                    </div><!--/.row-->
-                                </div>
-                            </div><!--/.welcome-hero-content-->
-                        </div><!-- /.container-->
-                    </div><!-- /.single-slide-item-->
-                </div><!-- /.item .active-->
-			</div><!--/header-carousel-->
-                    <section id="feature" class="feature">
-                        <div class="jarak">
-                            <div class="container">
-                                <div class="col-lg-5">
-                                    <img max-width="100%" src="assets/images/slider/sideline.png" alt="">
-                                </div>
-                                <div class="col-lg-2 text-left text-lg-center">
-                                    <center>
-                                        <h1 style="font-size: 30px; color:black;">Location</h1>
-                                    </center>
-                                </div>
-                                <div class="col-lg-5 right">
-                                    <img max-width="100%" src="assets/images/slider/sideline.png" alt="">
-                                </div>
-                            </div><!--/.section-header-->
-                        </div>
-                    </section><!-- Features Section Begin -->
+                    <br><br><section id="feature2" class="feature2">
+                        {{-- <div class="container" > --}}
+                            <div class="col-lg-5">
+                                <img width="100%" src="assets/images/slider/sideline.png">
+                            </div>
+                            <div class="col-lg-2 text-left text-lg-center">
+                                <center>
+                                    <strong><p style="color:black; font-size:20px;">Location</p></strong>
+                                </center>
+                            </div>
+                            <div class="col-lg-5 right">
+                                <img width="100%" src="assets/images/slider/sideline.png">
+                            </div>
+                        {{-- </div> --}}
+                    </section>
 
                     <style>
                         .jarak {
@@ -127,7 +107,7 @@
 
                     </style>
             
-            <section class="features-section" style="margin-top:-10%;">
+            <section class="features-section">
                 <!-- Page Add Section Begin -->
                 <section class="page-add">
                     <div class="container">
@@ -483,9 +463,7 @@
 				        </div>
 				        <!-- End Top Search -->
 
-				        <div class="container">            
-				           
-
+				        <div class="container">     
 				            <!-- Start Header Navigation -->
 				            <div class="navbar-header">
 				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
@@ -496,7 +474,7 @@
                                         <img src="assets/logo/B CLINIC NEW.png" alt="logo" width="300px" height="170px">
                                     </div>
                                 </a>
-				            </div><!--/.navbar-header-->
+				            </div>
 				            <!-- End Header Navigation -->
 
 				            <!-- Collect the nav links, forms, and other content for toggling -->
@@ -540,16 +518,13 @@
 				                </ul><!--/.nav -->
 				            </div><!-- /.navbar-collapse -->
 				        </div><!--/.container-->
-				    </nav><!--/nav-->
-				    <!-- End Navigation -->
+				    </nav><!--/nav--><!-- End Navigation -->
 				</div><!--/.header-area-->
-			    <div class="clearfix"></div>
-			</div><!-- /.top-area-->
-			<!-- top-area End -->
-		</header>
+			</div><!-- /.top-area--><!-- top-area End -->
+		</header><br>
 		
 		<!--footer start-->
-        <hr color="gold" class="garis">
+        <br><br><hr color="gold" class="garis">
 			<style>
 				.garis{
 				border-left: 1px gold solid;
@@ -582,7 +557,7 @@
 				</label>
 				<div id="box" class="fab-wheel">
 					<ul>
-                    <h4><a href="https://api.whatsapp.com/send/?phone=6281511351234&text&type=phone_number&app_absent=0">Kemang</a></h4>
+                        <h4><a href="https://api.whatsapp.com/send/?phone=6281511351234&text&type=phone_number&app_absent=0">Kemang</a></h4>
 						<h4><a href="https://api.whatsapp.com/send/?phone=6281215152540&text&type=phone_number&app_absent=0">Surabaya</a></h4>
 						<h4><a href="https://api.whatsapp.com/send/?phone=6285838500000&text&type=phone_number&app_absent=0">Kelapa Gading</a></h4>
 						<h4><a href="https://api.whatsapp.com/send/?phone=62818834000&text&type=phone_number&app_absent=0">Bogor</a></h4>
@@ -631,5 +606,4 @@
         <script src="assets/js/custom.js"></script>
         
     </body>
-	
 </html>

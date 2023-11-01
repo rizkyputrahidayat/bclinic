@@ -49,1040 +49,999 @@
 			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
-<style>
-@media screen and (max-width: 800px) {
-  .container10 {
-    width: 100%;
-  }
-}
-</style>
+
     </head>
 	
 	<body>
-		<!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-		
-		
-	
 		<!--welcome-hero start -->
-		<header id="home" class="welcome-hero">
-            
-		<div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-            <div class="item active">
-				<div class="single-slide-item slide1">
-					<div class="container">
-						<div class="welcome-hero-content">
-                            <div class="container10">
-							    <div class="row">
-								    <div class="single-welcome-hero">
-									    <div class="welcome-hero-img-slider">
-								    	<img src="assets/images/slider/desain-story.jpg"  width="100%" height="500px">
-									    </div><!--/.welcome-hero-txt-->
-								    </div><!--/.single-welcome-hero-->
-							    </div><!--/.row-->
+		<header id="home">            
+            <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div style="margin-top: 170px;">
+                        <div class="welcome-hero-img-slider">
+                            <div class="container">
+                                <div class="row">
+                                    <img src="assets/images/slider/desain-story.jpg"  width="100%" height="500px">
+                                </div><!--/.row-->
                             </div>
-						</div><!--/.welcome-hero-content-->
-					</div><!-- /.container-->
-				</div><!-- /.single-slide-item-->
-			</div><!-- /.item .active-->
-
-            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-            <script>
-            $(document).ready(function() {
-                $('.slider').slick({
-                autoplay: true,
-                autoplaySpeed: 2000,
-                dots: true,
-                arrows: false
-                });
-            });
-            </script>
-<section class="page-add">
-  <div class="container">
-    <div class="content1">
-    <button class="accordion">
-    <div class="header1">
-        Kemang
-    </div>
-</button>
-    <div class="panel">
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>        
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" style=”float:left;” class="rounded float start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-    </div>
-
-<button class="accordion">
-    <div class="header1">
-        Kelapa Gading
-    </div>
-</button>
-    <div class="panel">
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>        
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" style=”float:left;” class="rounded float start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-    </div>
-
-<button class="accordion">
-    <div class="header1">
-        Bogor
-    </div>
-</button>
-    <div class="panel">
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>        
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" style=”float:left;” class="rounded float start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-    </div>
-
-<button class="accordion">
-    <div class="header1">
-        Bekasi
-    </div>
-</button>
-    <div class="panel">
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>        
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" style=”float:left;” class="rounded float start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-    </div>
-
-<button class="accordion">
-    <div class="header1">
-        Depok
-    </div>
-</button>
-    <div class="panel">
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>        
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" style=”float:left;” class="rounded float start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-    </div>
-
-<button class="accordion">
-    <div class="header1">
-        South City
-    </div>
-</button>
-    <div class="panel">
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>        
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" style=”float:left;” class="rounded float start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-    </div>
-
-<button class="accordion">
-    <div class="header1">
-        Bintaro
-    </div>
-</button>
-    <div class="panel">
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>        
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" style=”float:left;” class="rounded float start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-    </div>
-
-<button class="accordion">
-    <div class="header1">
-        BSD
-    </div>
-</button>
-    <div class="panel">
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>        
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" style=”float:left;” class="rounded float start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-    </div>
-
-<button class="accordion">
-    <div class="header1">
-        Gading Serpong
-    </div>
-</button>
-    <div class="panel">
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>        
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" style=”float:left;” class="rounded float start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-    </div>
-
-<button class="accordion">
-    <div class="header1">
-        Bandung
-    </div>
-</button>
-    <div class="panel">
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>        
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" style=”float:left;” class="rounded float start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-    </div>
-
-<button class="accordion">
-    <div class="header1">
-        Puri
-    </div>
-</button>
-    <div class="panel">
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>        
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" style=”float:left;” class="rounded float start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-    </div>
-
-<button class="accordion">
-    <div class="header1">
-        Kudus
-    </div>
-</button>
-    <div class="panel">
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>        
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" style=”float:left;” class="rounded float start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-    </div>
-
-<button class="accordion">
-    <div class="header1">
-        Cibubur
-    </div>
-</button>
-    <div class="panel">
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>        
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" style=”float:left;” class="rounded float start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-    </div>
-
-<button class="accordion">
-    <div class="header1">
-        Karawang
-    </div>
-</button>
-    <div class="panel">
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>        
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" style=”float:left;” class="rounded float start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-    </div>
-
-<button class="accordion">
-    <div class="header1">
-        Surabaya 
-    </div>
-</button>
-    <div class="panel">
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>        
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" style=”float:left;” class="rounded float start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-    </div>
-
-    <button class="accordion">
-    <div class="header1">
-        Pondok Indah 
-    </div>
-</button>
-    <div class="panel">
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>        
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" style=”float:left;” class="rounded float start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-    </div>
-    <button class="accordion">
-    <div class="header1">
-        Pontianak
-    </div>
-</button>
-    <div class="panel">
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>        
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" style=”float:left;” class="rounded float start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-    </div>
-
-<button class="accordion">
-    <div class="header1">
-        PIK
-    </div>
-</button>
-    <div class="panel">
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>        
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" style=”float:left;” class="rounded float start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <img src="assets\logo\testimoni-1.jpg" class="rounded float-start" alt="img">
-            <div class="text">
-                <h1>Anjasmara</h1><br>
-                <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
-                <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
-            </div>
-        </div>
-    </div>
-
-<script>
-    var acc = document.getElementsByClassName("accordion");
-    var i;
-
-    for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-        panel.style.display = "none";
-        } else {
-        panel.style.display = "block";
-        }
-    });
-    }
-</script>
-  </div>
-</section><br>
-<!-- Page Add Section End -->
-<section id="feature" class="feature">
-			<div class="container">
-				<div class="section-header">
-					<h2>
-						<a href="https://instagram.com/bclinicslimming?igshid=YmMyMTA2M2Y=" class="btn btn-warning" role="button" data-bs-toggle="button"><span>
-						<img src="assets/images/slider/ig-image.png"  style="width: 30px;"> Follow us on Instagram
-						</a>
-						<a href="https://www.tiktok.com/@bclinic.slimming?_t=8XQCRmVXm2U&_r=1" class="btn btn-warning" role="button" data-bs-toggle="button">
-						<img src="assets/images/slider/tiktok-image.png"  style="width: 30px"> Follow us on tiktok
-						</a>
-					</h2>
-				</div><!--/.section-header-->
-		</section>
-    </section>
-    <!-- Features Section End -->
-
-			</div><!--/#header-carousel-->
-
-			<!-- top-area Start -->
-			<div class="top-area">
-				<div class="header-area">
-					<!-- Start Navigation -->
-				    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
-
-				        <!-- Start Top Search -->
-				        <div class="top-search">
-				            <div class="container">
-				                <div class="input-group">
-				                    <span class="input-group-addon"><i class="fa fa-search"></i></span>
-				                    <input type="text" class="form-control" placeholder="Search">
-				                    <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
-				                </div>
-				            </div>
-				        </div>
-				        <!-- End Top Search -->
-
-				        <div class="container">            
-				           
-
-				            <!-- Start Header Navigation -->
-				            <div class="navbar-header">
-				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-				                    <i class="fa fa-bars"></i>
-				                </button>
-								<a href="{{ route('ABOUT') }}">
-                                    <div class="navbar-brand">
-                                        <img src="assets/logo/B CLINIC NEW.png" alt="logo" width="300px" height="170px">
+                        </div><!-- /.container-->
+                    </div><!-- /.single-slide-item-->
+                </div><!-- /.item .active-->
+                <!-- Page Add Section End -->
+                <!-- Features Section End -->
+            </div><!--/#header-carousel--><br>
+                
+                <!-- top-area Start -->
+                <div class="top-area">
+                    <div class="header-area">
+                        <!-- Start Navigation -->
+                        <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+                            <!-- Start Top Search -->
+                            <div class="top-search">
+                                <div class="container">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                                        <input type="text" class="form-control" placeholder="Search">
+                                        <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
                                     </div>
-                                </a>
-				            </div><!--/.navbar-header-->
-				            <!-- End Header Navigation -->
+                                </div>
+                            </div>
+                            <!-- End Top Search -->
 
-				            <!-- Collect the nav links, forms, and other content for toggling -->
-				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-				                <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
-								<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="{{ route('p-services-products') }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-											Services & Products
-											<span class="lnr lnr-chevron-down"></span>
-										</a>
-										<ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="{{ route('p-facial') }}">Facial & Face Treatments</a></li>
-                                            <li><a class="dropdown-item" href="{{ route('p-facebody') }}">Ultimate Treatments</a></li>
-                                            <li><a class="dropdown-item" href="{{ route('p-slimming') }}">Slimmimg Treatments</a></li>
-                                            <li><a class="dropdown-item" href="{{ route('p-skincare') }}">Skin Care Products</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class=""><a href="{{ route('p-special-offer') }}">Special Offer</a></li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            News
-                                            <span class="lnr lnr-chevron-down"></span>
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="{{ route('p-bupdate') }}">B UPDATE</a></li>
-                                            <li><a class="dropdown-item" href="{{ route('p-blog') }}">Blog</a></li>
-                                            <li><a class="dropdown-item" href="{{ route('p-video') }}">Video</a></li>
-                                            <li><a class="dropdown-item" href="{{ route('p-faq') }}">Faq</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            About us
-                                            <span class="lnr lnr-chevron-down"></span>
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="{{ route('p-Story') }}">Story</a></li>
-                                            <li><a class="dropdown-item" href="{{ route('p-location') }}">location</a></li>
-                                        </ul>
-                                    <li class=""><a href="{{ route('p-career') }}">Careers</a></li>
-                                </ul><!--/.nav -->
-				            </div><!-- /.navbar-collapse -->
-				        </div><!--/.container-->
-				    </nav><!--/nav-->
-				    <!-- End Navigation -->
-				</div><!--/.header-area-->
-			    <div class="clearfix"></div>
+                            <div class="container">            
+                                <!-- Start Header Navigation -->
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                                        <i class="fa fa-bars"></i>
+                                    </button>
+                                    <a href="{{ route('ABOUT') }}">
+                                        <div class="navbar-brand">
+                                            <img src="assets/logo/B CLINIC NEW.png" alt="logo" width="300px" height="170px">
+                                        </div>
+                                    </a>
+                                </div><!--/.navbar-header-->
+                                <!-- End Header Navigation -->
 
-			</div><!-- /.top-area-->
-			<!-- top-area End -->
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+                                    <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="{{ route('p-services-products') }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Services & Products
+                                                <span class="lnr lnr-chevron-down"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="{{ route('p-facial') }}">Facial & Face Treatments</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('p-facebody') }}">Ultimate Treatments</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('p-slimming') }}">Slimmimg Treatments</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('p-skincare') }}">Skin Care Products</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class=""><a href="{{ route('p-special-offer') }}">Special Offer</a></li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                News
+                                                <span class="lnr lnr-chevron-down"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="{{ route('p-bupdate') }}">B UPDATE</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('p-blog') }}">Blog</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('p-video') }}">Video</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('p-faq') }}">Faq</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                About us
+                                                <span class="lnr lnr-chevron-down"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="{{ route('p-Story') }}">Story</a></li>
+                                                <li><a class="dropdown-item" href="{{ route('p-location') }}">location</a></li>
+                                            </ul>
+                                        <li class=""><a href="{{ route('p-career') }}">Careers</a></li>
+                                    </ul><!--/.nav -->
+                                </div><!-- /.navbar-collapse -->
+                            </div><!--/.container-->
+                        </nav><!--/nav-->
+                        <!-- End Navigation -->
+                    </div><!--/.header-area-->
+                </div><!-- /.top-area-->
+                <!-- top-area End -->
 		</header>
-		
-		
-			</div><!--/.container--><br>
+
+        <section class="page-add">
+            <div class="container">
+                <div class="content1">
+                    <button class="accordion">
+                        <div class="header1">
+                            Kemang
+                        </div>
+                    </button>
+                        <div class="panel">
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>        
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" style=”float:left;” class="rounded float start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                    <button class="accordion">
+                        <div class="header1">
+                            Kelapa Gading
+                        </div>
+                    </button>
+                        <div class="panel">
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>        
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" style=”float:left;” class="rounded float start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                    <button class="accordion">
+                        <div class="header1">
+                            Bogor
+                        </div>
+                    </button>
+                        <div class="panel">
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>        
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" style=”float:left;” class="rounded float start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                    <button class="accordion">
+                        <div class="header1">
+                            Bekasi
+                        </div>
+                    </button>
+                        <div class="panel">
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\IMG_0405.png" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1>DR YULI</h1><br>
+                                    <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
+                                </div>        
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\IMG_0420.png" style=”float:left;” class="rounded float start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1>DR PRITHA</h1><br>
+                                    <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\dr Lizbeth Sylvia.png" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1>DR LIZABETH SYLVIA</h1><br>
+                                    <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    <button class="accordion">
+                        <div class="header1">
+                            Depok
+                        </div>
+                    </button>
+                        <div class="panel">
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>        
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" style=”float:left;” class="rounded float start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                    <button class="accordion">
+                        <div class="header1">
+                            South City
+                        </div>
+                    </button>
+                        <div class="panel">
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>        
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" style=”float:left;” class="rounded float start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                    <button class="accordion">
+                        <div class="header1">
+                            Bintaro
+                        </div>
+                    </button>
+                        <div class="panel">
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>        
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" style=”float:left;” class="rounded float start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                    <button class="accordion">
+                        <div class="header1">
+                            BSD
+                        </div>
+                    </button>
+                        <div class="panel">
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>        
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" style=”float:left;” class="rounded float start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                    <button class="accordion">
+                        <div class="header1">
+                            Gading Serpong
+                        </div>
+                    </button>
+                        <div class="panel">
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>        
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" style=”float:left;” class="rounded float start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                    <button class="accordion">
+                        <div class="header1">
+                            Bandung
+                        </div>
+                    </button>
+                        <div class="panel">
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\IMG_4701.png" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1>DR MUTIA ULFA</h1><br>
+                                    <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
+                                </div>        
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\IMG_4690.png" style=”float:left;” class="rounded float start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1>DR ANINDITYA CHRISTA M</h1><br>
+                                    <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
+                                </div>
+                            </div>
+                            {{-- <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p>
+                                </div>
+                            </div> --}}
+                        </div>
+
+                    <button class="accordion">
+                        <div class="header1">
+                            Puri
+                        </div>
+                    </button>
+                        <div class="panel">
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>        
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" style=”float:left;” class="rounded float start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                    <button class="accordion">
+                        <div class="header1">
+                            Kudus
+                        </div>
+                    </button>
+                        <div class="panel">
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>        
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" style=”float:left;” class="rounded float start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                    <button class="accordion">
+                        <div class="header1">
+                            Cibubur
+                        </div>
+                    </button>
+                        <div class="panel">
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>        
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" style=”float:left;” class="rounded float start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                    <button class="accordion">
+                        <div class="header1">
+                            Karawang
+                        </div>
+                    </button>
+                        <div class="panel">
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>        
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" style=”float:left;” class="rounded float start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                    <button class="accordion">
+                        <div class="header1">
+                            Surabaya 
+                        </div>
+                    </button>
+                        <div class="panel">
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>        
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" style=”float:left;” class="rounded float start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                    <button class="accordion">
+                        <div class="header1">
+                            Pondok Indah 
+                        </div>
+                    </button>
+                        <div class="panel">
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>        
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" style=”float:left;” class="rounded float start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                    <button class="accordion">
+                        <div class="header1">
+                            Pontianak
+                        </div>
+                    </button>
+                        <div class="panel">
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>        
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" style=”float:left;” class="rounded float start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                    <button class="accordion">
+                        <div class="header1">
+                            PIK
+                        </div>
+                    </button>
+                        <div class="panel">
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>        
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" style=”float:left;” class="rounded float start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    <h1></h1><br>
+                                    {{-- <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <img src="assets\logo\" class="rounded float-start" alt="img">
+                                <div class="text" style="margin-left: 40%;">
+                                    {{-- <h1></h1><br>
+                                    <p>Senin    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Selasa   &nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Rabu     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Kamis    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Jumat    &nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Sabtu    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.00 - 15.00</p>
+                                    <p>Minggu   &nbsp;&nbsp;08.00 - 15.00</p> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                    <script>
+                        var acc = document.getElementsByClassName("accordion");
+                        var i;
+
+                        for (i = 0; i < acc.length; i++) {
+                        acc[i].addEventListener("click", function() {
+                            this.classList.toggle("active");
+                            var panel = this.nextElementSibling;
+                            if (panel.style.display === "block") {
+                            panel.style.display = "none";
+                            } else {
+                            panel.style.display = "block";
+                            }
+                        });
+                        }
+                    </script>
+                </div>
+            </div>
+        </section>
+
+            <div class="container">
+                <div class="feature1">
+                    {{-- <div class="section-header"> --}}
+                        <h2>
+                            <a href="https://instagram.com/bclinicslimming?igshid=YmMyMTA2M2Y=" class="btn btn-warning" role="button" data-bs-toggle="button"><span>
+                            <img src="assets/images/slider/ig-image.png"  style="width: 30px;"> Follow us on Instagram
+                            </a>
+                            <a href="https://www.tiktok.com/@bclinic.slimming?_t=8XQCRmVXm2U&_r=1" class="btn btn-warning" role="button" data-bs-toggle="button">
+                            <img src="assets/images/slider/tiktok-image.png"  style="width: 30px"> Follow us on tiktok
+                            </a>
+                        </h2>
+                    {{-- </div> --}}
+                </div>
+            </div>
 
 		<!--footer start-->
+        <!--start-footer-garis-->
         <hr color="gold" class="garis">
-			<style>
-				.garis{
-				border-left: 1px gold solid;
-			    background-image: linear-gradient(to right, #000000, #c7b565, hsl(50.6,100%,56.5%), #c7b565, #000000);
-				height: 3px;
-				width: 100%;
-				}
-			</style>
-		</hr>
+        <!--end-footer-garis-->
+			
+
 		<footer id="footer"  class="footer">
 			<div class="container">
 				<div class="hm-footer-copyright text-center">
@@ -1107,7 +1066,7 @@
 				</label>
 				<div id="box" class="fab-wheel">
 					<ul>
-                    <h4><a href="https://api.whatsapp.com/send/?phone=6281511351234&text&type=phone_number&app_absent=0">Kemang</a></h4>
+                        <h4><a href="https://api.whatsapp.com/send/?phone=6281511351234&text&type=phone_number&app_absent=0">Kemang</a></h4>
 						<h4><a href="https://api.whatsapp.com/send/?phone=6281215152540&text&type=phone_number&app_absent=0">Surabaya</a></h4>
 						<h4><a href="https://api.whatsapp.com/send/?phone=6285838500000&text&type=phone_number&app_absent=0">Kelapa Gading</a></h4>
 						<h4><a href="https://api.whatsapp.com/send/?phone=62818834000&text&type=phone_number&app_absent=0">Bogor</a></h4>
@@ -1172,6 +1131,17 @@
 					})
 				})
 			</script>
+                            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                            <script>
+                                $(document).ready(function() {
+                                    $('.slider').slick({
+                                    autoplay: true,
+                                    autoplaySpeed: 2000,
+                                    dots: true,
+                                    arrows: false
+                                    });
+                                });
+                            </script>
     </body>
 	
 </html>

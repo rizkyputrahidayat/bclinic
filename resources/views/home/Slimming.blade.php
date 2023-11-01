@@ -42,67 +42,6 @@
 
     <!--responsive.css-->
     <link rel="stylesheet" href="assets/css/responsive.css">
-
-    <style>
-    body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.card {
-    width: 250px;
-    margin-top:10px;
-    height:300px;
-    border: 1.5px solid #ccc;
-    border-radius: 8px;
-    padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.card img {
-    width: 100%;
-    border-radius: 8px;
-}
-
-.card h2 {
-    margin-top: 20px;
-    font-size: 1.5rem;
-}
-
-.card p {
-    font-size: 1rem;
-    color: #666;
-}
-
-/* Responsiveness for smaller screens */
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .card {
-        width: 80%;
-    }
-}
-
-</style>
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-
-    <!--[if lt IE 9]>
-   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
 </head>
 
 <body>
@@ -113,7 +52,7 @@
 
 
     <!--welcome-hero start -->
-    <header id="home" class="welcome-hero">
+    <header id="home">
         <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
             @php
                 $i = 0;
@@ -1053,21 +992,20 @@
     </header>
 
     <!--Testimoni start -->
-    <section id="feature" class="feature" style="margin-top: -5%;">
-        <div class="container">
+    <section id="feature2" class="feature2">
+        {{-- <div class="container" > --}}
             <div class="col-lg-5">
-                <img max-width="100%" src="assets/images/slider/sideline.png" alt="">
+                <img width="100%" src="assets/images/slider/sideline.png">
             </div>
             <div class="col-lg-2 text-left text-lg-center">
                 <center>
-                    <h2>Slimmimg Treatments</h2>
+                    <strong><p style="color:black; font-size:20px;">Slimming Treatment</p></strong>
                 </center>
             </div>
             <div class="col-lg-5 right">
-                <img max-width="100%" src="assets/images/slider/sideline.png" alt="">
+                <img width="100%" src="assets/images/slider/sideline.png">
             </div>
-        </div>
-        <!--/.section-header-->
+        {{-- </div> --}}
     </section>
 
     <div class="container" style="margin-top: 1%;">
@@ -1107,22 +1045,20 @@
         </div>
     </div>
 
-    <section id="feature" class="feature" style="margin-top: 2%;">
-        <div class="container">
-            <div class="section-header">
-                <div class="col-lg-5">
-                    <img width="100%" src="assets/images/slider/sideline.png" alt="">
-                </div>
-                <div class="col-lg-2 text-left text-lg-center">
-                    <center>
-                        <p style="color:black; font-size:20px;">Other Treatment</p>
-                    </center>
-                </div>
-                <div class="col-lg-5 right">
-                    <img max-width="100%" src="assets/images/slider/sideline.png" alt="">
-                </div>
+    <section id="feature2" class="feature2">
+        {{-- <div class="container" > --}}
+            <div class="col-lg-5">
+                <img width="100%" src="assets/images/slider/sideline.png">
             </div>
-        </div>
+            <div class="col-lg-2 text-left text-lg-center">
+                <center>
+                    <strong><p style="color:black; font-size:20px;">Other Treatment</p></strong>
+                </center>
+            </div>
+            <div class="col-lg-5 right">
+                <img width="100%" src="assets/images/slider/sideline.png">
+            </div>
+        {{-- </div> --}}
     </section>
     <!--Testimoni End -->
     <!--populer-products start -->
@@ -1303,18 +1239,67 @@
         </section>
         
         <!--/.container-->
+        <section id="feature" class="feature">
+            <div class="containerin">
+                <div class="section-header">
+                        <style>
+                            .containerin {
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-around;
+                            }
 
+                            .card {
+                            width: 280px;
+                            height: auto;
+                            justify-content: center;
+                            border: 1.5px solid #ccc;
+                            border-radius: 8px;
+                            padding: 10px;
+                            margin-top: 15px;
+                            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                            transition: transform 0.3s ease;
+                            }
+
+                            .card img {
+                            margin-top: 10px;
+                            width: auto;
+                            border-radius: 8px;
+                            display: block;
+                            margin: 0 auto; 
+                            }
+
+                            .card h2 {
+                            margin-top: 20px;
+                            }
+
+                            .card p {
+                            font-size: 1rem;
+                            color: #666;
+                            }
+
+                            
+                            @media (max-width: 768px) {
+                            .containerin {
+                                flex-direction: column;
+                                align-items: center;
+                            }
+
+                            .card {
+                                margin-top: 10px;
+                                width: 80%;
+                                margin: 10% auto;
+                            }
+                            }
+                        </style>
+                </div>
+            </div>
+        </section>
         <!--footer start-->
+        <!--start-footer-garis-->
         <hr color="gold" class="garis">
-        <style>
-            .garis {
-                border-left: 1px gold solid;
-                background-image: linear-gradient(to right, #000000, #c7b565, hsl(50.6, 100%, 56.5%), #c7b565, #000000);
-                height: 3px;
-                width: 100%;
-            }
-        </style>
-        </hr>
+        <!--end-footer-garis-->
+        
         <footer id="footer" class="footer">
             <div class="container">
                 <div class="hm-footer-copyright text-center">

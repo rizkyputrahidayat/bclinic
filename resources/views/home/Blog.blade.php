@@ -1,231 +1,68 @@
 <!doctype html>
 <html class="no-js" lang="en">
 
-<head>
-    <!-- meta data -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <head>
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <!--font-family-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
-        rel="stylesheet">
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+        
+        <!-- title of site -->
+        <title>B Clinic Slimming & Aesthetic</title>
 
-    <!-- title of site -->
-    <title>B Clinic Slimming & Aesthetic</title>
+        <!-- For favicon png -->
+		<link rel="shortcut icon" type="image/icon" href="assets/logo/logo.png"/>
+       
+        <!--font-awesome.min.css-->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
-    <!-- For favicon png -->
-    <link rel="shortcut icon" type="image/icon" href="assets/logo/logo.png" />
+        <!--linear icon css-->
+		<link rel="stylesheet" href="assets/css/linearicons.css">
 
-    <!--font-awesome.min.css-->
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<!--animate.css-->
+        <link rel="stylesheet" href="assets/css/animate.css">
 
-    <!--linear icon css-->
-    <link rel="stylesheet" href="assets/css/linearicons.css">
+        <!--owl.carousel.css-->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+		
+        <!--bootstrap.min.css-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
+        
+        <!--style.css-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <!--responsive.css-->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+	
+	<body>
+		<!--welcome-hero start -->
+		<header id="home">
+			<div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
 
-    <!--animate.css-->
-    <link rel="stylesheet" href="assets/css/animate.css">
-
-    <!--owl.carousel.css-->
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-
-    <!--bootstrap.min.css-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
-    <!-- bootsnav -->
-    <link rel="stylesheet" href="assets/css/bootsnav.css">
-
-    <!--style.css-->
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <!--responsive.css-->
-    <link rel="stylesheet" href="assets/css/responsive.css">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-
-    <!--[if lt IE 9]>
-   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        /* Style the search field */
-        form.example input[type=text] {
-            padding: 10px;
-            font-size: 17px;
-            border: 1px solid grey;
-            border-radius: 3px;
-            float: left;
-            width: 80%;
-            background: #f1f1f1;
-        }
-
-        /* Style the submit button */
-        form.example button {
-            float: left;
-            width: 20%;
-            padding: 10px;
-            background: #2196F3;
-            border-radius: 3px;
-            color: white;
-            font-size: 17px;
-            border: 1px solid grey;
-            border-left: none;
-            /* Prevent double borders */
-            cursor: pointer;
-        }
-
-        form.example button:hover {
-            background: #0b7dda;
-        }
-
-        /* Clear floats */
-        form.example::after {
-            content: "";
-            clear: both;
-            display: table;
-        }
-
-        nav ul {
-            list-style: none;
-            text-align: center;
-        }
-
-
-        nav a {
-            text-decoration: none;
-            color: #333;
-        }
-
-        /* Gaya untuk bagian utama */
-        main {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            padding: 20px;
-        }
-
-        section {
-            flex: 1;
-            margin: 10px;
-            padding: 10px;
-            background-color: #f4f4f4;
-        }
-
-        /* Gaya untuk aside (gambar) */
-        aside {
-            flex: 1;
-            margin: 10px;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        .default {
-            border: 1px solid grey;
-            margin-left: 0;
-            color: black;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        .card {
-            width: 250px;
-            margin-top: 10px;
-            height: 300px;
-            border: 1.5px solid #ccc;
-            border-radius: 8px;
-            padding: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease;
-        }
-
-        .card img {
-            width: 100%;
-            border-radius: 8px;
-        }
-
-        .card h2 {
-            margin-top: 20px;
-            font-size: 1.5rem;
-        }
-
-        .card p {
-            font-size: 1rem;
-            color: #666;
-        }
-
-        /* Responsiveness for smaller screens */
-        @media (max-width: 768px) {
-            .container {
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .card {
-                width: 80%;
-            }
-        }
-    </style>
-</head>
-
-<body>
-    <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-
-    <!--welcome-hero start -->
-    <header id="home" class="welcome-hero">
-        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-
-            <!-- Features Section Begin -->
-            <section class="features-section" style="padding-top: 100px;">
-                <div class="features-ads">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                               <br><br><h1 style="color: #CEAB17; padding-bottom: 20px; margin-top:4%;"><b>Artikel</b> </h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="sofa-collection">
-                <div class="item active">
-                    <div class="single-slide-item slide1">
+				<!-- Features Section Begin -->
+                <section>
+                    <div class="item active">
                         <div class="container">
-                            <div class="row">
-                                <div class="welcome-hero-img-slider">
-                                    <br>
-                                    <form class="example col-lg-12" action="action_page.php">
-                                        <input type="text" placeholder="Search.." name="search">
-                                        <button type="submit"><i class="fa fa-search"></i></button>
-                                    </form><br>
-                                    <br>
-                                    <h1 style="margin-top: 3%;  margin-left:1%;"><b>Artikel Terpopuler</b> </h1><br>
-                                    
-                                    <!-- <div class="container"> -->
+                            <div class="single-slide-item slide1">
                                     <div class="row">
-                                        <div class="col-lg-7 col-sm-12" style="padding-right:0;">
-                                            {{-- <img src="assets/images/slider/Article 1 - 1.jpg"
-                                                style="padding-top: -120px; min-width:710px; height:420px; margin-left:1%; "> --}}
+                                        <div class="artipop">
+                                            <h1 style="margin-top: 9%;"><b>Artikel Terpopuler</b> </h1><br><br>
+                                        </div>
+                                        <div class="col-lg-7 col-sm-12">
+                                            <img  src="assets/images/slider/Article 1 - 1.jpg">
                                             <div
-                                                style="position: absolute; top: 85%; left: 40%; transform: translate(-50%, -50%);">
-                                                {{-- <h2><a href="#artikel1"><b style="font-size: 24px; color:black; ">B
-                                                            Clinic Kembali Hadir di Bogor dan Tangerang</b></a></h2> --}}
+                                                style="position: absolute; top: 80%; left: 40%; transform: translate(-50%, -50%);">
+                                                <h2><a href="#artikel1"><b style="font-size: 24px; color:black; ">
+                                                    B Clinic Kembali Hadir di Bogor dan Tangerang</b></a></h2>
                                             </div>
                                         </div>
                                         <div class="col-lg-5 col-sm-12" style="padding-left:0;">
@@ -236,108 +73,110 @@
                                                             overflow-y: scroll;
                                                             height: 400px;
                                                         }
-
+        
                                                         .mr-global-3 {
                                                             margin-right: 2rem;
                                                         }
-
+        
                                                         .ml-global-3 {
                                                             margin-left: 2rem !important;
                                                         }
-
+        
                                                         .ml-global-2 {
                                                             margin-left: 1rem !important;
                                                         }
-
+        
                                                         .mb-global {
                                                             margin-bottom: 3rem !important;
                                                         }
-
+        
                                                         .margin-global {
                                                             margin: 1rem !important;
                                                         }
-
+        
                                                         .df-global {
                                                             display: flex !important;
                                                         }
                                                     </style>
                                                     <div class="container">
-                                                        <div class="content1">
-                                                            <div class="df-global mb-global">
-                                                                <div class="">
-                                                                    {{-- <img src="assets/images/slider/Article 1 - 1.jpg"
-                                                                        style="min-width:90px; height:60px; float:left;"> --}}
+                                                        <div class="content1" >
+                                                            <div class="artikelkanan">
+                                                                <div class="df-global mb-global">
+                                                                    <div class="">
+                                                                        <img src="assets/images/slider/Article 1 - 1.jpg"
+                                                                            style="min-width:90px; height:60px; float:left;">
+                                                                    </div>
+                                                                    <div class="ml-global-3">
+                                                                        <h2><a href="#artikel1"><b>B Clinic Kembali Hadir
+                                                                                    di Bogor dan Tangerang</b></a></h2>
+                                                                    </div>
                                                                 </div>
-                                                                <div class="ml-global-3">
-                                                                    {{-- <h2><a href="#artikel1"><b>B Clinic Kembali Hadir
-                                                                                di Bogor dan Tangerang</b></a></h2> --}}
+                                                                <div class="df-global mb-global">
+                                                                    <div class="">
+                                                                        <img src="assets/images/slider/Article 2 - 1.jpg"
+                                                                            style="min-width:90px; height:60px; float:left;">
+                                                                    </div>
+                                                                    <div class="ml-global-3">
+                                                                        <h2><a href="#artikel2"><b>4,8 Miliar Dalam 1 Hari!
+                                                                                    Rekor Baru Penjualan Beauty Treatment
+                                                                                    dari BC Skin dan B Clinic di Tiktok
+                                                                                    LIVE!</b></a></h2>
+                                                                    </div>
                                                                 </div>
-                                                            </div>
-                                                            <div class="df-global mb-global">
-                                                                <div class="">
-                                                                    {{-- <img src="assets/images/slider/Article 2 - 1.jpg"
-                                                                        style="min-width:90px; height:60px; float:left;"> --}}
+                                                                <div class="df-global mb-global">
+                                                                    <div class="">
+                                                                        <img src="assets/images/slider/Article 3 - 1.jpg"
+                                                                            style="min-width:90px; height:60px; float:left;">
+                                                                    </div>
+                                                                    <div class="ml-global-3">
+                                                                        <h2><a href="#artikel3"><b>Bukan Hanya Wanita, Ini 3
+                                                                                    Alasan Mengapa Pria juga Harus Pakai
+                                                                                    Skincare!</b></a></h2>
+                                                                    </div>
                                                                 </div>
-                                                                <div class="ml-global-3">
-                                                                    {{-- <h2><a href="#artikel2"><b>4,8 Miliar Dalam 1 Hari!
-                                                                                Rekor Baru Penjualan Beauty Treatment
-                                                                                dari BC Skin dan B Clinic di Tiktok
-                                                                                LIVE!</b></a></h2> --}}
+                                                                <div class="df-global mb-global">
+                                                                    <div class="">
+                                                                        <img src="assets/images/slider/Article 4 - 1.jpg"
+                                                                            style="min-width:90px; height:60px; float:left;">
+                                                                    </div>
+                                                                    <div class="ml-global-3">
+                                                                        <h2><a href="#artikel4"><b>Mengenal Treatment Cool
+                                                                                    Plus, yang Bisa Mengurangi Lingkar Perut
+                                                                                    Hingga 6cm</b></a></h2>
+                                                                    </div>
                                                                 </div>
-                                                            </div>
-                                                            <div class="df-global mb-global">
-                                                                <div class="">
-                                                                    {{-- <img src="assets/images/slider/Article 3 - 1.jpg"
-                                                                        style="min-width:90px; height:60px; float:left;"> --}}
+                                                                <div class="df-global mb-global">
+                                                                    <div class="">
+                                                                        <img src="assets/images/slider/Article 5 - 1.jpg"
+                                                                            style="min-width:90px; height:60px; float:left;">
+                                                                    </div>
+                                                                    <div class="ml-global-3">
+                                                                        <h2><a href="#artikel5"><b>4 Tips Wajah Tetap Mulus
+                                                                                    dan Bebas Jerawat di Tengah Polusi
+                                                                                    Udara</b></a></h2>
+                                                                    </div>
                                                                 </div>
-                                                                <div class="ml-global-3">
-                                                                    {{-- <h2><a href="#artikel3"><b>Bukan Hanya Wanita, Ini 3
-                                                                                Alasan Mengapa Pria juga Harus Pakai
-                                                                                Skincare!</b></a></h2> --}}
+                                                                <div class="df-global mb-global">
+                                                                    <div class="">
+                                                                        <img src="assets/images/slider/Article 6 - 1.jpg"
+                                                                            style="min-width:90px; height:60px; float:left;">
+                                                                    </div>
+                                                                    <div class="ml-global-3">
+                                                                        <h2><a href="#artikel6"><b>Tak Selalu Hijau, Diet
+                                                                                    juga Bisa Dengan Warna Pelangi</b></a>
+                                                                        </h2>
+                                                                    </div>
                                                                 </div>
-                                                            </div>
-                                                            <div class="df-global mb-global">
-                                                                <div class="">
-                                                                    {{-- <img src="assets/images/slider/Article 4 - 1.jpg"
-                                                                        style="min-width:90px; height:60px; float:left;"> --}}
-                                                                </div>
-                                                                <div class="ml-global-3">
-                                                                    {{-- <h2><a href="#artikel4"><b>Mengenal Treatment Cool
-                                                                                Plus, yang Bisa Mengurangi Lingkar Perut
-                                                                                Hingga 6cm</b></a></h2> --}}
-                                                                </div>
-                                                            </div>
-                                                            <div class="df-global mb-global">
-                                                                <div class="">
-                                                                    {{-- <img src="assets/images/slider/Article 5 - 1.jpg"
-                                                                        style="min-width:90px; height:60px; float:left;"> --}}
-                                                                </div>
-                                                                <div class="ml-global-3">
-                                                                    {{-- <h2><a href="#artikel5"><b>4 Tips Wajah Tetap Mulus
-                                                                                dan Bebas Jerawat di Tengah Polusi
-                                                                                Udara</b></a></h2> --}}
-                                                                </div>
-                                                            </div>
-                                                            <div class="df-global mb-global">
-                                                                <div class="">
-                                                                    {{-- <img src="assets/images/slider/Article 6 - 1.jpg"
-                                                                        style="min-width:90px; height:60px; float:left;"> --}}
-                                                                </div>
-                                                                <div class="ml-global-3">
-                                                                    {{-- <h2><a href="#artikel6"><b>Tak Selalu Hijau, Diet
-                                                                                juga Bisa Dengan Warna Pelangi</b></a> --}}
-                                                                    </h2>
-                                                                </div>
-                                                            </div>
-                                                            <div class="df-global mb-global">
-                                                                <div class="">
-                                                                    {{-- <img src="assets/images/slider/Article 7 - 1.jpg"
-                                                                        style="min-width:90px; height:60px; float:left;"> --}}
-                                                                </div>
-                                                                <div class="ml-global-3">
-                                                                    {{-- <h2><a href="#artikel7"><b>Pico Laser; Perawatan
-                                                                                Kecantikan Tercanggih Tanpa Rasa
-                                                                                Sakit</b></a></h2> --}}
+                                                                <div class="df-global mb-global">
+                                                                    <div class="">
+                                                                        <img src="assets/images/slider/Article 7 - 1.jpg"
+                                                                            style="min-width:90px; height:60px; float:left;">
+                                                                    </div>
+                                                                    <div class="ml-global-3">
+                                                                        <h2><a href="#artikel7"><b>Pico Laser; Perawatan
+                                                                                    Kecantikan Tercanggih Tanpa Rasa
+                                                                                    Sakit</b></a></h2>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -346,7 +185,7 @@
                                             </section><br>
                                         </div>
                                     </div>
-                                </div>
+
                                     <div id="artikel1" class="modal">
                                         <div class="content">
                                             <h1 style="color:black;">
@@ -360,7 +199,7 @@
                                                 Clinic kembali di Kota Bogor dengan cabang ke-23 dan wilayah Alam Sutera
                                                 untuk cabang ke-24 di bulan Agustus 2023.
                                             </p><br>
-
+        
                                             <p class="custom-text">
                                                 B Clinic resmi memilih ke kota bogor ke-23 yang berlokasi di ko,p. Ruko 24,
                                                 jl.Sholeh Iskandar No.2o, Kedung Jaya, Kec. Tanah Sereal, Kota Bogor, Jawa
@@ -433,7 +272,7 @@
                                                 tanpa rasa sakit sehingga bisa membuat customer tertidur selama treatment. B Clinic akan 
                                                 berupaya untuk selalu memberikan kemudahan dalam perawatan kecantikan untuk para 
                                                 customer di seluruh Indonesia, baik melalui virtual maupun tatap muka secara langsung.
-
+        
                                             </p>
                                             <a href="#" class="box-close">
                                                 ×
@@ -455,7 +294,7 @@
                                                 lebih sensitif dan pori-pori yang lebih besar dibandingkan wanita. Sehingga, kulit wajah pria lebih rentan 
                                                 berjerawat serta alami infeksi. Selain itu, ada beberapa alasan mengapa pria juga harus merawat kulit wajahnya. 
                                                 Yuk, simak info selengkapnya!
-
+        
                                             </p><br><br><br><br>
                                             
                                             <p class="custom-text">
@@ -501,7 +340,7 @@
                                                 <br><br>
                                                 Demi menjawab dan memenuhi kebutuhan tubuh idealmu, B Clinic hadir dengan salah satu treatment tercanggih dan 
                                                 terbaiknya, yaitu Cool Plus. Yuk, cari tahu lebih banyak tentang Cool Plus!
-
+        
                                             </p><br><br><br><br>
                                             
                                             <p class="custom-text">
@@ -541,7 +380,7 @@
                                                 Punya wajah mulus dan bebas jerawat memang menjadi impian setiap orang. Namun, di tengah polusi udara yang semakin meningkat, tentunya menjadi tantangan tersendiri bagi kulit wajah kita. Terutama, bagi B Friends yang sering beraktivitas di luar ruangan.
                                                 
                                                 Nah B Friends, kalau kamu salah satu yang khawatir dengan kondisi kulit wajahmu, kamu wajib simak 4 tips di bawah ini!
-
+        
                                             </p><br>
                                             
                                             <p class="custom-text">
@@ -639,7 +478,7 @@
                                                 <br>
                                                 Demi menjawab dan memenuhi kebutuhan tubuh idealmu, B Clinic hadir dengan salah satu treatment tercanggih dan 
                                                 terbaiknya, yaitu Cool Plus. Yuk, cari tahu lebih banyak tentang Cool Plus!
-
+        
                                             </p><br>
                                             
                                             <p class="custom-text">
@@ -670,39 +509,39 @@
                                             </a>
                                         </div>
                                     </div>
-                                        <br>
-                                    <h1 style="margin-top: 4%;  margin-left:-3%;"><b>Artikel Terbaru</b> </h1>
+                                        <br><br>
+                                    <h1 style="margin-top: 2%;  margin-left:-3%;"><b>Artikel Terbaru</b> </h1>
                                     <div class="container" style="margin-top: 1%;">
                                         <div class="row">
                                             <div class="col col-lg-3 col-sm-6">
-                                                {{-- <div class="card"> --}}
-                                                    {{-- <img src="assets/images/slider/Article 1 - 1.jpg"> --}}
+                                                <div class="card">
+                                                    <img src="assets/images/slider/Article 1 - 1.jpg">
                                                     <h2><a href="#artikel1">
-                                                        {{-- <b>B Clinic Kembali Hadir di Bogor dan Tangerang</b></a> --}}
+                                                        <b>B Clinic Kembali Hadir di Bogor dan Tangerang</b></a>
                                                     </h2>
                                                 </div>
                                             </div>
                                             <div class="col col-lg-3 col-sm-6">
-                                                {{-- <div class="card"> --}}
-                                                    {{-- <img src="assets/images/slider/Article 2 - 1.jpg"> --}}
+                                                <div class="card">
+                                                    <img src="assets/images/slider/Article 2 - 1.jpg">
                                                     <h2><a href="#artikel2">
-                                                        {{-- <b>4,8 Miliar Dalam 1 Hari! Rekor Baru Penjualan Beauty Treatment dari BC Skin dan B Clinic di Tiktok LIVE!</b></a> --}}
+                                                        <b>4,8 Miliar Dalam 1 Hari! Rekor Baru Penjualan Beauty Treatment dari BC Skin dan B Clinic di Tiktok LIVE!</b></a>
                                                     </h2>
                                                 </div>
                                             </div>
                                             <div class="col col-lg-3 col-sm-6">
-                                                {{-- <div class="card"> --}}
-                                                    {{-- <img src="assets/images/slider/Article 3 - 1.jpg"> --}}
+                                                <div class="card">
+                                                    <img src="assets/images/slider/Article 3 - 1.jpg">
                                                     <h2><a href="#artikel3">
-                                                        {{-- <b>Bukan Hanya Wanita, Ini 3 Alasan Mengapa Pria juga Harus Pakai Skincare!</b></a> --}}
+                                                        <b>Bukan Hanya Wanita, Ini 3 Alasan Mengapa Pria juga Harus Pakai Skincare!</b></a>
                                                     </h2>
                                                 </div>
                                             </div>
                                             <div class="col col-lg-3 col-sm-6">
-                                                {{-- <div class="card"> --}}
-                                                    {{-- <img src="assets/images/slider/Article 4 - 1.jpg"> --}}
+                                                <div class="card">
+                                                    <img src="assets/images/slider/Article 4 - 1.jpg">
                                                     <h2><a href="#artikel4">
-                                                        {{-- <b>Mengenal Treatment Cool Plus, yang Bisa Mengurangi Lingkar Perut Hingga 6cm</b></a> --}}
+                                                        <b>Mengenal Treatment Cool Plus, yang Bisa Mengurangi Lingkar Perut Hingga 6cm</b></a>
                                                     </h2>
                                                 </div>
                                             </div>
@@ -711,26 +550,26 @@
                                     <div class="container" style="margin-top: 1%;">
                                         <div class="row">
                                             <div class="col col-lg-3 col-sm-6">
-                                                {{-- <div class="card"> --}}
-                                                    {{-- <img src="assets/images/slider/Article 5 - 1.jpg"> --}}
+                                                <div class="card">
+                                                    <img src="assets/images/slider/Article 5 - 1.jpg">
                                                     <h2><a href="#artikel5">
-                                                        {{-- <b>4 Tips Wajah Tetap Mulus dan Bebas Jerawat di Tengah Polusi Udara</b></a> --}}
+                                                        <b>4 Tips Wajah Tetap Mulus dan Bebas Jerawat di Tengah Polusi Udara</b></a>
                                                     </h2>
                                                 </div>
                                             </div>
                                             <div class="col col-lg-3 col-sm-6">
-                                                {{-- <div class="card"> --}}
-                                                    {{-- <img src="assets/images/slider/Article 6 - 1.jpg"> --}}
+                                                <div class="card">
+                                                    <img src="assets/images/slider/Article 6 - 1.jpg">
                                                     <h2><a href="#artikel6">
-                                                        {{-- <b>Tak Selalu Hijau, Diet juga Bisa Dengan Warna Pelangi</b></a> --}}
+                                                        <b>Tak Selalu Hijau, Diet juga Bisa Dengan Warna Pelangi</b></a>
                                                     </h2>
                                                 </div>
                                             </div>
                                             <div class="col col-lg-3 col-sm-6">
-                                                {{-- <div class="card"> --}}
-                                                    {{-- <img src="assets/images/slider/Article 7 - 1.jpg"> --}}
+                                                <div class="card">
+                                                    <img src="assets/images/slider/Article 7 - 1.jpg">
                                                     <h2><a href="#artikel7">
-                                                        {{-- <b>Pico Laser; Perawatan Kecantikan Tercanggih Tanpa Rasa Sakit</b></a> --}}
+                                                        <b>Pico Laser; Perawatan Kecantikan Tercanggih Tanpa Rasa Sakit</b></a>
                                                     </h2>
                                                 </div>
                                             </div>
@@ -739,164 +578,255 @@
                                 </div>
                             </div>
                         </div>
-                    </div><!-- /.single-slide-item-->
-                </div><!-- /.item .active--><br>
-            </section><!-- Features Section End -->
+                    </div><!-- /.item .active--><br>
+                </section><!-- Features Section End -->
+                <!-- Features Section End -->
 
-        <!-- top-area Start -->
-        <div class="top-area">
-            <div class="header-area">
-                <!-- Start Navigation -->
-                <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"
-                    data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+			</div><!--/#header-carousel-->
+            <section id="feature" class="feature">
+                <div class="containerin">
+                    <div class="section-header">
+                            <style>
+                                .containerin {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    justify-content: space-around;
+                                }
 
-                    <!-- Start Top Search -->
-                    <div class="top-search">
-                        <div class="container">
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                                <input type="text" class="form-control" placeholder="Search">
-                                <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
-                            </div>
-                        </div>
+                                .card {
+                                    width: 250px;
+                                    margin-top: 10px;
+                                    height: 300px;
+                                    border: 1.5px solid #ccc;
+                                    border-radius: 8px;
+                                    padding: 10px;
+                                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                                    transition: transform 0.3s ease;
+                                }
+
+                                .card img {
+                                    width: 100%;
+                                    border-radius: 8px;
+                                }
+
+                                .card h2 {
+                                    margin-top: 20px;
+                                    font-size: 1.5rem;
+                                }
+
+                                .card p {
+                                    font-size: 1rem;
+                                    color: #666;
+                                }
+         
+                                @media (max-width: 768px) {
+                                .containerin {
+                                    flex-direction: column;
+                                    align-items: center;
+                                }
+
+                                .card {
+                                    margin-top: 10px;
+                                    width: 80%;
+                                    margin: 10% auto;
+                                }
+                                }
+                            </style>
                     </div>
-                    <!-- End Top Search -->
+                </div>
+            </section>
+			<!-- top-area Start -->
+			<div class="top-area">
+				<div class="header-area">
+					<!-- Start Navigation -->
+				    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+				        <!-- Start Top Search -->
+				        <div class="top-search">
+				            <div class="container">
+				                <div class="input-group">
+				                    <span class="input-group-addon"><i class="fa fa-search"></i></span>
+				                    <input type="text" class="form-control" placeholder="Search">
+				                    <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+				                </div>
+				            </div>
+				        </div>
+				        <!-- End Top Search -->
 
-                    <div class="container">
-                        <!-- Start Header Navigation -->
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse"
-                                data-target="#navbar-menu">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <a href="{{ route('ABOUT') }}">
-                                <div class="navbar-brand">
-                                    <img src="assets/logo/B CLINIC NEW.png" alt="logo" width="300px"
-                                        height="170px">
-                                </div>
-                            </a>
-                        </div><!--/.navbar-header-->
-                        <!-- End Header Navigation -->
+				        <div class="container">      
+				            <!-- Start Header Navigation -->
+				            <div class="navbar-header">
+				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+				                    <i class="fa fa-bars"></i>
+				                </button>
+								<a href="{{ route('ABOUT') }}">
+                                    <div class="navbar-brand">
+                                        <img src="assets/logo/B CLINIC NEW.png" alt="logo" width="300px"
+                                            height="170px">
+                                    </div>
+                                </a>
+				            </div><!--/.navbar-header-->
+				            <!-- End Header Navigation -->
 
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-                            <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="{{ route('p-services-products') }}"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Services & Products
-                                        <span class="lnr lnr-chevron-down"></span>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="{{ route('p-facial') }}">Facial & Face
-                                                Treatments</a></li>
-                                        <li><a class="dropdown-item" href="{{ route('p-facebody') }}">Ultimate
-                                                Treatments</a></li>
-                                        <li><a class="dropdown-item" href="{{ route('p-slimming') }}">Slimmimg
-                                                Treatments</a></li>
-                                        <li><a class="dropdown-item" href="{{ route('p-skincare') }}">Skin Care
-                                                Products</a></li>
-                                    </ul>
-                                </li>
-                                <li class=""><a href="{{ route('p-special-offer') }}">Special Offer</a></li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        News
-                                        <span class="lnr lnr-chevron-down"></span>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="{{ route('p-bupdate') }}">B UPDATE</a></li>
-                                        <li><a class="dropdown-item" href="{{ route('p-blog') }}">Blog</a></li>
-                                        <li><a class="dropdown-item" href="{{ route('p-video') }}">Video</a></li>
-                                        <li><a class="dropdown-item" href="{{ route('p-faq') }}">Faq</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        About us
-                                        <span class="lnr lnr-chevron-down"></span>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="{{ route('p-Story') }}">Story</a></li>
-                                        <li><a class="dropdown-item" href="{{ route('p-location') }}">location</a>
-                                        </li>
-                                    </ul>
-                                <li class=""><a href="{{ route('p-career') }}">Careers</a></li>
-                            </ul><!--/.nav -->
-                        </div><!-- /.navbar-collapse -->
-                    </div><!--/.container-->
-                </nav><!--/nav--> <!-- End Navigation -->
-            </div><!--/.header-area-->
-            <div class="clearfix"></div>
-        </div><!-- /.top-area--> <!-- top-area End -->
-    </header>
+				            <!-- Collect the nav links, forms, and other content for toggling -->
+				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+				                <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="{{ route('p-services-products') }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+											Services & Products
+											<span class="lnr lnr-chevron-down"></span>
+										</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="{{ route('p-facial') }}">Facial & Face Treatments</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-facebody') }}">Ultimate Treatments</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-slimming') }}">Slimmimg Treatments</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-skincare') }}">Skin Care Products</a></li>
+										</ul>
+									</li>
+				                    <li class=""><a href="p-special-offer">Special Offer</a></li>
+				                    <li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+											News
+											<span class="lnr lnr-chevron-down"></span>
+										</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="{{ route('p-bupdate') }}">B UPDATE</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-blog') }}">Blog</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-video') }}">Video</a></li>
+											<li><a class="dropdown-item" href="{{ route('p-faq') }}">Faq</a></li>
+										</ul>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+											About us
+											<span class="lnr lnr-chevron-down"></span>
+										</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="p-story">Story</a></li> <!--belum bisa route-->
+											<li><a class="dropdown-item" href="{{ route('p-location') }}">location</a></li>
+										</ul>
+									</li>
+									<li class=""><a href="p-career">Careers</a></li> <!--belum bisa route-->
+				                </ul><!--/.nav -->
+				            </div><!-- /.navbar-collapse -->
+				        </div><!--/.container-->
+				    </nav><!--/nav--> <!-- End Navigation -->
+				</div><!--/.header-area-->
+			</div><!-- /.top-area-->
+			<!-- top-area End -->
+		</header>
 
-    <!--footer start-->
-    <hr color="gold" class="garis">
-        <style>
-            .garis {
-                margin-top: 1%;
-                border-left: 1px gold solid;
-                background-image: linear-gradient(to right, #000000, #c7b565, hsl(50.6, 100%, 56.5%), #c7b565, #000000);
-                height: 3px;
-                width: 100%;
-            }
-        </style>
-    <footer id="footer" class="footer">
-        <div class="container">
-            <div class="hm-footer-copyright text-center">
-                <div class="footer-social">
-                    <a href="https://www.instagram.com/bclinicslimming?igshid=YmMyMTA2M2Y="><i><img
-                                src="assets/images/slider/instagram-image.png" alt="button"
-                                style="width: 17.5px;"></i></a>
-                    <a href="https://www.tiktok.com/@bclinic_official?_t=8YbGZNY1X2A&_r=1"><i><img
-                                src="assets/images/slider/tiktok-image.png" alt="button"
-                                style="width: 18px;"></i></a>
-                    <a href="https://www.youtube.com/channel/UCCeIK4GwXrM8M2ihZ_IO1QA"><i><img
-                                src="assets/images/slider/yt-image.png" alt="button" style="width: 20px;"></i></a>
-                </div><br>
-                <p>
-                    &copy;copyright. {{ date('Y') }} B Clinic Slimming.
-                    All rights reserved.
-                </p><!--/p-->
-            </div><!--/.text-center-->
-        </div><!--/.container-->
+		<!--footer start-->
+		<!--start-footer-garis-->
+        <hr color="gold" class="garis">
+        <!--end-footer-garis-->
+			
+		<footer id="footer"  class="footer">
+			<div class="container">
+				<div class="hm-footer-copyright text-center">
+					<div class="footer-social">	
+						<a href="https://www.instagram.com/bclinicslimming?igshid=YmMyMTA2M2Y="><i><img src="assets/images/slider/instagram-image.png" alt="button" style="width: 17.5px;"></i></a>
+						<a href="https://www.tiktok.com/@bclinic_official?_t=8YbGZNY1X2A&_r=1"><i><img src="assets/images/slider/tiktok-image.png" alt="button" style="width: 18px;"></i></a>
+						<a href="https://www.youtube.com/channel/UCCeIK4GwXrM8M2ihZ_IO1QA"><i><img src="assets/images/slider/yt-image.png" alt="button" style="width: 20px;"></i></a>
+					</div><br>
+					<p>
+                        &copy;copyright. {{ date('Y') }} B Clinic Slimming.
+                        All rights reserved.
+					</p><!--/p-->
+				</div><!--/.text-center-->
+			</div><!--/.container-->
 
-        <div id="scroll-Top">
-            <div class="return-to-top">
-                <i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top"
-                    title="" data-original-title="Back to Top" aria-hidden="true"></i>
+			<div class="fab-wrapper">
+                <input id="fabCheckbox" type="checkbox" class="fab-checkbox">
+                <label class="fab" for="fabCheckbox">
+                    <span class="fab-dots fab-dots-1"></span>
+                    <span class="fab-dots fab-dots-2"></span>
+                    <span class="fab-dots fab-dots-3"></span>
+                </label>
+                <div id="box" class="fab-wheel">
+                    <ul>
+                        <h4><a
+                                href="https://api.whatsapp.com/send/?phone=6281511351234&text&type=phone_number&app_absent=0">Kemang</a>
+                        </h4>
+                        <h4><a
+                                href="https://api.whatsapp.com/send/?phone=6281215152540&text&type=phone_number&app_absent=0">Surabaya</a>
+                        </h4>
+                        <h4><a
+                                href="https://api.whatsapp.com/send/?phone=6285838500000&text&type=phone_number&app_absent=0">Kelapa
+                                Gading</a></h4>
+                        <h4><a
+                                href="https://api.whatsapp.com/send/?phone=62818834000&text&type=phone_number&app_absent=0">Bogor</a>
+                        </h4>
+                        <h4><a
+                                href="https://api.whatsapp.com/send/?phone=6285813800000&text&type=phone_number&app_absent=0">Bekasi</a>
+                        </h4>
+                        <h4><a
+                                href="https://api.whatsapp.com/send/?phone=6281389896485&text&type=phone_number&app_absent=0">Depok</a>
+                        </h4>
+                        <h4><a
+                                href="https://api.whatsapp.com/send/?phone=6285655800000&text&type=phone_number&app_absent=0">South
+                                City</a></h4>
+                        <h4><a
+                                href="https://api.whatsapp.com/send/?phone=6285830800000&text&type=phone_number&app_absent=0">Bintaro</a>
+                        </h4>
+                        <h4><a
+                                href="https://api.whatsapp.com/send/?phone=6285792500000&text&type=phone_number&app_absent=0">BSD</a>
+                        </h4>
+                        <h4><a
+                                href="https://api.whatsapp.com/send/?phone=6285696011111&text&type=phone_number&app_absent=0">Gading
+                                Serpong</a></h4>
+                        <h4><a
+                                href="https://api.whatsapp.com/send/?phone=6285792600000&text&type=phone_number&app_absent=0">Bandung</a>
+                        </h4>
+                        <h4><a
+                                href="https://api.whatsapp.com/send/?phone=628569998000&text&type=phone_number&app_absent=0">Puri</a>
+                        </h4>
+                        <h4><a
+                                href="https://api.whatsapp.com/send/?phone=6285789855555&text&type=phone_number&app_absent=0">Kudus</a>
+                        </h4>
+                        <h4><a
+                                href="https://api.whatsapp.com/send/?phone=6285840999999&text&type=phone_number&app_absent=0">Cibubur</a>
+                        </h4>
+                        <h4><a
+                                href="https://api.whatsapp.com/send/?phone=628552207666&text&type=phone_number&app_absent=0">Karawang</a>
+                        </h4>
+                        <h4><a
+                                href="https://api.whatsapp.com/send/?phone=628552208666&text&type=phone_number&app_absent=0">PIM</a>
+                        </h4>
+                        <h4><a
+                                href="https://api.whatsapp.com/send/?phone=6281511360000&text&type=phone_number&app_absent=0">Pontianak</a>
+                        </h4>
+                        <h4><a
+                                href="https://api.whatsapp.com/send/?phone=628551551899&text&type=phone_number&app_absent=0">PIK</a>
+                        </h4>
+                    </ul>
+                </div>
             </div>
-        </div><!--/.scroll-Top-->
+        </footer><!--/.footer-->
+		<!--footer end-->
+		
+		<!-- Include all js compiled plugins (below), or include individual files as needed -->
 
-    </footer><!--/.footer-->
-    <!--footer end-->
+		<script src="assets/js/jquery.js"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
 
-    <!-- Include all js compiled plugins (below), or include individual files as needed -->
-
-    <script src="assets/js/jquery.js"></script>
-
-    <!--modernizr.min.js-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-
-    <!--bootstrap.min.js-->
-    <script src="assets/js/bootstrap.min.js"></script>
-
-    <!-- bootsnav js -->
-    <script src="assets/js/bootsnav.js"></script>
-
-    <!--owl.carousel.js-->
-    <script src="assets/js/owl.carousel.min.js"></script>
+		<!--owl.carousel.js-->
+        <script src="assets/js/owl.carousel.min.js"></script>
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-
-
-    <!--Custom JS-->
-    <script src="assets/js/custom.js"></script>
-
-</body>
-
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+		
+        
+        <!--Custom JS-->
+        <script src="assets/js/custom.js"></script>
+        
+    </body>
+	
 </html>

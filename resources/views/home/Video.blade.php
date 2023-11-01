@@ -53,23 +53,15 @@
     </head>
 	
 	<body>
-		<!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-		
-		
-	
 		<!--welcome-hero start -->
-		<header id="home" class="welcome-hero">
-
+		<header id="home">
 			<div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
 				
-
 				<!-- Features Section Begin -->
-                <section class="features-section" style="padding-top: 100px;">
+                <br><br><section class="features-section" style="padding-top: 100px;">
 					<div class="features-ads">
 						<div class="container">
-							<h1 style="color: #CEAB17; padding-bottom: 100px;"><b>Vlog</b></h1>
+							{{-- <h1 style="color: #CEAB17; padding-bottom: 100px;"><b>Vlog</b></h1> --}}
 							<div class="row" style="padding-bottom: 100px;">
 								<div class="card-deck">
 									<div class="col-md-4">
@@ -84,7 +76,6 @@
 					</div>  
 				</section>
                 <!-- Features Section End -->
-
 
 			</div><!--/#header-carousel-->
 
@@ -118,7 +109,7 @@
 										<img src="assets/logo/B CLINIC NEW.png" alt="logo" width="300px" height="170px">
 									</div>
 								</a>
-				            </div><!--/.navbar-header-->
+				            </div>
 				            <!-- End Header Navigation -->
 
 				            <!-- Collect the nav links, forms, and other content for toggling -->
@@ -164,29 +155,17 @@
 								</ul><!--/.nav -->
 				            </div><!-- /.navbar-collapse -->
 				        </div><!--/.container-->
-				    </nav><!--/nav-->
-				    <!-- End Navigation -->
+				    </nav><!--/nav--><!-- End Navigation -->
 				</div><!--/.header-area-->
-			    <div class="clearfix"></div>
-
 			</div><!-- /.top-area-->
 			<!-- top-area End -->
 		</header>
-		
-		
-			</div><!--/.container--><br>
 
 		<!--footer start-->
+		<!--start-footer-garis-->
 		<hr color="gold" class="garis">
-			<style>
-				.garis{
-				border-left: 1px gold solid;
-			    background-image: linear-gradient(to right, #000000, #c7b565, hsl(50.6,100%,56.5%), #c7b565, #000000);
-				height: 3px;
-				width: 100%;
-				}
-			</style>
-		</hr>
+		<!--end-footer-garis-->
+
 		<footer id="footer"  class="footer">
 			<div class="container">
 				<div class="hm-footer-copyright text-center">
@@ -211,7 +190,7 @@
 				</label>
 				<div id="box" class="fab-wheel">
 					<ul>
-					<h4><a href="https://api.whatsapp.com/send/?phone=6281511351234&text&type=phone_number&app_absent=0">Kemang</a></h4>
+						<h4><a href="https://api.whatsapp.com/send/?phone=6281511351234&text&type=phone_number&app_absent=0">Kemang</a></h4>
 						<h4><a href="https://api.whatsapp.com/send/?phone=6281215152540&text&type=phone_number&app_absent=0">Surabaya</a></h4>
 						<h4><a href="https://api.whatsapp.com/send/?phone=6285838500000&text&type=phone_number&app_absent=0">Kelapa Gading</a></h4>
 						<h4><a href="https://api.whatsapp.com/send/?phone=62818834000&text&type=phone_number&app_absent=0">Bogor</a></h4>
@@ -232,8 +211,7 @@
 					</ul>
 				</div>
 			</div>
-			
-        </footer><!--/.footer-->
+        </footer>
 		<!--footer end-->
 		
 		<!-- Include all js compiled plugins (below), or include individual files as needed -->

@@ -75,23 +75,13 @@
     </head>
 	
 	<body>
-		<!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-		
-		
-	
 		<!--welcome-hero start -->
-		<header id="home" class="welcome-hero">
-
-			<div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-               
-				<!-- Features Section Begin -->
+		<header id="home">
                 <section class="features-section" style="padding-top: 100px;">
                     <div class="features-ads">
                         <div class="container">
                                 <center>
-                                    <h2 class="FAQ"><b>FAQ</b></h2><br>
+                                    <br><h2 class="FAQ"><b>FAQ</b></h2>
                                 </center>
                                     <div class="row d-none d-sm-none" style="padding-bottom: -10%; ">
                                         <table class="table" style=" 
@@ -109,7 +99,7 @@
                                         </div>
                                     </button>
                                     <div class="panel">
-                                            <p>Perawatan slimming untuk mematikan sel lemak dengan cara membekukan sel lemak hingga -10 derajat celcius pada area tubuh tertentu, tanpa merusak jaringan tubuh lainnya. Sel lemak yang
+                                            <p style="text-align: justify;">Perawatan slimming untuk mematikan sel lemak dengan cara membekukan sel lemak hingga -10 derajat celcius pada area tubuh tertentu, tanpa merusak jaringan tubuh lainnya. Sel lemak yang
                                             sudah mengkristal / mati akan berangsur dikeluarkan oleh metabolisme tubuh melalui veses,
                                             urine dan keringat dalam waktu 1- 3 bulan.</p>
                                     </div>
@@ -119,7 +109,7 @@
                                         </div>
                                     </button>
                                     <div class="panel">
-                                            <p>Pengulangan treatment dapan dilakukan minimal 1 bulan pada area yang sama.</p>
+                                            <p style="text-align: justify;">Pengulangan treatment dapan dilakukan minimal 1 bulan pada area yang sama.</p>
                                     </div>
                                     <button class="accordion">
                                         <div class="header1">
@@ -127,7 +117,7 @@
                                         </div>
                                     </button>
                                     <div class="panel">
-                                            <p>Boleh, Cool Plus dan RF Sineson mempunyai fungsi yang berbeda, bahkan di rekomendasikan setelah treatment cool plus dilanjutkan treatment RF sineson. Dengan kombinasi kedua treatment tersebut, hasil yang diperoleh akan lebih optimal. Karena setelah lemak dibekukan dengan cool plus, kulit akan dikencangkan dengan RF Sineson.</p>
+                                            <p style="text-align: justify;">Boleh, Cool Plus dan RF Sineson mempunyai fungsi yang berbeda, bahkan di rekomendasikan setelah treatment cool plus dilanjutkan treatment RF sineson. Dengan kombinasi kedua treatment tersebut, hasil yang diperoleh akan lebih optimal. Karena setelah lemak dibekukan dengan cool plus, kulit akan dikencangkan dengan RF Sineson.</p>
                                     </div>
 
                                     <button class="accordion">
@@ -136,7 +126,7 @@
                                         </div>
                                     </button>
                                     <div class="panel">
-                                            <p>RF slimming menggunakan gelombang RF yang berfungsi untuk menstimulasi kolagen yang dapat mengencangkan kulit.<br> Resolady 3in1 menggunakan 3 metode dalam 1 alat, yaitu RF, ultrasound dan vacuum yang berfungsi untuk menghancurkan lemak sekaligus mengencangkan kulit.<br> Sedangkan RF Sineson, menggunakan daya yang lebih tinggi sehingga mampu menjangkau lemak yang lebih dalam hingga mencapai visceral fat. Selain baik untuk penampilan, RF Sineson juga baik untuk kesehatan.</p>
+                                            <p style="text-align: justify;">RF slimming menggunakan gelombang RF yang berfungsi untuk menstimulasi kolagen yang dapat mengencangkan kulit.<br> Resolady 3in1 menggunakan 3 metode dalam 1 alat, yaitu RF, ultrasound dan vacuum yang berfungsi untuk menghancurkan lemak sekaligus mengencangkan kulit.<br> Sedangkan RF Sineson, menggunakan daya yang lebih tinggi sehingga mampu menjangkau lemak yang lebih dalam hingga mencapai visceral fat. Selain baik untuk penampilan, RF Sineson juga baik untuk kesehatan.</p>
                                     </div>
                                     <button class="accordion">
                                         <div class="header1">
@@ -144,7 +134,7 @@
                                         </div>
                                     </button>
                                     <div class="panel">
-                                            <p>RF Sineson dapat diaplikasikan pada area wajah, perut, lengan dan paha. Perawatan ini secara optimal mampu memberikan hasil nyata pada tubuh yaitu: Melunturkan Lemak & mengurangi selulit, memberikan efek menenangkan / relaksasi otot, mengaktifkan regenerasi kolagen dan elastin sehingga dapat mengencangkan kulit kendur, serta dapat mengurangi kerutan, lingkar mata hitam dan melasma pada wajah.</p>
+                                            <p style="text-align: justify;">RF Sineson dapat diaplikasikan pada area wajah, perut, lengan dan paha. Perawatan ini secara optimal mampu memberikan hasil nyata pada tubuh yaitu: Melunturkan Lemak & mengurangi selulit, memberikan efek menenangkan / relaksasi otot, mengaktifkan regenerasi kolagen dan elastin sehingga dapat mengencangkan kulit kendur, serta dapat mengurangi kerutan, lingkar mata hitam dan melasma pada wajah.</p>
                                     </div>
                                     <button class="accordion">
                                         <div class="header1">
@@ -152,7 +142,7 @@
                                         </div>
                                     </button>
                                     <div class="panel">
-                                            <p>Perawatan yang menggunakan energi elektro magnetik berintensitas tinggi, berfungsi untuk membakar lemak dan membentuk otot dengan menimbulkan kontraksi otot yang kuat, yang sangat penting dalam meningkatkan tone otot dan mempertegas garis-garis otot.
+                                            <p style="text-align: justify;">Perawatan yang menggunakan energi elektro magnetik berintensitas tinggi, berfungsi untuk membakar lemak dan membentuk otot dengan menimbulkan kontraksi otot yang kuat, yang sangat penting dalam meningkatkan tone otot dan mempertegas garis-garis otot.
                                             30 menit treatment B Magsculpt = 20.000 Sit ups.</p>
                                     </div>
                                     <button class="accordion">
@@ -161,7 +151,7 @@
                                         </div>
                                     </button>
                                     <div class="panel">
-                                            <p>Treatment yang disarankan untuk kulit berjerawat adalah acne therapy, facial acne, facial BHA dan laser acne yang bermanfaat untuk membunuh bakteri jerawat pada kulit wajah, mengurangi produksi minyak dan dapat membantu mencerahkan kulit wajah</p>
+                                            <p style="text-align: justify;">Treatment yang disarankan untuk kulit berjerawat adalah acne therapy, facial acne, facial BHA dan laser acne yang bermanfaat untuk membunuh bakteri jerawat pada kulit wajah, mengurangi produksi minyak dan dapat membantu mencerahkan kulit wajah</p>
                                     </div>
                                     <button class="accordion">
                                         <div class="header1">
@@ -169,7 +159,7 @@
                                         </div>
                                     </button>
                                     <div class="panel">
-                                            <p>Menggunakan Photo Dinamic Therapy Yang Stabil Dan Memilki Kualitas Terbaik. PDT Esthelux Dapat Memberikan Manfaat Sesuai Dengan Kondisi Kulit Pasien Yaitu : Brightening, Anti Aging Dan Mengurangi Jerawat.</p>
+                                            <p style="text-align: justify;">Menggunakan Photo Dinamic Therapy Yang Stabil Dan Memilki Kualitas Terbaik. PDT Esthelux Dapat Memberikan Manfaat Sesuai Dengan Kondisi Kulit Pasien Yaitu : Brightening, Anti Aging Dan Mengurangi Jerawat.</p>
                                     </div>
                                     <button class="accordion">
                                         <div class="header1">
@@ -177,7 +167,7 @@
                                         </div>
                                     </button>
                                     <div class="panel">
-                                            <p>Super Deep Nutrition Memiliki 5 Fungsi Yang Baik Untuk Wajah, Yaitu : Dapat Menstimulasi Kolagen, Mengencangkan Kulit, Mengurangi Lingkar Hitam Dan Kantung Mata, Mengangkat Sel Kulit Mati Dan Juga Menutrisi Dengan Lebih Dalam.</p>
+                                            <p style="text-align: justify;">Super Deep Nutrition Memiliki 5 Fungsi Yang Baik Untuk Wajah, Yaitu : Dapat Menstimulasi Kolagen, Mengencangkan Kulit, Mengurangi Lingkar Hitam Dan Kantung Mata, Mengangkat Sel Kulit Mati Dan Juga Menutrisi Dengan Lebih Dalam.</p>
                                     </div>
                                     <button class="accordion">
                                         <div class="header1">
@@ -185,7 +175,7 @@
                                         </div>
                                     </button>
                                     <div class="panel">
-                                            <p>Setelah Melakukan Facial Dengan Ekstraksi Komedo, Tidak Disarankan Langsung Melakukan Laser Rejuvenation. Setidaknya Hingga Kulit Wajah Tidak Ada Kemerahan.</p>
+                                            <p style="text-align: justify;">Setelah Melakukan Facial Dengan Ekstraksi Komedo, Tidak Disarankan Langsung Melakukan Laser Rejuvenation. Setidaknya Hingga Kulit Wajah Tidak Ada Kemerahan.</p>
                                     </div>
                                     <button class="accordion">
                                         <div class="header1">
@@ -193,7 +183,7 @@
                                         </div>
                                     </button>
                                     <div class="panel">
-                                            <p>Karena Menggunakan Capsugen Yang Berfungsi Untuk Pengikisan Sel Kulit Mati, Jika Digunakan Pada Kulit Wajah Yang Berjerawat Akan Menimbulkan Rasa Perih.</p>
+                                            <p style="text-align: justify;">Karena Menggunakan Capsugen Yang Berfungsi Untuk Pengikisan Sel Kulit Mati, Jika Digunakan Pada Kulit Wajah Yang Berjerawat Akan Menimbulkan Rasa Perih.</p>
                                     </div><br><br><br>
 
                                     <br><div class="row d-none d-sm-none" style="padding-bottom: -10%; ">
@@ -213,7 +203,7 @@
                                         </div>
                                     </button>
                                     <div class="panel">
-                                            <p>Ya, Setelah Treatment, Lingkar Tubuh Biasanya Akan Berkurang Antara 3 - 5 Cm.</p>
+                                            <p style="text-align: justify;">Ya, Setelah Treatment, Lingkar Tubuh Biasanya Akan Berkurang Antara 3 - 5 Cm.</p>
                                     </div>
                                     <button class="accordion">
                                         <div class="header1">
@@ -221,7 +211,7 @@
                                         </div>
                                     </button>
                                     <div class="panel">
-                                            <p>Cool Plus Berfungsi Untuk Mematikan Sel Lemak Dengan Cara Membekukan Lemak (Fat Freezing), Sedangkan RF Sineson Berfungsi Untuk Melumerkan Lemak Yang Menggunakan Gelombang Radio Frekuensi Berdaya Tinggi, Sekaligus Mengencangkan Area Tubuh, Wajah Dan Double Chin.</p>
+                                            <p style="text-align: justify;">Cool Plus Berfungsi Untuk Mematikan Sel Lemak Dengan Cara Membekukan Lemak (Fat Freezing), Sedangkan RF Sineson Berfungsi Untuk Melumerkan Lemak Yang Menggunakan Gelombang Radio Frekuensi Berdaya Tinggi, Sekaligus Mengencangkan Area Tubuh, Wajah Dan Double Chin.</p>
                                     </div>
                                     <button class="accordion">
                                         <div class="header1">
@@ -229,7 +219,7 @@
                                         </div>
                                     </button>
                                     <div class="panel">
-                                            <p>RF Sineson Menggunakan Teknologi Radio Frekuensi Berdaya Tinggi Sehingga Dapat Bekerja Lebih Cepat, Lebih Kuat Dan Lebih Dalam Dibandingkan Perawatan Radio Frekuensi (RF) Pada Umumnya.</p>
+                                            <p style="text-align: justify;">RF Sineson Menggunakan Teknologi Radio Frekuensi Berdaya Tinggi Sehingga Dapat Bekerja Lebih Cepat, Lebih Kuat Dan Lebih Dalam Dibandingkan Perawatan Radio Frekuensi (RF) Pada Umumnya.</p>
                                     </div>
                                     <button class="accordion">
                                         <div class="header1">
@@ -237,7 +227,7 @@
                                         </div>
                                     </button>
                                     <div class="panel">
-                                            <p>RF Sineson Dapat Diulang 2 Hingga 3x Dalam Seminggu Di Area Yang Sama.</p>
+                                            <p style="text-align: justify;">RF Sineson Dapat Diulang 2 Hingga 3x Dalam Seminggu Di Area Yang Sama.</p>
                                     </div>
                                     <button class="accordion">
                                         <div class="header1">
@@ -245,7 +235,7 @@
                                         </div>
                                     </button>
                                     <div class="panel">
-                                            <p>RF Sineson Menggunakan Teknologi Dari Jerman.</p>
+                                            <p style="text-align: justify;">RF Sineson Menggunakan Teknologi Dari Jerman.</p>
                                     </div>
                                     <button class="accordion">
                                         <div class="header1">
@@ -253,7 +243,7 @@
                                         </div>
                                     </button>
                                     <div class="panel">
-                                            <p>Facial AHA Menggunakan Serum AHA Yang Berfungsi Untuk Mencerahkan, Sedangkan Facial BHA Menggunakan Serum BHA Untuk Mengatasi Jerawat Dan Kulit Berminyak.</p>
+                                            <p style="text-align: justify;">Facial AHA Menggunakan Serum AHA Yang Berfungsi Untuk Mencerahkan, Sedangkan Facial BHA Menggunakan Serum BHA Untuk Mengatasi Jerawat Dan Kulit Berminyak.</p>
                                     </div>
                                     <button class="accordion">
                                         <div class="header1">
@@ -261,7 +251,7 @@
                                         </div>
                                     </button>
                                     <div class="panel">
-                                            <p>Untuk Mengatasi Tampilan Dagu Berlipat Bisa Dibantu Dengan Treatment HIFU Atau RF Sineson Pada Area Dagu Untuk Memperoleh Hasil Maksimal Dapat Dilengkapi Dengan Mesolipo Injection.</p>
+                                            <p style="text-align: justify;">Untuk Mengatasi Tampilan Dagu Berlipat Bisa Dibantu Dengan Treatment HIFU Atau RF Sineson Pada Area Dagu Untuk Memperoleh Hasil Maksimal Dapat Dilengkapi Dengan Mesolipo Injection.</p>
                                     </div>
                                     <button class="accordion">
                                         <div class="header1">
@@ -269,7 +259,7 @@
                                         </div>
                                     </button>
                                     <div class="panel">
-                                            <p>Ya, PDT Esthelux Dapat Digabung Dengan Laser Rejuvenation.</p>
+                                            <p style="text-align: justify;">Ya, PDT Esthelux Dapat Digabung Dengan Laser Rejuvenation.</p>
                                     </div>
                                     <button class="accordion">
                                         <div class="header1">
@@ -277,7 +267,7 @@
                                         </div>
                                     </button>
                                     <div class="panel">
-                                            <p>Paling Cepat Laser Rejuvenation Dapat Dilakukan Kembali 2 Minggu Sekali.</p>
+                                            <p style="text-align: justify;">Paling Cepat Laser Rejuvenation Dapat Dilakukan Kembali 2 Minggu Sekali.</p>
                                     </div>
                                     <button class="accordion">
                                         <div class="header1">
@@ -285,25 +275,23 @@
                                         </div>
                                     </button>
                                 <div class="panel">
-                                    <p>Blisspen Menggunakan Serum Growth Factor Yang Sudah Jadi Untuk Mempercepat Proses Regenerasi Kulit. Sedangkan PRP Menggunakan Darah Pasien Sendiri Yang Akan Melalui Proses Untuk Dijadikan Serum. Sebaiknya PRP Dilakukan Untuk Customer Dengan "Lifestyle" Yang Baik,Karena Hal Ini Mempengaruhi Kualitas Serum Yang Dihasilkan.</p>
+                                    <p style="text-align: justify;">Blisspen Menggunakan Serum Growth Factor Yang Sudah Jadi Untuk Mempercepat Proses Regenerasi Kulit. Sedangkan PRP Menggunakan Darah Pasien Sendiri Yang Akan Melalui Proses Untuk Dijadikan Serum. Sebaiknya PRP Dilakukan Untuk Customer Dengan "Lifestyle" Yang Baik,Karena Hal Ini Mempengaruhi Kualitas Serum Yang Dihasilkan.</p>
                                 </div>
                         </div>
                     </div>
                 </section><!-- Features Section End -->
-			</div><!--/#header-carousel-->
 
 			<!-- top-area Start -->
 			<div class="top-area">
 				<div class="header-area">
 					<!-- Start Navigation -->
 				    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
-
 				        <!-- Start Top Search -->
 				        <div class="top-search">
 				            <div class="container">
 				                <div class="input-group">
 				                    <span class="input-group-addon"><i class="fa fa-search"></i></span>
-				                    <input type="text" class="form-control" placeholder="Search">
+				                        <input type="text" class="form-control" placeholder="Search">
 				                    <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
 				                </div>
 				            </div>
@@ -327,7 +315,7 @@
 				            <!-- Collect the nav links, forms, and other content for toggling -->
 				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 				                <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
-								<li class="nav-item dropdown">
+								    <li class="nav-item dropdown">
 										<a class="nav-link dropdown-toggle" href="{{ route('p-services-products') }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 											Services & Products
 											<span class="lnr lnr-chevron-down"></span>
@@ -361,29 +349,21 @@
 											<li><a class="dropdown-item" href="{{ route('p-Story') }}">Story</a></li>
 											<li><a class="dropdown-item" href="{{ route('p-location') }}">location</a></li>
 										</ul>
-										<li class=""><a href="{{ route('p-career') }}">Careers</a></li>
+                                    </li>
+									<li class=""><a href="{{ route('p-career') }}">Careers</a></li>
 				                </ul><!--/.nav -->
 				            </div><!-- /.navbar-collapse -->
 				        </div><!--/.container-->
-				    </nav><!--/nav-->
-				    <!-- End Navigation -->
+				    </nav><!--/nav--><!-- End Navigation -->
 				</div><!--/.header-area-->
-			    <div class="clearfix"></div>
-			</div><!-- /.top-area-->
-			<!-- top-area End -->
+			</div><!-- /.top-area--><!-- top-area End -->
 		</header>
 
 		<!--footer start-->
-		<hr color="gold" class="garis">
-			<style>
-				.garis{
-                    margin-top: 1%;
-                    border-left: 1px gold solid;
-                    background-image: linear-gradient(to right, #000000, #c7b565, hsl(50.6,100%,56.5%), #c7b565, #000000);
-                    height: 3px;
-                    width: 100%;
-				}
-			</style>
+		<!--start-footer-garis-->
+        <hr color="gold" class="garis">
+        <!--end-footer-garis-->
+        
 		<footer id="footer"  class="footer">
 			<div class="container">
 				<div class="hm-footer-copyright text-center">

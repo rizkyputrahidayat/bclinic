@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html lang="en">
 
     <head>
         <!-- meta data -->
@@ -53,87 +53,47 @@
     </head>
 	
 	<body>
-		<!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-		
-		
-	
 		<!--welcome-hero start -->
-		<header id="home" class="welcome-hero">
-
-			<div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-				
-
-				<!-- Features Section Begin -->
-                    <section class="features-section" style="padding-top: 100px;">
-                    <div class="features-ads" >
-						<div class="features-ads d-none d-sm-block">
-							<div class="container">
-								<div class="row" style="padding-bottom: 20px;">
-									<div class="col-lg-12">
-										<center>
-											<a href="" data-toggle="modal" data-target="#myModal">                        
-												<img src="assets/images/slider/2.png" >
-											</a>  
-										</center>
-									</div>
-								</div>
-								<div class="row" style="padding-bottom: 20px;">
-									<div class="col-lg-12">
-										<center>
-											<a href="">                        
-												<img src="assets/images/slider/12.png" >
-											</a>  
-										</center>
-									</div>
-								</div>
-							</div>
-						</div>
-                    </div>    
-                    </section>
-                <!-- Features Section End -->
-
-
-			</div><!--/#header-carousel-->
-
-			<!-- top-area Start -->
+		<header id="home">
 			<div class="top-area">
 				<div class="header-area">
 					<!-- Start Navigation -->
-				    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+					<nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"
+						data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
 
-				        <!-- Start Top Search -->
-				        <div class="top-search">
-				            <div class="container">
-				                <div class="input-group">
-				                    <span class="input-group-addon"><i class="fa fa-search"></i></span>
-				                    <input type="text" class="form-control" placeholder="Search">
-				                    <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
-				                </div>
-				            </div>
-				        </div>
-				        <!-- End Top Search -->
+						<!-- Start Top Search -->
+						<div class="top-search">
+							<div class="container">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-search"></i></span>
+										<input type="text" class="form-control" placeholder="Search">
+									<span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+								</div>
+							</div>
+						</div>
+						<!-- End Top Search -->
 
-				        <div class="container">
-				            <!-- Start Header Navigation -->
-				            <div class="navbar-header">
-				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-				                    <i class="fa fa-bars"></i>
-				                </button>
+						<div class="container">
+							<!-- Start Header Navigation -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse"
+									data-target="#navbar-menu">
+									<i class="fa fa-bars"></i>
+								</button>
 								<a href="{{ route('ABOUT') }}">
 									<div class="navbar-brand">
 										<img src="assets/logo/B CLINIC NEW.png" alt="logo" width="300px" height="170px">
 									</div>
 								</a>
-				            </div><!--/.navbar-header-->
-				            <!-- End Header Navigation -->
+							</div>
+							<!-- End Header Navigation -->
 
-				            <!-- Collect the nav links, forms, and other content for toggling -->
-				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-				                <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+								<ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
 									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="{{ route('p-services-products') }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										<a class="nav-link dropdown-toggle" href="{{ route('p-services-products') }}" role="button"
+											data-bs-toggle="dropdown" aria-expanded="false">
 											Services & Products
 											<span class="lnr lnr-chevron-down"></span>
 										</a>
@@ -144,9 +104,10 @@
 											<li><a class="dropdown-item" href="{{ route('p-skincare') }}">Skin Care Products</a></li>
 										</ul>
 									</li>
-				                    <li class=""><a href="p-special-offer">Special Offer</a></li>
-				                    <li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									<li class=""><a href="{{ route('p-special-offer') }}">Special Offer</a></li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" role="button"
+											data-bs-toggle="dropdown" aria-expanded="false">
 											News
 											<span class="lnr lnr-chevron-down"></span>
 										</a>
@@ -158,7 +119,8 @@
 										</ul>
 									</li>
 									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										<a class="nav-link dropdown-toggle" href="#" role="button"
+											data-bs-toggle="dropdown" aria-expanded="false">
 											About us
 											<span class="lnr lnr-chevron-down"></span>
 										</a>
@@ -166,29 +128,49 @@
 											<li><a class="dropdown-item" href="{{ route('p-Story') }}">Story</a></li>
 											<li><a class="dropdown-item" href="{{ route('p-location') }}">location</a></li>
 										</ul>
-									</li>
 									<li class=""><a href="{{ route('p-career') }}">Careers</a></li>
-				                </ul><!--/.nav -->
-				            </div><!-- /.navbar-collapse -->
-				        </div><!--/.container-->
-				    </nav><!--/nav--> <!-- End Navigation -->
+								</ul>
+							</div><!-- /.navbar-collapse -->
+						</div><!--/.container-->
+					</nav><!--/nav-->
+					<!-- End Navigation -->
 				</div><!--/.header-area-->
-			    <div class="clearfix"></div>
-			</div><!-- /.top-area-->
-			<!-- top-area End -->
+			</div><!--/top-area-->
 		</header>
 
+		<!-- Features Section Begin -->
+		<section class="features-section" style="padding-top: 100px;">
+			<div class="features-ads" >
+				<div class="features-ads d-none d-sm-block">
+					<div class="container">
+						<div class="row" style="padding-bottom: 20px;">
+							<div class="col-lg-12">
+								<center>
+									<a href="">                        
+										<img src="assets/images/slider/2.png" >
+									</a>  
+								</center>
+							</div>
+						</div>
+						<div class="row" style="padding-bottom: 20px;">
+							<div class="col-lg-12">
+								<center>
+									<a href="">                        
+										<img src="assets/images/slider/12.png" >
+									</a>  
+								</center>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>    
+			</section>
+		<!-- Features Section End -->
+
 		<!--footer start-->
+		<!--start-footer-garis-->
 		<hr color="gold" class="garis">
-			<style>
-				.garis{
-					margin-top: 1%;
-					border-left: 1px gold solid;
-					background-image: linear-gradient(to right, #000000, #c7b565, hsl(50.6,100%,56.5%), #c7b565, #000000);
-					height: 3px;
-					width: 100%;
-				}
-			</style>
+		<!--end-footer-garis-->
 
 		<footer id="footer"  class="footer">
 			<div class="container">
